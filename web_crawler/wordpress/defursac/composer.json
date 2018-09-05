@@ -1,0 +1,16 @@
+{
+    "name": "david/defursac",
+    "description": "Bajamos web defursac",
+    "authors": [
+        {
+            "name": "David Berruezo",
+            "email": "davidberruezo@davidberruezo.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "clases\\":"clases/"
+        }
+    }
+}
