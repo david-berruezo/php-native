@@ -1,1 +1,0 @@
-<?php echo "El fichero se ha llamado mediante la clave files del composer.json ----Fichero-----<br>"; ?>

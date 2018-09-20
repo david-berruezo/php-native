@@ -1,3 +1,0 @@
-<!ENTITY reference.helloworld.reference SYSTEM './helloworld/reference.xml'>
-<!ENTITY reference.helloworld.configure SYSTEM './helloworld/configure.xml'>
-<!ENTITY reference.helloworld.functions SYSTEM './functions.xml'>

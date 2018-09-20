@@ -1,7 +1,0 @@
-{
-    "name": "facebook/prueba",
-    "description": "Es un script de prueba de facebook",
-    "require": {
-        "facebook/graph-sdk": "^5.6"
-    }
-}

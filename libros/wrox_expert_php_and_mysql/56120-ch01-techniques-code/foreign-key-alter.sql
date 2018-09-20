@@ -1,5 +1,0 @@
-ALTER TABLE flags
-ADD FOREIGN KEY (color)
-REFERENCES colors (color)
-ON DELETE CASCADE;
-

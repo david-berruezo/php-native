@@ -1,6 +1,0 @@
-<?php
-class EmailRecipientCollection extends Collection {
-  public function addItem(EmailRecipient $obj, $key = null) {
-    parent::addItem($obj, $key);
-  }
-} ?>

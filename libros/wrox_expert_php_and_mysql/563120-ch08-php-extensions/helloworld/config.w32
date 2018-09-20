@@ -1,8 +1,0 @@
-// $ Id: $
-// vim:ft=javascript
-
-ARG_ENABLE('helloworld' , 'A Hello World extension', 'no');
-if (PHP_HELLOWORLD == "yes") {
-  EXTENSION("helloworld", "helloworld.c");
-  AC_DEFINE("HAVE_HELLOWORLD", 1, "helloworld support");
-}

@@ -1,4 +1,0 @@
-$ORIGIN example.com.
-www                     IN     A     192.168.111.222
-www                     IN     A     192.168.111.223
-www                     IN     A     192.168.111.224

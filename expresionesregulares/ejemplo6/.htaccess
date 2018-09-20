@@ -1,9 +1,0 @@
-<IfModule mod_rewrite.c>
-     RewriteEngine on
-     # RewriteRule   /~([^/]+)/?(.*) /ejemplo6/index.php/usuarios/$1/$2 [R]
-     RewriteBase /ejemplo6
-     #RewriteCond %{REQUEST_FILENAME} !-f
-     #RewriteCond %{REQUEST_FILENAME} !-d
-     RewriteRule ^ejemplo6/usuario$ index.php/$1 [L]
-     #RewriteRule   ^/index.php/(.*)?$/   /ejemplo6/index.php/usuario/$1 [R]
-</IfModule>

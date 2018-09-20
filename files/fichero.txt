@@ -1,2 +1,0 @@
-Esto es una prueba de como php lee los ficheros, puede leer una linia entera o también puede leer todo 
-el contenido de un fichero.

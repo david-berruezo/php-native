@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="ISO-8859-1"?>
-<SOAP-ENV:Envelope SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:si="http://soapinterop.org/xsd" xmlns:nu="capeconnect:GlobalWeather:StationInfo">
-	<SOAP-ENV:Body>
-		<nu:searchByCountry xmlns:nu="capeconnect:GlobalWeather:StationInfo">
-			<country xsi:type="xsd:string">argentina</country>
-		</nu:searchByCountry>
-	</SOAP-ENV:Body>
-</SOAP-ENV:Envelope>

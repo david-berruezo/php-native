@@ -1,0 +1,17 @@
+{
+    "name": "david/axaj",
+    "description": "Es una entrevista aunque me hubiese gustado encajar",
+    "authors": [
+        {
+            "name": "David Berruezo",
+            "email": "davidberruezo@davidberruezo.com"
+        }
+    ],
+    "require": {
+    },
+    "autoload":{
+        "psr-4": {
+            "clases\\":"clases/"
+        }
+    }
+}

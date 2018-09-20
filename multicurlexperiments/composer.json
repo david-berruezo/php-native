@@ -1,9 +1,0 @@
-{
-    "name": "david/multicurlexperiments",
-    "require": {},
-    "autoload":{
-        "psr-4": {
-            "clases\\":"clases/"
-        }
-    }
-}

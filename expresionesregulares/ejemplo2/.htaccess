@@ -1,6 +1,0 @@
-<IfModule mod_rewrite.c>
-    # Si escribimos un dominio sin www redirige al mismo con wwww
-    RewriteEngine On
-    RewriteCond %{HTTP_HOST} ^rewriteejemplos\.net
-    RewriteRule (.*) http://www.rewriteejemplos.net/$1 [R=301,L]
-</IfModule>

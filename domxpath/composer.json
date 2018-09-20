@@ -1,9 +1,0 @@
-{
-    "name": "david/domxpath",
-    "require": {},
-    "autoload": {
-        "psr-4": {
-            "clases\\": "clases/"
-        }
-    }
-}
