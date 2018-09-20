@@ -1,0 +1,12 @@
+{
+    "name": "david/factoryejemplo",
+    "require": {},
+    "autoload":{
+        "classmap":[
+            "librerias"
+        ],
+        "psr-4": {
+            "clases\\": "clases"
+        }
+    }
+}

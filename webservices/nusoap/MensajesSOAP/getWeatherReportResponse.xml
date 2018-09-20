@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:cc1="http://www.capeclear.com/GlobalWeather.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/">
+	<SOAP-ENV:Body SOAP-ENV:encodingStyle="http://schemas.xmlsoap.org/soap/encoding/">
+		<cc2:getWeatherReportResponse xmlns:cc2="capeconnect:GlobalWeather:GlobalWeather" SOAP-ENC:root="1">
+			<return xsi:type="cc1:WeatherReport">
+				<timestamp xsi:type="xsd:dateTime">2004-10-28T23:00:00Z</timestamp>
+				<station xsi:type="cc1:Station">
+					<icao xsi:type="xsd:string">SABE</icao>
+					<wmo xsi:type="xsd:string">87582</wmo>
+					<iata xsi:nil="true"/>
+					<elevation xsi:type="xsd:double">6.0</elevation>
+					<latitude xsi:type="xsd:double">-34.567</latitude>
+					<longitude xsi:type="xsd:double">-58.417</longitude>
+					<name xsi:type="xsd:string">Aeroparque Bs. As. Aerodrome</name>
+					<region xsi:nil="true"/>
+					<country xsi:type="xsd:string">Argentina</country>
+					<string xsi:type="xsd:string">SABE - Aeroparque Bs. As. Aerodrome, Argentina @ -34.567&apos;S -58.417&apos;W 6m</string>
+				</station>
+				<phenomena xsi:type="cc1:ArrayOfPhenomenon" SOAP-ENC:arrayType="cc1:Phenomenon[0]"/>
+				<precipitation xsi:type="cc1:ArrayOfPrecipitation" SOAP-ENC:arrayType="cc1:Precipitation[0]"/>
+				<extremes xsi:type="cc1:ArrayOfExtreme" SOAP-ENC:arrayType="cc1:Extreme[0]"/>
+				<pressure xsi:type="cc1:Pressure">
+					<altimeter xsi:type="xsd:double">1012.0</altimeter>
+					<slp xsi:type="xsd:double">NaN</slp>
+					<delta xsi:type="xsd:double">NaN</delta>
+					<delta_hours xsi:type="xsd:int">0</delta_hours>
+					<string xsi:type="xsd:string">1012mb</string>
+				</pressure>
+				<sky xsi:type="cc1:Sky">
+					<ceiling_altitude xsi:type="xsd:double">INF</ceiling_altitude>
+					<layers xsi:type="cc1:ArrayOfLayer" SOAP-ENC:arrayType="cc1:Layer[0]"/>
+					<string xsi:type="xsd:string">clear sky; no ceiling</string>
+				</sky>
+				<temperature xsi:type="cc1:Temperature">
+					<ambient xsi:type="xsd:double">22.0</ambient>
+					<dewpoint xsi:type="xsd:double">14.0</dewpoint>
+					<relative_humidity xsi:type="xsd:int">60</relative_humidity>
+					<string xsi:type="xsd:string">22c (60% RH)</string>
+				</temperature>
+				<visibility xsi:type="cc1:Visibility">
+					<distance xsi:type="xsd:double">10000.0</distance>
+					<qualifier xsi:type="cc1:VisibilityQualifier">BEYOND</qualifier>
+					<string xsi:type="xsd:string">visibility is beyond 10000m</string>
+				</visibility>
+				<wind xsi:type="cc1:Wind">
+					<prevailing_speed xsi:type="xsd:double">4.115555555555556</prevailing_speed>
+					<gust_speed xsi:type="xsd:double">4.115555555555556</gust_speed>
+					<prevailing_direction xsi:type="cc1:Direction">
+						<compass xsi:type="cc1:DirectionCompass">NNE</compass>
+						<degrees xsi:type="xsd:int">20</degrees>
+						<string xsi:type="xsd:string">NNE (20&apos;)</string>
+					</prevailing_direction>
+					<varying_from_direction xsi:nil="true"/>
+					<varying_to_direction xsi:nil="true"/>
+					<string xsi:type="xsd:string">prevailing wind is 4.116 m/s from NNE (20&apos;)</string>
+				</wind>
+			</return>
+		</cc2:getWeatherReportResponse>
+	</SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

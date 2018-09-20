@@ -1,0 +1,9 @@
+{
+    "name": "david/objetos",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "clases\\": "clases/"
+        }
+    }
+}

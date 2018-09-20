@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Document    :    config.xml
+    Created on  :    25 de Outubro de 2009, 15:21
+    Author      :    http://paulorocha.tk
+    Description :    Arquivo de configuração do Simple MVC.
+-->
+<root>
+    <core>_smvc/core.php</core>		<!--localização do arquivo 'core.php'-->
+    <core_path>/_smvc/</core_path>	<!--pasta onde o Simple está instalado-->
+    <ctrl>_ctrl/</ctrl>				<!--sub-pasta dos controllers-->
+    <view>_vw/</view>				<!--sub-pasta dos views-->
+    <model>_mdl/</model>			<!--sub-pasta dos models-->
+    <library>_lbr/</library>		<!--sub-pasta das classes para expansão do Simple-->
+    <driver>_drv/</driver>			<!--sub-pasta dos drivers (expansão)-->
+    <no_uri>smvc/</no_uri>			<!--caso o Simple esteja sendo instalado fora da raiz do site (numa subpasta)-->
+    <uri></uri>						<!--definido pelo sistema (se não for pre-definido aqui)-->
+    <path></path>					<!--definido pelo sistema (se não for pre-definido aqui)-->
+    <status>1</status>				<!--colocando '1' o Simple mostra o status do script (fase de desenvolvimento)-->
+    <erro_log>0</erro_log>			<!--colocando '1' o Simple grava os erros do script em um arquivo de log (fase de desenvolvimento)-->
+	<erro_view>1</erro_view>		<!--colocando '1' o Simple mostra os erros do script (fase de desenvolvimento)-->
+	<erro_mail>0</erro_mail>		<!--colocando '1' o Simple envia um email em caso de erro no script (fase de desenvolvimento)-->
+    <default>
+        <ctrl>instalar</ctrl>		<!--controller default (caso não seja solicitado na url)-->
+        <func>index</func>			<!--função default (caso não seja solicitada na url)-->
+        <argumento></argumento>		<!--argumentos default (caso não seja informado na url)-->
+    </default>
+	<db>
+        <drv>_db/</drv>				<!--localização das classes de acesso a Banco de Dados-->
+        <active>mysql</active>		<!--se for especificado, o Simple carrega e conecta a classe de BD automaticamente-->
+		<mysql>					    <!--configurações para o drive 'mysqli'-->
+            <host>localhost</host>	
+            <user>root</user>
+            <pass></pass>
+			<database>ORACLE</database>
+            <char>utf-8</char>
+        </mysql>
+	    <oci>						<!--configurações para o drive 'oracle'-->
+            <host>(DESCRIPTION=(ADDRESS=(PROTOCOL=TCP)(HOST = 10.100.1.100)(PORT=1521))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=xms)))</host>
+            <user>ORACLE</user>
+            <pass>SYSORACLE</pass>
+			<database>ORACLE</database>
+            <char>WE8MSWIN1252</char>
+        </oci>
+    </db>
+</root>

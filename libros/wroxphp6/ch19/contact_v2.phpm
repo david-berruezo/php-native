@@ -1,0 +1,23 @@
+<?php
+class ContactVisit {
+
+    function __construct ($results, $dbh = null) {
+
+        static $sequence = 0;
+
+        $this->dbh = $dbh;
+
+        $this->contentBase = $results; // copy
+
+        $sequence = $sequence + 1; // increment across class
+
+        $this->contentBase["seq"] = $sequence;
+
+    }
+
+	public function isValid() { return null; }
+    public function persist() { }
+    public function getSequence() { return null; }
+}
+
+?>

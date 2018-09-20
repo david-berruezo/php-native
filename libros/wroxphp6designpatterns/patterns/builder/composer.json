@@ -1,0 +1,11 @@
+{
+    "name": "david/builder-design-pattern",
+    "description": "Builder Design Pattern",
+    "author":"David Berruezo",
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "clases\\":"clases/"
+        }
+    }
+}

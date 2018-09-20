@@ -1,0 +1,49 @@
+<? 
+class EmailRecipient implements Recipient {
+
+private $recipient_name;
+private $recipient_address;
+
+  public function isValid() {
+    if (preg_match("/[\<\>\r\n]{1,}/", $this->recipient_name)) {
+      return(false);
+    };
+    if (preg_match("/^([A-Z0-9._%-]+)(\@)([A-Z0-9._%-]+)(\.)
+                   ([A-Z0-9._%-]{2,4})$/i", $this->recipient_address)) {
+      return(true);
+    } else {
+      return(false);
+    };
+  }
+
+  public function getStringRepresentation() {
+    $strMyRepresentation = "";
+    if ($this->recipient_name) {
+      $strMyRepresentation .= $this->recipient_name . " ";
+    };
+    $strMyRepresentation .= "<" . $this->recipient_address . ">";
+
+    return($strMyRepresentation);
+  }
+
+  public function __construct($strRecipientAddress, $strRecipientName = "") {
+    $this->recipient_name = $strRecipientName;
+    $this->recipient_address = $strRecipientAddress;
+  }
+  
+  public function setRecipientName($strRecipientName) {
+    $this->recipient_name = $strRecipientName;
+  }
+
+  public function setRecipientAddress($strRecipientAddress) {
+    $this->recipient_address = $strRecipientAddress;
+  }
+
+  public function getRecipientName() {
+    return($this->recipient_name);
+  }
+
+  public function getRecipientAddress() {
+    return($this->recipient_address);
+  }
+}

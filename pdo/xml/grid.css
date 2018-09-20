@@ -1,0 +1,231 @@
+.body {
+  margin: 1px;
+  font-family               : "lucida grande", verdana, lucida, sans-serif;
+  font-size                 : 10pt;
+  color                     : #000000; 
+  background-color          : #FFFFFF;
+  scrollbar-arrow-color     : #D5E2F0;
+  scrollbar-3d-light-color  : #D5E2F0;
+  scrollbar-darkshadow-color: #D5E2F0;
+  scrollbar-track-color     : #D5E2F0;
+  scrollbar-face-color      : #356BA2;
+  scrollbar-highlight-color : #356BA2;
+  scrollbar-shadow-color    : #356BA2;  
+  }
+
+.loading {
+   font-family: "lucida grande", verdana, sans-serif;
+	font-size: 10pt;
+	width: 200px;
+	height: 100px;
+	font-weight: bold;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: -50px;
+	margin-left: -100px;
+	text-align: center;
+}
+
+.titulo{
+   font-family: "lucida grande", verdana, sans-serif;
+	font-size: 12pt;
+	background:#FFDE59;
+	color:#000000;
+	text-align:center;
+	margin-top: -8px;
+	margin-left: -80px;
+	padding:5px 0;
+	border-top:3px solid #540E0E;
+	border-bottom:3px solid #540E0E;
+}
+
+#grid{
+   border: 0px;
+   border-spacing:0px;
+   padding: 0px;
+   align:center;
+   margin-left:auto;
+   margin-right:auto;
+  	font-family: "lucida grande", verdana, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}
+
+.grid th{
+	background-color: #CCCCCC;
+}
+.grid tr{
+	background-color: #CCCCCC;
+}
+
+/* botoes */
+#btn {
+
+}
+
+
+.btn {
+   border-spacing:0px;
+   padding: 0px;
+	width:16px;
+	height:15px;
+	background-color:#A8C3E8;
+	display:block;
+}
+
+.btn tr{
+background-color: #3d80df;
+}
+
+.btn:hover{
+	background-color:#133984;
+}
+
+.btn novo {
+	background-image:url("novo.png");
+	background-repeat:no-repeat;
+	background-position:center center
+}
+.btn editar {
+	background-image:url("editar.png");
+	background-repeat:no-repeat;
+	background-position:center center
+}
+.btn excluir {
+	background-image:url("excluir.png");
+	background-repeat:no-repeat;
+	background-position:center center
+}
+
+.btn localizar {
+	background-image:url("localizar.png");
+	background-repeat:no-repeat;
+	background-position:center center
+}
+
+#tabela {
+   border: 0px;
+   border-spacing:0px;
+   padding: 0px;
+   align:center;
+   margin-left:auto;
+   margin-right:auto;
+	}
+	
+#tabela table {
+   position:relative;
+	top:10px;
+	border: 1px solid #666666;
+   border-spacing:0px;
+   width:700px;
+   margin-left:auto;
+   margin-right:auto;
+   display: block;
+   border-left: 0px;
+   border-right: 0px;
+   border-bottom: 0px;
+	}
+
+
+#tabela tbody {
+	font-family: "lucida grande", verdana, sans-serif;
+	font-size: 10pt;
+	height: 250px;
+	overflow: auto;
+	width: 100%
+	padding: 3px 8px;
+	border-left: 0px solid #D9D9D9;
+	border-bottom: 0px solid #7DAAEA;
+	}
+
+#tabela th {
+   font-family: "lucida grande", verdana, sans-serif;
+	font-size: 10pt;
+	padding: 3px 8px;	
+	background-color: #3d80df;
+	color: #ffffff;
+	font-weight: bold;
+	border-left: 1px solid #D9D9D9;
+	border-bottom: 1px solid #7DAAEA;
+	}
+
+#tabela tr {
+	font-family: "lucida grande", verdana, sans-serif;
+	font-size: 10pt;
+	padding: 3px 8px;
+	border-left: 1px solid #D9D9D9;
+	}
+
+#tabela td {
+	font-family: "lucida grande", verdana, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+	padding: 3px 8px;
+	background-color: #FFFFFF;
+	border-left: 1px solid #D9D9D9;
+	border-right: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+  }		
+
+#tabela tbody tr:hover td{
+   background-color: #CCCCCC;
+	border-top: 1px solid #000000;
+	border-bottom: 1px solid #000000;
+	cursor:hand;
+	}
+
+#tabela tbody tr:active td {
+	background-color: #000000;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	}
+
+#tabela tbody tr:focus td {
+	background-color: #000000;
+	border-top: 2px solid #000000;
+	border-bottom: 2px solid #000000;
+	}
+
+#tabela tbody tr.par td {
+   background-color: #edf3fe;
+   }
+
+#tabela tbody tr.impar  td {
+   background-color: #FFFFFF;
+	}   
+
+#tabela tbody tr.par:hover td {
+   background-color: #accefd;
+   color: #FFFFFF;
+   }
+
+#tabela tbody tr.impar:hover td {
+   background-color: #accefd;
+   color: #FFFFFF;
+	} 
+
+#tabela table {
+   position:relative;
+	top:10px;
+	border: 1px solid #666666;
+   border-spacing:0px;
+   width:450px;
+   align:center;
+   display: block;
+   border-left: 0px;
+   border-right: 0px;
+   border-bottom: 0px;
+	}
+
+#rodape {
+   border: 0px;
+   border-spacing:0px;
+   padding: 0px;
+   align:center;
+   margin-left:auto;
+   margin-right:auto;
+  	font-family: "lucida grande", verdana, sans-serif;
+	font-size: 10pt;
+	color: #000000;
+}

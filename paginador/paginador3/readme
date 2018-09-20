@@ -1,0 +1,30 @@
+Deployement:
+1. import the customers table(customers.sql)
+2. change the database configuration options in the testpage.php and the sub_page.php
+3. enjoy :)
+
+Use:
+
+first of all you have to establish a database connection using mysqli or if you decide to use anything else
+ just modify the database related method calls from the core class
+
+The you instantiate the core class paginator passing to it:
+1. page id
+2. Records per page
+3. SQL Query
+4. MySQLi Connection Object
+
+Then call method: paginate()
+
+It does all the work and returns an associative array, else if you want to access the MySQLi result object
+you can access it by using the object property called result(e.g. $paginator->result)
+
+
+The getLinks Method returns a string that contains the actual html for the pagination links
+
+You also have to use the same settings or the same code for the subpage also.
+
+If you need further assistance contact me: omar.php@gmail.com
+
+I hope this class is useful for you.
+

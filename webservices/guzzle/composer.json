@@ -1,0 +1,13 @@
+{
+    "name": "david/guzzle",
+    "description": "Probar cliente http",
+    "authors": [
+        {
+            "name": "Davd Berruezo",
+            "email": "davidberruezo@davidberruezo.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~6.0"
+    }
+}

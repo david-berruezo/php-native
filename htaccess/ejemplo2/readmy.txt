@@ -1,0 +1,11 @@
+Class  	MdRGenv
+developer  ivi
+E-mail: ivi@newsroot.net
+WWW: http://newsroot.net/projects/
+
+------------------------------------------------
+
+Install:
+Copy MRewrite.class.php and index.php into your document root or your web folder.
+Open index.php from your browser.
+http://your.web.site.com/yourfolder/index.php

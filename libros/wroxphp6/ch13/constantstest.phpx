@@ -1,0 +1,25 @@
+<?php
+define('CONST_A', 1);
+define('CONST_B', 2);
+define('CONST_C', 4);
+define('CONST_D', 8);
+define('CONST_E', 16);
+
+$myCombinedConstant = CONST_B + CONST_D + CONST_E;
+
+if ($myCombinedConstant & CONST_A) {
+ print "Combined constant contains A\n";
+};
+if ($myCombinedConstant & CONST_B) {
+ print "Combined constant contains B\n";
+};
+if ($myCombinedConstant & CONST_C) {
+ print "Combined constant contains C\n";
+};
+if ($myCombinedConstant & CONST_D) {
+ print "Combined constant contains D\n";
+};
+if ($myCombinedConstant & CONST_E) {
+ print "Combined constant contains E\n";
+};
+?>

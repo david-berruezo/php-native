@@ -1,0 +1,76 @@
+If you are new to DBNavigator you may not be interested in reading this.
+Otherwise, here there are some modification that you should at in your code 
+in order to be compatible with the new version.
+
+These changements are valid for 2007-11-18 and earlier 
+DBNavigator versions (dbnavigator-2007-11-18.zip from phpclasses.com)
+
+
+
+--- The method setPhotoField() is DEPRECATED, use setFileField() instead.
+
+
+
+--- The method setTableStyle () is DEPRECATED, use setTableCellStyle () instead.
+
+    Notice new methods for layout customization: setTableRowStyle(), setTableBorderStyles(), addTableContainer() 
+
+
+
+--- The following methods:  printAddRowButton(), printCsvDownloadButton(), printExcelXmlDownloadButton()
+
+    are NO LONGER printing directly in the output buffer.
+    They instead return a PHP string containing the HTML code, so it is necessary to use, for example:
+
+    echo printAddRowButton();
+
+
+****************************************************************************************
+***** Scoprite i nuovi metodi nella documentazione aggiornata visitando ****************
+****************************************************************************************
+******************  http://phpdbnavigator.sourceforge.net/  ****************************
+****************************************************************************************
+
+Enjoy,
+Michele Castellucci
+
+
+
+
+---ITALIAN--------------------------------------------------------------------------------------------------
+
+Se siete nuovi utilizzatori di DBNavigator probabilmente questo documento non vi interesserà
+Altrimenti, qui ci sono delle modifiche che dovreste fare sul vostro codice 
+per renderlo compatibile con la nuova versione.
+
+I cambiamenti sono validi per la versione del 18/11/2007 e precedenti
+(dbnavigator-2007-11-18.zip dal sito phpclasses.com)
+
+
+
+--- Il metodo setPhotoField() è DEPRECATED, usare setFileField() invece.
+
+
+--- Il metodo setTableStyle () è DEPRECATED, usare setTableCellStyle () invece.
+
+    Siate consapevoli anche dei nuovi metodi per la customizzazione del layout:
+    setTableRowStyle(), setTableBorderStyles(), addTableContainer() 
+
+
+--- I seguenti metodi:  printAddRowButton(), printCsvDownloadButton(), printExcelXmlDownloadButton()
+
+    NON STAMPANO PIU' DIRETTAMENTE nell'output buffer.
+    Essi adesso ritornano una stringa PHP contenente il codice HTML, 
+    quindi è necessario usare, per esempio:
+
+    echo printAddRowButton();
+
+****************************************************************************************
+********** Find out new methods on the updated documentation visiting ****************** 
+****************************************************************************************
+******************  http://phpdbnavigator.sourceforge.net/  ****************************
+****************************************************************************************
+
+
+Enjoy,
+Michele Castellucci

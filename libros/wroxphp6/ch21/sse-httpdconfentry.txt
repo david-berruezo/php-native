@@ -1,0 +1,7 @@
+<VirtualHost 192.168.1.1:80>
+ ServerName dev.widgets.mydevelopmentco.local
+ ServerAdmin ed@example.com
+ CustomLog /home/widgets/logfile_wid-staging common
+ ErrorLog /home/widgets/errlog_wid-staging
+ DocumentRoot /home/widgets/public_html/staging/php
+</VirtualHost>

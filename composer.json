@@ -1,0 +1,14 @@
+{
+    "name": "watermark/gd",
+    "description": "Creamos una marca de agua",
+    "authors": [
+        {
+            "name": "David Berruezo",
+            "email": "davidberruezo@davidberruezo.com"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
+}

@@ -1,0 +1,63 @@
+<?
+function mimeifyContent ($content, $mime_boundary,
+                         $filename, $flagBase64=true) {
+    $message = "";
+    $message .= " \r\n";
+    $message .= "-".$mime_boundary."\r\n";
+    $message .= "Content-Type: text/html;\r\n";
+    $message .= " name=\"".$filename.".html\"\r\n";
+    // default is 7bit ascii
+    if ($flagBase64) {
+        $message .= "Content-Transfer-Encoding: base64\r\n";
+    }
+    $message .= "Content-Disposition: attachment;\r\n";
+    $message .= " filename=\"".$filename.".html\"\r\n";
+    $message .= "\r\n";
+    if ($flagBase64) {         $message .= base64_encode($content);
+    } else {
+        $message .= $content;
+    }
+    $message .= "\r\n";
+    return ($message);
+}
+function generateContactEmail &$user, &$contact,
+                               $contactVisits, $flagBase64=true) {
+    global $GLOBALS;
+    require_once ($GLOBALS["smarty-path"].'Smarty.class.php');     
+    $smarty = new Smarty;
+    $smarty->assign_by_ref ("user", $user);
+    $smarty->assign_by_ref ("contact", $contact);
+    $smarty->assign_by_ref ("contactVisits", $contactVisits);
+    $smarty->assign('start_weeks', getStartWeeks());
+    $smarty->assign('current_start_week', $contact->week_start);
+    $smarty->assign("max_weekly_contacts", $GLOBALS["max-weekly-contacts"]);
+    $email_body = @$smarty->fetch('customer-contacts.tpl');
+        $headers = "";
+    $headers .= "From: ".$GLOBALS["email-from"]."\n";
+    $headers .= "To: ".$user->email."\n";
+    if (strlen ($GLOBALS["email-contact-cc"]) > 0)         
+    $headers .= "Cc: ";
+        $headers .= $GLOBALS["email-contact-cc"];
+    $headers .= "\n";
+    if (strlen ($GLOBALS["email-contact-bcc"]) > 0)
+        $headers .= "Bcc: ".$GLOBALS["email-contact-bcc"]."\n";
+    $mime_boundary = "<<<-==+X[".md5(time())."]";
+    $headers .= "MIME-Version: 1.0\r\n";
+    $headers .= "Content-Type: multipart/mixed;\r\n";
+    $headers .= " boundary=\"".$mime_boundary."\"";
+    $message = "";
+    $message .= "This is a multi-part message in MIME format.\r\n";
+    $message .= "\r\n";
+    $message .= "-".$mime_boundary."\r\n";
+    $message .= "Content-Type: text/plain; charset=\"iso-8859-1\"\r\n";
+    $message .= "Content-Transfer-Encoding: 7bit\r\n";
+    $message .= "\r\n";
+    $message .= $GLOBALS["email-contact-message"]."\n\n";
+    $nextEnding = "\r\n";
+    $message.=mimeifyContent($email_body,$mime_boundary,
+                              "customer-contact", $flagBase64);
+    $message.="-".$mime_boundary."".$nextEnding;
+    $subject = $user->emp_id." ".$user->last_name." : ".$user->email_subject;
+    return array ($user->email, $subject, $message, $headers);
+}
+?>

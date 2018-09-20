@@ -1,0 +1,17 @@
+{
+    "name": "emexs/curl",
+    "description": "Diferentes scripts de emexs con curl",
+    "authors": [
+        {
+            "name": "David Berruezo",
+            "email": "davidberruezo@davidberruezo.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "clases\\":"clases/"
+        }
+    }
+
+}

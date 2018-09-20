@@ -1,0 +1,9 @@
+{
+    "name": "david/dataAccessObject",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "clases\\": "clases"
+        }
+    }
+}

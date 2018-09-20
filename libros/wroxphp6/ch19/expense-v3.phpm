@@ -1,0 +1,62 @@
+<?
+class TravelExpenseItem extends PersistableObject {
+    function __construct ($results, $dbh = null) {
+        parent::__construct ($results, $dbh);
+    }
+    private function isEmpty($key) {
+        if (array_key_exists($key, $this->contentBase) == false) return true;
+        if ($this->contentBase[$key] == null) return true;
+        if ($this->contentBase[$key] == "") return true;
+        return false;
+    }
+
+    public function isValid() {
+        if ($this->isEmpty("emp_id") == true) return false;
+        if ($this->isEmpty("expense_date") == true) return false;
+        if ($this->isEmpty("description") == true) return false;
+        if ($this->isEmpty("amount") == true) return false;
+        return true;
+    }
+
+    public function persist() {
+        return $this->persistWork (
+            "travel_expense_item",
+            array ( "emp_id",
+                    "expense_date",
+                    "description",
+                    "amount" ));
+    }
+
+    public function getSqlWhere() {
+        return " emp_id = ".$this->emp_id." and expense_date = 
+        '".$this->expense_date."' and description = 
+        '".$this->description."'";
+    }
+
+   public function readWeek() {
+    $sql = "select * from travel_expense_week where";
+    $sql .= " emp_id = ".$this->emp_id." and ";
+    $sql .= " week_start = '".$this->week_start."'";
+    $result = $this->dbh->query($sql);     
+    if (DB::isError($result) <> true and $result->numRows() > 0) {
+        $row = $result->fetchRow();
+        $this->contentBase['comments'] = $row['comments'];
+        $this->contentBase['territory_worked'] = $row['territory_worked'];
+        $this->contentBase['cash_advance'] = $row['cash_advance'];
+        $this->contentBase['mileage_rate'] = $row['mileage_rate'];
+    }
+    $sql = "select * from travel_expense_item where";
+    $sql .= " emp_id = ".$this->emp_id." and ";
+    $sql .= " expense_date >= '".$this->week_start."' and";
+    $sql .= " expense_date <= '".$this->addDays($this->week_start, 6)."'";
+    $this->items = array();
+    $result = $this->dbh->query($sql);
+    if (DB::isError($result) or $result->numRows() == 0) return;
+    while ($row = $result->fetchRow()) {
+        array_push ($this->items, new TravelExpenseItem ($row));
+    }
+}
+
+	
+}
+?>

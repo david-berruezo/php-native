@@ -1,0 +1,17 @@
+{
+    "name": "witbooking/conexion",
+    "description": "Clase para devolver todos los hoteles",
+    "authors": [
+        {
+            "name": "David Berruezo",
+            "email": "davidberruezo@davidberruezo.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4":{
+            "clases\\":"clases/"
+        }
+    }
+
+}

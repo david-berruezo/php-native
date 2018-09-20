@@ -1,0 +1,84 @@
+<?php
+class EmailCommunication extends Communication {
+
+ private $objApparentPrimaryRecipient;         // Visible To: address
+ private $arObjApparentSecondaryRecipients;    // Visible Cc: address(es)
+
+  public function setPrimaryRecipient($objRecipient) {
+    if (!($this->arRecipientCollection->exists(
+                 $objRecipient->getStringRepresentation()))) {
+      parent::addRecipient($objRecipient);
+    };
+    $this->objApparentPrimaryRecipient = clone $objRecipient;
+  }
+
+  public function addCarbonRecipient($objRecipient) {
+    if (!($this->arRecipientCollection->exists(
+                 $objRecipient->getStringRepresentation()))) {
+      parent::addRecipient($objRecipient);
+    };
+    if (!($this->arObjApparentSecondaryRecipients->exists(
+                 $objRecipient->getStringRepresentation()))) {
+      $this->arObjApparentSecondaryRecipients->addItem(
+                 $objRecipient, $objRecipient->getStringRepresentation());
+    };
+  }
+
+  public function removeCarbonRecipient($objRecipient) {
+    if ($this->arRecipientCollection->exists(
+               $objRecipient->getStringRepresentation())) {
+      parent::removeRecipient($objRecipient);
+    };
+    if ($this->arObjApparentSecondaryRecipients->exists(
+               $objRecipient->getStringRepresentation())) {
+      $this->arObjApparentSecondaryRecipients->removeItem(
+               $objRecipient->getStringRepresentation());
+    };
+  }
+
+  public function addBlindRecipient($objRecipient) {
+    if (!($this->arRecipientCollection->exists(
+          $objRecipient->getStringRepresentation()))) {
+      parent::addRecipient($objRecipient);
+    };
+  }
+
+  public function removeBlindRecipient($objRecipient) {
+    if (!($this->arRecipientCollection->exists(
+          $objRecipient->getStringRepresentation()))) {
+      parent::removeRecipient($objRecipient->getStringRepresentation());
+    };
+  }
+
+public function __construct() {
+  // Superclass collection
+  $this->arRecipientCollection = new EmailRecipientCollection();
+  // Local collection of visible (CC:) recipients
+  $this->arObjApparentSecondaryRecipients = new EmailRecipientCollection();
+  parent::__construct();
+}
+
+  public function send() {
+    print "ACTUAL RECIPIENTS<BR><BR>";
+    foreach ($this->arRecipientCollection as $strRecipientIdentifier => 
+         $objEmailRecipient) {
+      print "NAME: " . $objEmailRecipient->getRecipientName() . "<BR>";
+      print "EMAIL ADDRESS: " . $objEmailRecipient->
+           getRecipientAddress() . "<BR>";
+    };
+
+    print "<BR><BR>APPARENTLY TO RECIPIENT<BR><BR>";
+    print "NAME: " . $this->objApparentPrimaryRecipient->
+           getRecipientName() . "<BR>";
+    print "EMAIL ADDRESS: " . $this->
+           objApparentPrimaryRecipient->getRecipientAddress() . "<BR>";
+
+    print "<BR><BR>APPARENT SECONDARY RECIPIENTS<BR><BR>";
+    foreach ($this->arObjApparentSecondaryRecipients as 
+         $strRecipientIdentifier => $objEmailRecipient) {
+      print "NAME: " . $objEmailRecipient->getRecipientName() . "<BR>";
+      print "EMAIL ADDRESS: " . $objEmailRecipient->
+           getRecipientAddress() . "<BR>";
+    };
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "david/aves",
+    "description": "Bajada de webs de aves",
+    "authors": [
+        {
+            "name": "David Berruezo",
+            "email": "davidberruezo@davidberruezo.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "clases\\":"clases/"
+        }
+    }
+}

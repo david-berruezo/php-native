@@ -1,0 +1,16 @@
+{
+    "name": "david/simplexml",
+    "description": "Coge un xml y crea busquedas",
+    "authors": [
+        {
+            "name": "David Berruezo",
+            "email": "davidberruezo@davidberruezo.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "clases\\":"clases/"
+        }
+    }
+}

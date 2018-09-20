@@ -1,0 +1,11 @@
+{
+  "name": "autoloader/librerias-composer",
+  "require": {
+    "phpmailer/phpmailer": "~5.2"
+  },
+  "autoload":{
+    "classmap":[
+      "app/models"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+<IfModule mod_rewrite.c>
+	# Fuerza una redirección de nuestro dominio
+	RewriteEngine On
+	RewriteBase /
+	RewriteCond %{HTTP_HOST} ^www\.rewriteejemplos\.net [NC]
+    RewriteRule ^(.*)$ http://www.google.com/$1 [L,R,NC]
+</IfModule>
+
+

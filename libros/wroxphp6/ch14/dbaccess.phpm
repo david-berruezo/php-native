@@ -1,0 +1,11 @@
+<?
+     // Definitions for connecting to a postgreSQL database.
+     define("DATABASE_USERNAME", "newsletter");
+     define("DATABASE_PASSWORD", "password");
+     define("DATABASE_HOSTNAME", "localhost");
+     define("DATABASE_BASENAME", "newsletter");
+     define("DATABASE_DRIVER", "pgsql");
+     define("PDO_DSN", DATABASE_DRIVER . ":dbname=" . DATABASE_BASENAME . 
+            ";user=" . DATABASE_USERNAME . ";password=" . DATABASE_PASSWORD .
+            ";host=" . DATABASE_HOSTNAME);
+?> 

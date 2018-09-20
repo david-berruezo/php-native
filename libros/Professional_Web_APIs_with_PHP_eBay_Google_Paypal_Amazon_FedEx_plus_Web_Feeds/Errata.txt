@@ -1,0 +1,45 @@
+Errata Notice:
+Hi, First, thanks for buying and reading the book, here is a list
+of the problems I've discovered so far. I'm not sure exactly what 
+process this file needs to go through to get from me to you, so I
+will keep an up to date version at:
+http://preinheimer.com/prowebapis/errata.txt
+
+If you find any problems/bugs/mistakes not listed here please let
+me know at: paul@preinheimer.com 
+
+I'm well aware that there are copies of the book floating around
+the net in .pdf or windows help format, if you came to this file
+after reading one of those, and found my book helpful please 
+consider purchasing a copy, I worked hard on the book so you 
+wouldn't have to work quite so hard working on APIs.
+
+
+Chapter 3
+Page 23
+"Chapter 5 discuesses how you go about building your own feed, ..."
+should read
+"Chapter 4 discuesses how you go about building your own feed, ..."
+
+Page 41
+Dashes are missing in the chart at the top, it should read:
+The contents define a character class, [0-9] will match any digit from zero to nine, [a-zA-Z0-9] would match any single lower case letter, upper case letter, or digit. [a-zA-Z0-9] would match any number of them. 
+
+Chapter 4
+Page 61
+1Caching 
+	Should read (1 should not be there)
+Caching
+
+Chapter 5
+Page 108
+$request = createRequest('123', 'search', 'book','style);
+	Should read (closing quote for style was ommited)
+$request = createRequest('123', 'search', 'book','style');
+
+Chapter 12
+*SECURITY ISSUE*
+The demonstrated REST API framework is vulnerable to XSS attacks
+since it displays un-escaped data when a call is made with an
+unknown paramater. Corrected code (simply applying htmlentities())
+appears in the apropriate code file. 

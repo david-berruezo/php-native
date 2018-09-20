@@ -1,0 +1,796 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+  <html xmlns="http://www.w3.org/1999/xhtml">
+		<head>
+			<!-- template designed by Marco Von Ballmoos -->
+			<title>Docs For Class PageNavigator</title>
+			<link rel="stylesheet" href="../media/stylesheet.css" />
+			<meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+		</head>
+		<body>
+			<div class="page-body">			
+<h2 class="class-name"><img src="../media/images/Class_logo.png"
+														alt=" Class"
+														title=" Class"
+														style="vertical-align: middle"> PageNavigator</h2>
+
+<a name="sec-description"></a>
+<div class="info-box">
+	<div class="info-box-title">Description</div>
+	<div class="nav-bar">
+					<span class="disabled">Description</span> |
+													<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+						|											<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+						
+					</div>
+	<div class="info-box-body">
+        		<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Questa classe consente di gestire la visualizzazione in pagine di un set di elementi.</p>
+<p class="description"><p>La navigazione funziona tramite due argomenti $_GET, e mantiene ad ogni   variazione di pagina (o di risultati per pagina) tutti gli argomenti $_GET esistenti.   E' possibile creare un sistema di navigazione sulle pagine molto simile a quello di Google,   oppure semplice (combo box).</p></p>
+		<p class="notes">
+			Located in <a class="field" href="_PageNavigator.php.html">/PageNavigator.php</a> (line <span class="field">13</span>)
+		</p>
+		
+				
+		<pre></pre>
+	
+			</div>
+</div>
+
+
+
+	<a name="sec-var-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variable Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+						<span class="disabled">Vars</span> (<a href="#sec-vars">details</a>)
+							| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+								</div>
+		<div class="info-box-body">
+			<div class="var-summary">
+																				<div class="var-title">
+					<img src="../media/images/StaticVariable.png" alt=" " />
+					static <span class="var-type">mixed</span>
+					<a href="#$components" title="details" class="var-name">$components</a>
+				</div>
+																																																																																																																				<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">string</span>
+					<a href="#$anchor" title="details" class="var-name">$anchor</a>
+				</div>
+																								<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">string</span>
+					<a href="#$imagesPath" title="details" class="var-name">$imagesPath</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">int</span>
+					<a href="#$lang" title="details" class="var-name">$lang</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">string</span>
+					<a href="#$name" title="details" class="var-name">$name</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">int</span>
+					<a href="#$ORIGINAL_results_per_page" title="details" class="var-name">$ORIGINAL_results_per_page</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">int</span>
+					<a href="#$pages" title="details" class="var-name">$pages</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">string</span>
+					<a href="#$query_string" title="details" class="var-name">$query_string</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">int</span>
+					<a href="#$results_per_page" title="details" class="var-name">$results_per_page</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">int</span>
+					<a href="#$rowsNum" title="details" class="var-name">$rowsNum</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">string</span>
+					<a href="#$rppGet" title="details" class="var-name">$rppGet</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">int</span>
+					<a href="#$select_page_count" title="details" class="var-name">$select_page_count</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">int</span>
+					<a href="#$select_rpp_count" title="details" class="var-name">$select_rpp_count</a>
+				</div>
+																<div class="var-title">
+					<img src="../media/images/Variable.png" alt=" " />
+					<span class="var-type">string</span>
+					<a href="#$style" title="details" class="var-name">$style</a>
+				</div>
+											</div>
+		</div>
+	</div>
+
+	<a name="sec-method-summary"></a>
+	<div class="info-box">
+		<div class="info-box-title">Method Summary</span></div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+																		<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+				 
+				|
+						<span class="disabled">Methods</span> (<a href="#sec-methods">details</a>)
+		</div>
+		<div class="info-box-body">			
+			<div class="method-summary">
+																																																																																								<div class="method-definition">
+					<img src="../media/images/Constructor.png" alt=" "/>
+											<span class="method-result">PageNavigator</span>
+										<a href="#PageNavigator" title="details" class="method-name">PageNavigator</a>
+											(<span class="var-type">int</span>&nbsp;<span class="var-name">$rowsNum</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$anchor</span> = <span class="var-default">&quot;&quot;</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$style</span> = <span class="var-default">&quot;&quot;</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$results_per_page</span> = <span class="var-default">5</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$name</span> = <span class="var-default">&quot;&quot;</span>])
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#getCurrentPage" title="details" class="method-name">getCurrentPage</a>
+										()
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#getLimit" title="details" class="method-name">getLimit</a>
+										()
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#getShowIndices" title="details" class="method-name">getShowIndices</a>
+										()
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#getTotalPages" title="details" class="method-name">getTotalPages</a>
+										()
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setImagesPath" title="details" class="method-name">setImagesPath</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$path</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">void</span>
+										<a href="#setLanguage" title="details" class="method-name">setLanguage</a>
+											(<span class="var-type"></span>&nbsp;<span class="var-name">$lang</span>)
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#show_page_browsing" title="details" class="method-name">show_page_browsing</a>
+											([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$googleLike</span> = <span class="var-default">true</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">7</span>])
+									</div>
+																<div class="method-definition">
+					<img src="../media/images/Method.png" alt=" "/>
+											<span class="method-result">string</span>
+										<a href="#show_RPP_browsing" title="details" class="method-name">show_RPP_browsing</a>
+											([<span class="var-type">int</span>&nbsp;<span class="var-name">$selections</span> = <span class="var-default">10</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$interval</span> = <span class="var-default">5</span>])
+									</div>
+											</div>
+		</div>
+	</div>		
+
+	<a name="sec-vars"></a>
+	<div class="info-box">
+		<div class="info-box-title">Variables</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+										<a href="#sec-var-summary">Vars</a> (<span class="disabled">details</span>)
+						
+			
+										| 
+									<a href="#sec-method-summary">Methods</a> (<a href="#sec-methods">details</a>)
+							
+					</div>
+		<div class="info-box-body">
+			<a name="var$components" id="$components"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			static <span class="var-type">mixed</span>
+			<span class="var-name">$components</span>
+						(line <span class="line-number">91</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	
+		
+		
+
+</div>
+
+<a name="var$anchor" id="$anchor"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$anchor</span>
+						(line <span class="line-number">44</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Ancora HTML da usare per il passaggio tra' le varie pagine</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodPageNavigator">PageNavigator::PageNavigator()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$imagesPath" id="$imagesPath"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$imagesPath</span>
+			 = <span class="var-default">&quot;&quot;</span>			(line <span class="line-number">89</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Imposta la directory in cui si trovano i tasti prev.gif e next.gif</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodsetImagesPath">PageNavigator::setImagesPath()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$lang" id="$lang"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$lang</span>
+			 = <span class="var-default">array()</span>			(line <span class="line-number">82</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Contiene i testi nella lingua utilizzata</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodshow_RPP_browsing">PageNavigator::show_RPP_browsing()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$name" id="$name"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$name</span>
+			 = <span class="var-default">&quot;&quot;</span>			(line <span class="line-number">49</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Nome dell'istanza del navigatore. Usato come suffisso per i GET usati</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodPageNavigator">PageNavigator::PageNavigator()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$ORIGINAL_results_per_page" id="$ORIGINAL_results_per_page"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$ORIGINAL_results_per_page</span>
+			 = <span class="var-default">5</span>			(line <span class="line-number">24</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Il numero di risultati per pagina iniziale.</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodPageNavigator">PageNavigator::PageNavigator()</a>, <a href="../default/PageNavigator.html#methodshow_RPP_browsing">PageNavigator::show_RPP_browsing()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$pages" id="$pages"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$pages</span>
+						(line <span class="line-number">54</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Numero di pagine calcolato</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodPageNavigator">PageNavigator::PageNavigator()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$query_string" id="$query_string"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$query_string</span>
+			 = <span class="var-default">&quot;&quot;</span>			(line <span class="line-number">29</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Query string contenente altri eventuali parametri GET gia' esistenti</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodPageNavigator">PageNavigator::PageNavigator()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$results_per_page" id="$results_per_page"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$results_per_page</span>
+			 = <span class="var-default">5</span>			(line <span class="line-number">19</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Il numero di risultati per pagina.</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodPageNavigator">PageNavigator::PageNavigator()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$rowsNum" id="$rowsNum"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$rowsNum</span>
+						(line <span class="line-number">39</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Il numero totale di elementi di cui creare la paginazione</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodPageNavigator">PageNavigator::PageNavigator()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$rppGet" id="$rppGet"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$rppGet</span>
+			 = <span class="var-default">&quot;&quot;</span>			(line <span class="line-number">75</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Contiene la coppia chiave valore del parametro GET per</p>
+<p class="description"><p>indicare il numero di risultati per pagina   se non esiste il GET nella querystring il suo valore   è vuoto per evitare di passare un paramentro aggiuntivo</p></p>
+	
+	
+		
+		
+
+</div>
+<a name="var$select_page_count" id="$select_page_count"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$select_page_count</span>
+			 = <span class="var-default">1</span>			(line <span class="line-number">61</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Numero di select input stampate per la navigazione sulle pagine</p>
+<p class="description"><p>Serve per dare un id univoco alla select, l'id serve per le label (vedi XHTML e accessibilita')</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodshow_page_browsing">PageNavigator::show_page_browsing()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$select_rpp_count" id="$select_rpp_count"><!-- --></A>
+<div class="oddrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">int</span>
+			<span class="var-name">$select_rpp_count</span>
+			 = <span class="var-default">1</span>			(line <span class="line-number">67</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Numero di select input stampate per la selezione di risultati per pagina</p>
+<p class="description"><p>Serve per dare un id univoco alla select, l'id serve per le label (vedi XHTML e accessibilita')</p></p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodshow_RPP_browsing">PageNavigator::show_RPP_browsing()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+<a name="var$style" id="$style"><!-- --></A>
+<div class="evenrow">
+
+	<div class="var-header">
+		<img src="../media/images/Variable.png" />
+		<span class="var-title">
+			<span class="var-type">string</span>
+			<span class="var-name">$style</span>
+			 = <span class="var-default">&quot;class=\&quot;&quot;</span>			(line <span class="line-number">34</span>)
+		</span>
+	</div>
+
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Classe del foglio di stile da applicare alle select</p>
+	<ul class="tags">
+				<li><span class="field">see:</span> <a href="../default/PageNavigator.html#methodPageNavigator">PageNavigator::PageNavigator()</a></li>
+			</ul>
+	
+	
+		
+		
+
+</div>
+						
+		</div>
+	</div>
+	
+	<a name="sec-methods"></a>
+	<div class="info-box">
+		<div class="info-box-title">Methods</div>
+		<div class="nav-bar">
+			<a href="#sec-description">Description</a> |
+															<a href="#sec-var-summary">Vars</a> (<a href="#sec-vars">details</a>)
+														<a href="#sec-method-summary">Methods</a> (<span class="disabled">details</span>)
+						
+		</div>
+		<div class="info-box-body">
+			<A NAME='method_detail'></A>
+<a name="methodPageNavigator" id="PageNavigator"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Constructor.png" />
+		<span class="method-title">Constructor PageNavigator</span> (line <span class="line-number">128</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Costruttore della classe:  $rowsNum (numero di righe) e' il parametro fondamentale il numero di elementi TOTALE da visualizzare.</p>
+<p class="description"><p>$anchor è il nome dell'ancora dei collegamenti generati per il cambio di pagina o di risultati per pagina  (infatti queste operazioni implicano il ricaricamento della pagina).  $result_per_page e' autoesplicativo.  $name è un nome utile nel qual caso si utilizzassero due PageNavigator sulla stessa pagina. Infatti $name viene usato come suffisso per i nomi dei parametri $_GET.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">PageNavigator</span>
+		<span class="method-name">
+			PageNavigator
+		</span>
+					(<span class="var-type">int</span>&nbsp;<span class="var-name">$rowsNum</span>, [<span class="var-type">string</span>&nbsp;<span class="var-name">$anchor</span> = <span class="var-default">&quot;&quot;</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$style</span> = <span class="var-default">&quot;&quot;</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$results_per_page</span> = <span class="var-default">5</span>], [<span class="var-type">string</span>&nbsp;<span class="var-name">$name</span> = <span class="var-default">&quot;&quot;</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$rowsNum</span><span class="var-description">: Il numero totale di elementi di cui creare la paginazione</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$anchor</span><span class="var-description">: Ancora HTML da usare per il passaggio tra' le varie pagine</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$style</span><span class="var-description">: Classe del foglio di stile da applicare alle select</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$results_per_page</span><span class="var-description">: Il numero di risultati per pagina.</span>			</li>
+					<li>
+				<span class="var-type">string</span>
+				<span class="var-name">$name</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodgetCurrentPage" id="getCurrentPage"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getCurrentPage</span> (line <span class="line-number">183</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">restituisce il numero della pagina corrente</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getCurrentPage
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetLimit" id="getLimit"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getLimit</span> (line <span class="line-number">193</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Restituisce una stringa contenente la clausola LIMIT x,x di SQL da aggiungere alla query di selezione dei dati.</p>
+<p class="description"><p>Questo è molto utile perché con questa clausola, si limita l’estrazione dei dati ad un certo range di valori.   Tale range è naturalmente legato alla pagina attualmente selezionata e al numero di risultati per pagina.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			getLimit
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetShowIndices" id="getShowIndices"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getShowIndices</span> (line <span class="line-number">199</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getShowIndices
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodgetTotalPages" id="getTotalPages"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">getTotalPages</span> (line <span class="line-number">186</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">restituisce il numero della pagina corrente</p>
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			getTotalPages
+		</span>
+				()
+			</div>
+	
+		
+			
+	</div>
+<a name="methodsetImagesPath" id="setImagesPath"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setImagesPath</span> (line <span class="line-number">174</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setImagesPath
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$path</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$path</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodsetLanguage" id="setLanguage"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">setLanguage</span> (line <span class="line-number">93</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+	
+	<div class="method-signature">
+		<span class="method-result">void</span>
+		<span class="method-name">
+			setLanguage
+		</span>
+					(<span class="var-type"></span>&nbsp;<span class="var-name">$lang</span>)
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type"></span>
+				<span class="var-name">$lang</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodshow_page_browsing" id="show_page_browsing"><!-- --></a>
+<div class="evenrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">show_page_browsing</span> (line <span class="line-number">215</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Mostra la navigazione delle pagine in modalità semplice (tramite una semplice combo box) o ‘google like’ a seconda del parametro $googleLike.</p>
+<p class="description"><p>Il parametro $offset è un parametro utile solo in modalità ‘google like’.  La modalità google like prevede una selezione delle pagine attraverso link diretti alle pagine, con un sistema di  selezione delle pagine molto simile a google.  Il parametro $offset specifica il numero di link (a pagine) visualizzati a sinistra e a destra quando ci si trova ‘in mezzo’  ovvero quando la pagina attuale ha un numero di pagine precedenti ed un numero di pagine successive maggiori di offset.  In parole povere, il numero massimo di link visualizzati in modalità google like è uguale a ($offset*2)+1.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			show_page_browsing
+		</span>
+					([<span class="var-type">boolean</span>&nbsp;<span class="var-name">$googleLike</span> = <span class="var-default">true</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$offset</span> = <span class="var-default">7</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">boolean</span>
+				<span class="var-name">$googleLike</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$offset</span>			</li>
+				</ul>
+		
+			
+	</div>
+<a name="methodshow_RPP_browsing" id="show_RPP_browsing"><!-- --></a>
+<div class="oddrow">
+	
+	<div class="method-header">
+		<img src="../media/images/Method.png" />
+		<span class="method-title">show_RPP_browsing</span> (line <span class="line-number">360</span>)
+	</div> 
+	
+	<!-- ========== Info from phpDoc block ========= -->
+<p class="short-description">Mostra la navigazione dei risultati per tramite una semplice combo box.</p>
+<p class="description"><p>$selections specifica il numero di selezioni possibili.  $interval specifica l’intervallo tra il valore di una selezione e l’altra.  Con i parametri predefiniti avremo 10 selezioni possibili come numero di risultati per pagina,  la prima avrà valore 5, le successive 9 avranno valori multipli di 5.  Nota: Se il valore dell’argomento $results_per_page passato al costruttore non ha un valore corrispondente ad una delle possibili selezioni di RPP,  viene aggiunto alla combo box una selezione con tale valore.</p></p>
+	
+	<div class="method-signature">
+		<span class="method-result">string</span>
+		<span class="method-name">
+			show_RPP_browsing
+		</span>
+					([<span class="var-type">int</span>&nbsp;<span class="var-name">$selections</span> = <span class="var-default">10</span>], [<span class="var-type">int</span>&nbsp;<span class="var-name">$interval</span> = <span class="var-default">5</span>])
+			</div>
+	
+			<ul class="parameters">
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$selections</span>			</li>
+					<li>
+				<span class="var-type">int</span>
+				<span class="var-name">$interval</span>			</li>
+				</ul>
+		
+			
+	</div>
+						
+		</div>
+	</div>
+
+	
+	<p class="notes" id="credit">
+		Documentation generated on Fri, 25 Sep 2009 17:43:32 +0200 by <a href="http://www.phpdoc.org" target="_blank">phpDocumentor 1.4.1</a>
+	</p>
+	</div></body>
+</html>

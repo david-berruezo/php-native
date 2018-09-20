@@ -1,0 +1,31 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Chapter 4 Plugin Example\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-28 23:34-0600\n"
+"PO-Revision-Date: 2010-06-28 23:35-0600\n"
+"Last-Translator: Justin Tadlock <justin@justintadlock.com>\n"
+"Language-Team: WROX\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr_e;esc_attr__;esc_html_e;esc_html__;_x;_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: tom-alert-box.php:48
+msgid "Alert boxes are annoying!"
+msgstr ""
+
+#: tom-alert-box.php:49
+msgid "They are really annoying!"
+msgstr ""
+
+#: tom-alert-box.php:65
+msgid "Press me!"
+msgstr ""
+
+#: tom-alert-box.php:68
+msgid "Now press me!"
+msgstr ""
+

@@ -1,0 +1,84 @@
+
+WebServerInfo PHP class
+
+Introduction
+============================================
+
+WebServerInfo PHP class is intended for developer who create software that will run
+on different web servers. This PHP class gives a developer an universal interface
+for accessing web server's variables.
+
+
+Usage:
+============================================
+
+You have following options:
+
+Option #1
+	require_once("WebServerInfo.class.php");
+	$obj = new WebServerInfo();
+  print $_SERVER['DOCUMENT_ROOT'];
+
+Option #2
+	require_once("WebServerInfo.class.php");
+	$obj = new WebServerInfo();
+  print $obj->get('DOCUMENT_ROOT');
+
+Option #3
+  uncomment the 3rd line from WebServerInfo.class.php
+  and all you have to do is require the WebServerInfo.class.php class.
+
+Note:
+  The constructor of WebServerInfo class overrides $_SERVER variable and
+  variables can be accessed as usual way.
+
+
+Following base variables are exported if they do not exist.
+
+        REQUEST_URI
+        REDIRECT_URL
+        DOCUMENT_ROOT
+        SERVER_SIGNATURE
+        SERVER_ADDR
+        SCRIPT_FILENAME
+
+
+License:
+============================================
+
+see LICENSE
+
+
+Bugs/Comments/Ideas
+============================================
+
+if you intend to use this class in your software or have some great ideas
+feel free to contact me.
+
+
+Donations
+============================================
+
+Donations are always highly appreciated but not mandatory.
+If you would like to support my work please
+contact me in order to discuss available payment options.
+
+
+Author
+============================================
+
+Svetoslav Marinov is studying computer sciences and technologies in technical
+university of Sofia, Bulgaria.
+
+He is working on a SEO Filter project.
+SEO Filter stands for Search Engine Optimization Software for forums such as PunBB, phpBB2 etc.
+User does not need to hack his forum in order to make it SEO friendly.
+
+For more information go to:
+
+http://seofilter.com
+
+Svetoslav Marinov
+svetoslavm#gmail.com
+(c) November 19th, 2006
+All rights reserved.

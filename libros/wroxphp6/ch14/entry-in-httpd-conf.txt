@@ -1,0 +1,11 @@
+<VirtualHost>
+ServerName newsletter.example.com
+ServerAdmin ed@example.com
+CustomLog /home/ed/logfile_newsletter common
+ErrorLog /home/ed/errlog_ newsletter
+DocumentRoot /home/ed/public_html/newsletter
+Alias /ulysses/ "/usr/local/lib/php/ulysses/"
+RewriteEngine on
+RewriteRule ^(\/)([A-Z]{1,})(.*)$ /ulysses/php/controller.php?page=$2$3 [QSA,PT]
+RewriteRule     ^/$    /Home [QSA,L,R]
+</VirtualHost>

@@ -1,0 +1,36 @@
+<?
+class TravelExpenseWeek extends PersistableObject {
+    public $items = array();
+
+    function __construct ($results, $dbh = null) {
+        parent::__construct ($results, $dbh);
+    }
+
+    public function isValid() {
+        if ($this->isEmpty("emp_id") == true) return false;
+        if ($this->isEmpty("week_start") == true) return false;
+        if ($this->isEmpty("territory_worked") == true) return false;
+        if ($this->isEmpty("mileage_rate") == true) return false;
+        return true;
+    }
+
+    public function persist() {         
+        return $this->persistWork ("travel_expense_week",
+                                   array ( "emp_id",
+                                           "week_start",
+                                           "comments",
+                                           "territory_worked",
+                                           "cash_advance",
+                                           "mileage_rate"));
+    }
+
+    public function getSqlWhere() {
+    return " emp_id = ".$this->emp_id." and week_start
+           = '".$this->week_start."'";
+    }
+
+    public function parse(&$request) { }
+    public function readWeek() { }
+    public function getExpenseAmount($offset, $description) { }
+}
+?>

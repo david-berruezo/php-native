@@ -1,0 +1,35 @@
+PROFESSIONAL PHP 6 - CODE FROM CHAPTERS
+
+Please see the readme file within each chapter folder for specifics. Note that chapters 15, 16, 17, 24 and 25 and Appendices B and C have no downloadable code. 
+---------------------------------------
+
+appA		Appendix A			Version Control									Code Available
+appD		Appendix D			Best Practice PHP Installation					Code Available
+ch01		Chapter 1			Introduction to Object-Oriented Programming		Code Available
+ch02		Chapter 2			Unified Modeling Language (UML)					Code Available
+ch03		Chapter 3			Putting Objects to Work							Code Available
+ch04		Chapter 4			Design Patterns									Code Available
+ch05		Chapter 5			Collections										Code Available
+ch06		Chapter 6			Database abstraction with PDO					Code Available
+ch07		Chapter 7			Object Relation Mapping							Code Available
+ch08		Chapter 8			Event-Driven Programming						Code Available
+ch09		Chapter 9			Logging and Debugging							Code Available
+ch10		Chapter 10			Writing and Using Web Services					Code Available
+ch11		Chapter 11			Communicating with Users						Code Available
+ch12		Chapter 12			Sessions and Authentication						Code Available
+ch13		Chapter 13			Application Architecture						Code Available
+ch14		Chapter 14			PHP Application Frameworks						Code Available
+ch18		Chapter 18			Systems Architecture							Code Available
+ch19		Chapter 19			Building the Application						Code Available
+ch20		Chapter 20			QA and Testing									Code Available
+ch21		Chapter 21			Deployment										Code Available
+ch22		Chapter 22			Content Management								Code Available
+ch23		Chapter 23			Handling HT/HA									Code Available
+
+appB		Appendix B			PHP IDEs										No Code Available
+appC		Appendix C			Performance Tuning PHP							No Code Available
+ch15		Chapter 15			Project Overview								No Code Available
+ch16		Chapter 16			Project Management								No Code Available
+ch17		Chapter 17			Project Planning								No Code Available
+ch24		Chapter 24			PHP Advocacy									No Code Available
+ch25		Chapter 25			Your Career as a PHP Pro						No Code Available

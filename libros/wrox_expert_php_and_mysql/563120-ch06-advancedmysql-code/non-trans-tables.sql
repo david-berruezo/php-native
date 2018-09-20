@@ -1,0 +1,17 @@
+DROP TABLE IF EXISTS non_trans_parent;
+CREATE TABLE non_trans_parent (
+  id   INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  val  VARCHAR(10) NOT NULL,
+PRIMARY KEY (id),
+UNIQUE KEY (val)
+) ENGINE=MyISAM DEFAULT CHARSET latin1;
+
+DROP TABLE IF EXISTS non_trans_child;
+CREATE TABLE non_trans_child (
+  id        INT UNSIGNED NOT NULL AUTO_INCREMENT,
+  parent_id INT UNSIGNED NOT NULL,
+  created   TIMESTAMP NOT NULL,
+PRIMARY KEY (id),
+INDEX (parent_id)
+) ENGINE=MyISAM DEFAULT CHARSET latin1;
+

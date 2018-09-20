@@ -1,0 +1,10 @@
+{
+    "name": "david/multicurl",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "clases\\": "clases/",
+            "library\\":"library/"
+        }
+    }
+}

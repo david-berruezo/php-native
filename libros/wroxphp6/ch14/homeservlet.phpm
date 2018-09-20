@@ -1,0 +1,38 @@
+<?
+class HomeServlet Extends Servlet {
+
+	public $objTitle;
+	public $objFirstName;
+	public $objLastName;
+	public $objCompany;
+	public $objEmail;
+	public $objStatusLabel;
+	public $objSuccessLabel;
+	public $objFirstNameLabel;
+	public $objLastNameLabel;
+	public $objEmailLabel;
+	public $objCompanyLabel;
+
+	public function __construct($objSmarty, $objSession, $queryStringParms, $strPageIdentifier) {
+		$this->objTitle = new Title("Email Bulletin Signup", "default");
+		$this->objFirstName = new TextBox("firstname");
+		$this->objLastName = new TextBox("lastname");
+		$this->objEmail = new TextBox("email");
+		$this->objStatusLabel = new Label("status");
+		$this->objSuccessLabel = new Label("success");
+		$this->objFirstNameLabel = new Label("firstnamelabel", "First	Name");
+		$this->objLastNameLabel = new Label("lastnamelabel", "Last Name");
+		$this->objEmailLabel = new Label("emaillabel", "Email Address *");
+		parent::__construct($objSmarty, $objSession, $queryStringParms, $strPageIdentifier);
+	}
+	
+	public function _doGet($objSmarty, $objSession, $queryStringParms) {
+	
+	}
+	
+	public function _doPost($objSmarty, $objSession, $queryStringParms) {
+	
+	}
+
+}
+? >

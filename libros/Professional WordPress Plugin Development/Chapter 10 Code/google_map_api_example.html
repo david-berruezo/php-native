@@ -1,0 +1,49 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>Google Maps JavaScript API Example</title>
+<link href="http://code.google.com/apis/maps/documentation/javascript/examples/default.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+function initialize_map() {
+    var myLatlng = new google.maps.LatLng(45.124099,-123.113634);
+    var myOptions = {
+        zoom: 17,
+        center: myLatlng,
+        mapTypeId: google.maps.MapTypeId.SATELLITE
+    }
+ 
+    var map = new google.maps.Map( document.getElementById("map_canvas"), myOptions );
+
+    var contentString = '<div id="content">'+
+        '<p><b>Firefox Crop Circle</b>: Somewhere in a field in Oregon'+
+        ', this 67 metre wide icon was created by the Oregon State University'+
+        'Linux Users Group to celebrate the launch of Firefox version 2</p>'+
+        '</div>'+
+        '</div>';
+
+    var infowindow = new google.maps.InfoWindow({
+        content: contentString
+    });
+
+    var marker = new google.maps.Marker({
+        position: myLatlng,
+        map: map,
+        title: 'Uluru (Ayers Rock)'
+    });
+    
+    google.maps.event.addListener(marker, 'click', function() {
+        infowindow.open(map,marker);
+    });
+}
+
+</script>
+</head>
+
+<body>
+    <p>The map will display here:</p>
+    <div id="map_canvas" style="width:600px;height:400px"></div>
+    <script type="text/javascript">initialize_map()</script>
+</body>
+
+</html>

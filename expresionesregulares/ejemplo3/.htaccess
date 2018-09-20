@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+     # Forzar una url en un genérico camino
+     RewriteEngine on
+     RewriteCond %{HTTP_HOST} !^$
+     RewriteCond %{HTTP_HOST} !^www\. [NC]
+</IfModule>

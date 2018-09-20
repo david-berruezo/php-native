@@ -1,0 +1,61 @@
+# Expresiones Regulares
+# Ejemplo 1 simple redirección
+
+#<IfModule mod_rewrite.c>
+#Options +FollowSymLinks
+#RewriteEngine On
+#Redirect /ejemplo1.php http://www.expresionesregulares.net/blog/index.php
+#</IfModule>
+
+# Ejemplo 2 redirección
+# En carpeta imagenes
+# Si ponemos por ejemplo /pics/rewrite.jpg también
+# redireccionará a /images/rewrite.jpg aunque no haya nada
+#<IfModule mod_rewrite.c>
+#Options +FollowSymLinks
+#RewriteEngine On
+#Redirect /pics/ http://www.expresionesregulares.net/images/
+#</IfModule>
+
+# Ejemplo 3 redirección
+# Si nuestra pagina web se
+# ha movido a otro servidor
+#<IfModule mod_rewrite.c>
+#Options +FollowSymLinks
+#RewriteEngine On
+#Redirect / http://www.rewriteejemplos.net/
+#</IfModule>
+
+# Ejemplo 4 redirección
+# Si nuestra pagina web tiene
+# Imágenes jpg y queremos
+# Ponerlas en otro dominio
+# pasamos url http://www.expresionesregulares.net/rewrite.jpg
+#<IfModule mod_rewrite.c>
+#Options +FollowSymLinks
+#RewriteEngine On
+#RedirectMatch (.*)\.jpg  http://www.rewriteejemplos.net$1.jpg
+#</IfModule>
+
+# Ejemplo 5 Clean Url
+# Encontramos /ejemplo5/ con url amigable
+# Y enviamos a ejemplo5.php
+# pasamos url http://www.expresionesregulares.net/subejemplo5.php/ejemplo5
+#<IfModule mod_rewrite.c>
+#Options +FollowSymLinks
+#RewriteEngine On
+#RewriteRule    /ejemplo5/?$    ejemplo5.php    [NC,L]    # Handle requests for "pet-care"
+#</IfModule>
+
+
+# Ejemplo 6 Back Reference
+# Guardar en variable $1
+# Imágenes jpg y queremos
+# Ponerlas en otro dominio
+# pasamos url http://www.expresionesregulares.net/rewrite.jpg
+
+
+
+
+
+

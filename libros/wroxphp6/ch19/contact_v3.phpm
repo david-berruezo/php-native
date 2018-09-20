@@ -1,0 +1,81 @@
+<?php
+class ContactVisit {
+protected $contentBase = array();
+protected $dbh = null; // database handle
+    function __get ($key) {
+        if (array_key_exists ($key, $this->contentBase)) {
+            return $this->contentBase[$key];
+        }
+        return $this->$key;
+   }
+    function __construct ($results, $dbh = null) {
+        static $sequence = 0;
+        $this->dbh = $dbh;
+        $this->contentBase = $results; // copy
+        $sequence = $sequence + 1; // increment across class
+        $this->contentBase["seq"] = $sequence;
+   }
+private function isEmpty($key) {
+if (array_key_exists($key, $this->contentBase) == false) return true;
+if ($this->contentBase[$key] == null) return true;
+if ($this->contentBase[$key] == "") return true;
+return false;
+}
+public function isValid() {
+if ($this->isEmpty("emp_id") == true) return false;
+if ($this->isEmpty("week_start") == true) return false;
+if ($this->isEmpty("company_name") == true) return false;
+return true;
+}
+private function implodeQuoted (&$values, $delimiter) {
+$sql = "";
+$flagIsFirst = true;
+foreach ($values as $value) {
+if ($flagIsFirst) {
+$flagIsFirst = false;
+} else {
+$sql .= $delimiter;
+}
+if (gettype ($value) == "string") {
+$sql .= "'".$value."'";
+} else {
+$sql .= $value;
+}
+}
+return $sql;
+}
+private function generateSqlInsert ($tableName, &$metas, &$values) {
+return "insert into ".$tableName.
+"        ( ".implode              ($metas,  ", ")." ) ".
+" values ( ".$this->implodeQuoted ($values, ", ")." ) ";
+}
+
+public function persist() {
+if ($this->isValid() == false) return false;
+$sql = $this->generateSqlInsert ("contact_visits",
+array ( "emp_id",
+"week_start",
+"seq",
+"company_name",
+"contact_name",                                  "city",
+                                                 "state",
+                                                 "accomplishments",
+                                                 "followup",
+                                                 "literature_request" ),
+                                        array ( $this->emp_id,
+                                                $this->week_start,
+                                                 $this->seq,
+                                                 $this->company_name,
+                                                 $this->contact_name,
+                                                 $this->city,
+                                                 $this->state,
+                                                 $this->accomplishments,
+                                                 $this->followup,
+                                                 $this->literature_request ));
+       if (DB::isError ($this->dbh->query($sql))) return false;
+       return true;
+   }
+}
+
+
+?>

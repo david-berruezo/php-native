@@ -1,0 +1,4 @@
+<?
+require("$appDir/phpm/settings/dbaccess.phpm");
+require("$appDir/phpm/business/subscriber.phpm");
+?>

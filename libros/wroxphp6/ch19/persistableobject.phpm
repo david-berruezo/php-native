@@ -1,0 +1,80 @@
+<?php
+class PersistableObject {
+    protected $contentBase = array();
+    protected $dbh = null; // database handle
+    protected $dispatchFunctions = array ("role" => "getrole");
+
+    function __get ($key) {
+        // dispatch by function first
+        if (array_key_exists ($key, $this->dispatchFunctions)) {
+            $funcname = $this->dispatchFunctions[$key];
+            return $this->$funcname();
+        }
+         // then state
+         if (array_key_exists ($key, $this->contentBase)) {
+             return $this->contentBase[$key];
+        }
+        // then self
+        return $this->$key;
+    }
+    function __construct ($results, $dbh = null) {
+        $this->dbh = $dbh;
+        if ($results <> null) {
+            $this->contentBase = $results; // copy
+        }
+    }
+    public function implodeQuoted (&$values, $delimiter) {
+         $sql = "";
+        $flagIsFirst = true;
+        foreach ($values as $value) {
+            if ($flagIsFirst) {
+                $flagIsFirst = false;
+            } else {
+                $sql .= $delimiter;
+            }
+            if (gettype ($value) == "string") {
+                $sql .= "'".$value."'";
+            } else {
+                $sql .= $value;
+            }
+       }
+       return $sql;
+    }
+    public function generateSqlInsert ($tableName, {&$metas, &$values) {
+        return " insert into ".$tableName.
+            "        ( ".implode              ($metas, ", ")." ) ".
+            " values ( ".$this->implodeQuoted ($values, ", ")." ) ";
+    }
+    public function generateSqlUpdate ($tableName, {&$metas, &$values) {
+        $sql = " update ".$tableName." set ";
+        for ($i=0; $i<count($metas); $i++) {
+            $sql .= $metas[$i]." = ".$vaules[$i].", ";
+        }
+        return $sql;
+    }
+    public function generateSqlDelete ($tableName) {
+        return " delete from \"".$tableName."\" where ".$this->getSqlWhere();
+    }
+    // note: should be implemented by concrete classes
+    public function getSqlWhere() {
+
+        return "";
+    }
+    public function isValid() {
+        return true;
+    }
+    public function persistWork ($tablename, $meta) {
+        if ($this->isValid() == false) return false;
+        $values = array();
+        foreach ($meta as $mvalue) {
+            array_push ($values, $this->$mvalue);
+        }
+        if (strlen($this->getSqlWhere()) > 0) {
+            $sql = $this->generateSqlDelete ($tablename);
+            $this->dbh->query($sql);
+        }
+        $sql = $this->generateSqlInsert ($tablename, $meta, $values);
+        if (DB::isError ($this->dbh->query($sql))) return false;
+        return true;
+    } }
+?>	

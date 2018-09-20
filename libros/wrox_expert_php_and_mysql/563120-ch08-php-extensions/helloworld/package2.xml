@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<package version="2.0" xmlns="http://pear.php.net/dtd/package-2.0"
+    xmlns:tasks="http://pear.php.net/dtd/tasks-1.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+http://pear.php.net/dtd/tasks-1.0.xsd
+http://pear.php.net/dtd/package-2.0
+http://pear.php.net/dtd/package-2.0.xsd">
+
+  <name>helloworld</name>
+  <channel>pecl.php.net</channel>
+
+  <summary>A Hello World extension</summary>
+
+  <description>
+    This is a sample "Hello World" extension using
+    PeclCode_Gen for the book Expert PHP and MySQL.
+  </description>
+
+  <lead>
+    <name>Andrew Curioso</name>
+    <user>unknown</user>
+    <email>andrew@example.com</email>
+    <active>yes</active>
+  </lead>
+
+  <date>2009-10-12</date>
+  <version>
+    <release>0.1</release>
+    <api>0.1</api>
+  </version>
+  <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+  </stability>
+
+  <license uri="http://php.net/license" filesource="LICENSE">PHP</license>
+
+  <notes>
+      First version of this software for the book
+      Expert PHP and MYSQL. 
+
+  </notes>
+
+  <contents>
+    <dir name="/">
+      <file role='doc' name='EXPERIMENTAL'/>
+      <file role='doc' name='CREDITS'/>
+      <file role='src' name='config.m4'/>
+      <file role='src' name='helloworld.dsp'/>
+      <file role='src' name='config.w32'/>
+      <file role='src' name='helloworld.c'/>
+      <file role='src' name='php_helloworld.h'/>
+      <dir name="tests">
+        <file role='test' name='SimpleGreeter__sayGreeting.phpt'/>
+        <file role='test' name='ComplexGreeter__arraySay.phpt'/>
+        <file role='test' name='ComplexGreeter__mysqliSay.phpt'/>
+      </dir>
+    </dir>
+  </contents>
+
+  <dependencies>
+    <required>
+      <php>
+        <min>5.1.0rc1</min>
+      </php>
+      <pearinstaller>
+        <min>1.4.0a1</min>
+      </pearinstaller>
+    <extension><name>standard</name><extension>
+    </required>
+    <optional>
+    <extension><name>mysqli</name><extension>
+    </optional>
+  </dependencies>
+
+  <providesextension>helloworld</providesextension>
+
+  <extsrcrelease/>
+
+</package>

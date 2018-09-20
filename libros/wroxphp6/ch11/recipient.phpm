@@ -1,0 +1,6 @@
+<?php
+interface Recipient {
+   public function isValid();
+   public function getStringRepresentation();
+}
+?>

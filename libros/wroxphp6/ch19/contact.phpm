@@ -1,0 +1,9 @@
+<?php
+class ContactVisit {
+
+    function __construct ($results) { }
+    public function isValid() { return null; }
+    public function persist() { }
+    public function getSequence() { return null; }
+}
+?>

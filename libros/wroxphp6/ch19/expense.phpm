@@ -1,0 +1,7 @@
+<?php
+class TravelExpenseItem {
+    public function isValid() { }
+
+    public function persist() { }
+}
+?>

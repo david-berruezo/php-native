@@ -1,0 +1,28 @@
+<html>
+<head>
+<script src='http://code.jquery.com/jquery.js'></script>
+<title>Quick jQuery example</title>
+</head>
+<body>
+<p class="target">click on me!</p>
+<p class="target">click on me!</p>
+<p class="target">click on me!</p>
+
+<script type="text/javascript">
+$('p.target')
+    .css( { background:'#eef', border: '1px solid red' } )
+    .click(function(){
+    $(this)
+        .css('background','#aaf')
+        .animate(
+            { width:'300px', borderWidth:'30px', marginLeft:'100px'},
+            2000,
+            function(){
+                $(this).fadeOut();
+            }
+        );
+    });
+</script>
+
+</body>
+</html>

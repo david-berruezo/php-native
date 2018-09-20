@@ -1,0 +1,3410 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgIGUldaGwAGVllaBwM="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{c.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(12),c={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(c.console=!0,o.indexOf("dev")!==-1&&(c.dev=!0),o.indexOf("nr_dev")!==-1&&(c.nrDev=!0))}catch(s){}c.nrDev&&i.on("internal-error",function(t){r(t.stack)}),c.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),c.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(c,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,o){try{d?d-=1:i("err",[o||new UncaughtException(t,e,n)])}catch(c){try{i("ierr",[c,(new Date).getTime(),!0])}catch(s){}}return"function"==typeof f&&f.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t){i("err",[t,(new Date).getTime()])}var i=t("handle"),a=t(13),c=t("ee"),s=t("loader"),f=window.onerror,u=!1,d=0;s.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(l){"stack"in l&&(t(5),t(4),"addEventListener"in window&&t(3),s.xhrWrappable&&t(6),u=!0)}c.on("fn-start",function(t,e,n){u&&(d+=1)}),c.on("fn-err",function(t,e,n){u&&(this.thrown=!0,o(n))}),c.on("fn-end",function(){u&&!this.thrown&&d>0&&(d-=1)}),c.on("internal-error",function(t){i("ierr",[t,(new Date).getTime(),!0])})},{}],3:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){c.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),c=t(14)(a),s=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){if(t[1]){var n=t[1];if("function"==typeof n){var r=s(n,"nr@wrapped",function(){return c(n,"fn-",null,n.name||"anonymous")});this.wrapped=t[1]=r}else"function"==typeof n.handleEvent&&c.inPlace(n,["handleEvent"],"fn-")}}),a.on(d+"-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{}],4:[function(t,e,n){var r=t("ee").get("raf"),o=t(14)(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],5:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t(14)(i),c="setTimeout",s="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[c,"setImmediate"],c+d),a.inPlace(window,[s],s+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(s+u,r),i.on(c+u,o)},{}],6:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",c)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,v,"fn-",c)}function i(t){y.push(t),h&&(w=-w,x.data=w)}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function c(t,e){return e}function s(t,e){for(var n in t)e[n]=t[n];return e}t(3);var f=t("ee"),u=f.get("xhr"),d=t(14)(u),l=NREUM.o,p=l.XHR,h=l.MO,m="readystatechange",v=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var g=window.XMLHttpRequest=function(t){var e=new p(t);try{u.emit("new-xhr",[e],e),e.addEventListener(m,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(s(p,g),g.prototype=p.prototype,d.inPlace(g.prototype,["open","send"],"-xhr-",c),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var w=1,x=document.createTextNode(w);new h(a).observe(x,{characterData:!0})}else f.on("fn-end",function(t){t[0]&&t[0].type===m||a()})},{}],7:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<d;r++)t.removeEventListener(u[r],this.listener,!1);if(!e.aborted){if(n.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=o(t,this.lastSize);if(i&&(n.rxSize=i),this.sameOrigin){var a=t.getResponseHeader("X-NewRelic-App-Data");a&&(e.cat=a.split(", ").pop())}}else e.status=0;n.cbTime=this.cbTime,f.emit("xhr-done",[t],t),c("xhr",[e,n,this.startTime])}}}function o(t,e){var n=t.responseType;if("json"===n&&null!==e)return e;var r="arraybuffer"===n||"blob"===n||"json"===n?t.response:t.responseText;return h(r)}function i(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var a=t("loader");if(a.xhrWrappable){var c=t("handle"),s=t(8),f=t("ee"),u=["load","error","abort","timeout"],d=u.length,l=t("id"),p=t(11),h=t(10),m=window.XMLHttpRequest;a.features.xhr=!0,t(6),f.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,p&&(p>34||p<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),f.on("open-xhr-start",function(t){this.params={method:t[0]},i(this,t[1]),this.metrics={}}),f.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),f.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=h(r);i&&(n.txSize=i)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{f.emit("internal-error",[n])}catch(r){}}};for(var a=0;a<d;a++)e.addEventListener(u[a],this.listener,!1)}),f.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),f.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),f.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),f.on("addEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-added",[t[1],t[2]],e)}),f.on("removeEventListener-end",function(t,e){e instanceof m&&"load"===t[0]&&f.emit("xhr-load-removed",[t[1],t[2]],e)}),f.on("fn-start",function(t,e,n){e instanceof m&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),f.on("fn-end",function(t,e){this.xhrCbStart&&f.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{}],8:[function(t,e,n){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],9:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[(new Date).getTime()].concat(c(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(12),c=t(13),s=t("ee").get("tracer"),f=NREUM;"undefined"==typeof window.newrelic&&(newrelic=f);var u=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit"],d="api-",l=d+"ixn-";a(u,function(t,e){f[e]=o(d+e,!0,"api")}),f.addPageAction=o(d+"addPageAction",!0),e.exports=newrelic,f.interaction=function(){return(new r).get()};var p=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[Date.now(),t,n],r),function(){if(s.emit((o?"":"no-")+"fn-start",[Date.now(),r,o],n),o)try{return e.apply(this,arguments)}finally{s.emit("fn-end",[Date.now()],n)}}}};a("setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){p[e]=o(l+e)}),newrelic.noticeError=function(t){"string"==typeof t&&(t=new Error(t)),i("err",[t,(new Date).getTime()])}},{}],10:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],11:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],12:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],13:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],14:[function(t,e,n){function r(t){return!(t&&"function"==typeof t&&t.apply&&!t[a])}var o=t("ee"),i=t(13),a="nr@original",c=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,n,o){function nrWrapper(){var r,a,c,s;try{a=this,r=i(arguments),c="function"==typeof n?n(r,a):n||{}}catch(u){d([u,"",[r,a,o],c])}f(e+"start",[r,a,o],c);try{return s=t.apply(a,r)}catch(l){throw f(e+"err",[r,a,l],c),l}finally{f(e+"end",[r,a,s],c)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,u(t,nrWrapper),nrWrapper)}function n(t,n,o,i){o||(o="");var a,c,s,f="-"===o.charAt(0);for(s=0;s<n.length;s++)c=n[s],a=t[c],r(a)||(t[c]=e(a,f?c+o:o,i,c))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)c.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),e.inPlace=n,e.flag=a,e}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?c(t,a,i):i()}function n(n,r,o){t&&t(n,r,o);for(var i=e(o),a=l(n),c=a.length,s=0;s<c;s++)a[s].apply(i,r);var u=f[v[n]];return u&&u.push([y,n,r,i]),i}function d(t,e){m[t]=l(t).concat(e)}function l(t){return m[t]||[]}function p(t){return u[t]=u[t]||o(n)}function h(t,e){s(t,function(t,n){e=e||"feature",v[n]=e,e in f||(f[e]=[])})}var m={},v={},y={on:d,emit:n,get:p,listeners:l,context:e,buffer:h};return y}function i(){return new r}var a="nr@context",c=t("gos"),s=t(12),f={},u={},d=e.exports=o();d.backlog=f},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!w++){var t=g.info=NREUM.info,e=u.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(v,function(e,n){t[e]||(t[e]=n)});var n="https"===m.split(":")[0]||t.sslForHttp;g.proto=n?"https://":"http://",c("mark",["onload",a()],null,"api");var r=u.createElement("script");r.src=g.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function o(){"complete"===u.readyState&&i()}function i(){c("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var c=t("handle"),s=t(12),f=window,u=f.document,d="addEventListener",l="attachEvent",p=f.XMLHttpRequest,h=p&&p.prototype;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:p,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},t(9);var m=""+location,v={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-974.min.js"},y=p&&h&&h[d]&&!/CriOS/.test(navigator.userAgent),g=e.exports={offset:a(),origin:m,features:{},xhrWrappable:y};u[d]?(u[d]("DOMContentLoaded",i,!1),f[d]("load",r,!1)):(u[l]("onreadystatechange",o),f[l]("onload",r)),c("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader",2,7]);</script>
+    <title>ferreteria.es | ferretería online</title>
+    <meta name="description" content="Ferreteria online. Expertos en ferretería, herramientas, artículos para el hogar y jardín. ¡Envíos rápidos a toda España! Tu ferretería online de confianza."/>
+    <meta name="keywords" content="Ferretería, hogar, herramientas, maquinaria, muebles de jardín, barbacoas, carros de la compra, camping y playa, cubos de basura"/>
+    <meta name="robots" content="INDEX,FOLLOW"/>
+    <link rel="icon" href="https://ferreteria.es/media/favicon/default/favicon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="https://ferreteria.es/media/favicon/default/favicon.png" type="image/x-icon"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <!---<link href='//www.trustivity.es/css/style_widget_trustivity.css' rel='stylesheet' type='text/css' /> --->
+    <meta name="DC.title" content="Tu ferretería online - ferretria.es" />
+    <meta name="DC.creator" content="Ferretria.es" />
+    <meta name="DC.subject" content="Tu ferretería online - ferreteria.es" />
+    <meta name="DC.publisher" content="ferreteria.es" />
+    <meta name="DC.contributor" content="ferreteria.es" />
+    <meta name="DC.type" content="tienda online" />
+    <meta name="DC.identificier" content="http://ferreteria.es" />
+    <meta name="DC.language" content="es" />
+    <meta name="DC. Rights" content="Copyright © 2013 ferreteria.es" />
+    <META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=utf-8">
+    <meta name="distribution" content="Global" />
+    <!--[if lt IE 7]>
+    <script type="text/javascript">
+        //<![CDATA[
+    var BLANK_URL = 'https://ferreteria.es/js/blank.html';
+    var BLANK_IMG = 'https://ferreteria.es/js/spacer.gif';
+//]]>
+</script>
+<![endif]-->
+    <script type="text/javascript">
+        var ADAPT_CONFIG = {
+            path: "https://ferreteria.es/skin/frontend/default/galaelectronues/css/",
+            dynamic: true,
+            range: [
+                '0px    to 760px  = mobile.css',
+                '760px  to 980px  = 720.css',
+                '980px  to 1200px = 960.css',
+                '1200px = 1200.css'
+                // '1600px to 1920px = 1560.css',
+                // '1940px to 2540px = 1920.css',
+                // '2540px           = 2520.css'
+            ]
+        };
+    </script>
+    <link rel="stylesheet" type="text/css" href="https://ferreteria.es/media/css/dff8e3f63a2b2a2e985112a985d6d25c-ssl.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="https://ferreteria.es/media/css/d449b3fdd2ba73d26bef0a2588dbf3d0-ssl.css" media="print" />
+    <script type="text/javascript" src="https://ferreteria.es/media/js/7ef291af2c7a9e9b729f223d6da7f853.js"></script>
+    <link href="https://ferreteria.es/rss/catalog/new/store_id/1/" title="Nuevos productos" rel="alternate" type="application/rss+xml" />
+    <link href="https://ferreteria.es/rss/catalog/special/store_id/1/cid/0/" title="Productos especiales" rel="alternate" type="application/rss+xml" />
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" type="text/css" href="https://ferreteria.es/media/css/2a03bd3d9be0d30cc8f7c0344ad4ab80-ssl.css" media="all" />
+    <script type="text/javascript" src="https://ferreteria.es/media/js/6e30f27996b7ad02c68ead7630d9208f.js"></script>
+    <![endif]-->
+    <!--[if lt IE 7]>
+    <script type="text/javascript" src="https://ferreteria.es/media/js/db485a688430f182d6a95ce2512f5c82.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+        //<![CDATA[
+        Mage.Cookies.path     = '/';
+        Mage.Cookies.domain   = '.ferreteria.es';
+        //]]>
+    </script>
+    <link rel="stylesheet" id="emcssvariation" type="text/css" href="https://ferreteria.es/skin/frontend/default/galaelectronues/css/theme.css.php?general_color=&amp;primary_color=&amp;secondary_color=&amp;secondary2_color=rgba%28238%2C133%2C38%2C1.00%29&amp;secondary3_color=&amp;negative_color=&amp;line_color=&amp;secondary_line_color=&amp;primary_bgcolor=&amp;secondary_bgcolor=&amp;page_bg_image=&amp;general_font=&amp;h1_font=&amp;h2_font=&amp;h3_font=&amp;h4_font=&amp;h5_font=&amp;h6_font=&amp;box_shadow=&amp;rounded_corner=&amp;additional_css_file=&amp;button1=&amp;button2=&amp;button3=&amp;button4="></link>
+    <!--[if lt IE 9]>
+    <script type="text/javascript">
+        (function() {
+            var el = document.getElementById('emcssvariation');
+            el.parentNode.removeChild(el);
+        })();
+    </script>
+    <link rel="stylesheet" id="emcssvariation" type="text/css" href="https://ferreteria.es/skin/frontend/default/galaelectronues/css/theme.css.php?ie=1&general_color=&amp;primary_color=&amp;secondary_color=&amp;secondary2_color=rgba%28238%2C133%2C38%2C1.00%29&amp;secondary3_color=&amp;negative_color=&amp;line_color=&amp;secondary_line_color=&amp;primary_bgcolor=&amp;secondary_bgcolor=&amp;page_bg_image=&amp;general_font=&amp;h1_font=&amp;h2_font=&amp;h3_font=&amp;h4_font=&amp;h5_font=&amp;h6_font=&amp;box_shadow=&amp;rounded_corner=&amp;additional_css_file=&amp;button1=&amp;button2=&amp;button3=&amp;button4="></link>
+    <![endif]-->
+
+
+
+    <script type="text/javascript">
+        EM_Theme.PRODUCTSGRID_ITEM_WIDTH = 175;
+        EM_Theme.PRODUCTSGRID_ITEM_SPACING = 25;
+        EM_Theme.CROSSSELL_ITEM_WIDTH = 250;
+        EM_Theme.CROSSSELL_ITEM_SPACING = 90;
+        EM_Theme.UPSELL_ITEM_WIDTH = 250;
+        EM_Theme.UPSELL_ITEM_SPACING = 90;
+        EM_Theme.AJAXCART_AUTOCLOSE = 10;
+    </script>
+
+    <style type="text/css">
+    </style>
+
+    <script type="text/javascript">
+        //<![CDATA[
+        var urlSkinsite = 'https://ferreteria.es/skin/frontend/default/galaelectronues/';
+        LightboxOptions = Object.extend({
+            fileLoadingImage:        urlSkinsite+'images/loading.gif',
+            fileBottomNavCloseImage: urlSkinsite+'images/closelabel.png',
+
+            overlayOpacity: 0.8,   // controls transparency of shadow overlay
+
+            animate: true,         // toggles resizing animations
+            resizeSpeed: 7,        // controls the speed of the image resizing animations (1=slowest and 10=fastest)
+
+            borderSize: 10,         //if you adjust the padding in the CSS, you will need to update this variable
+
+            // When grouping images this is used to write: Image # of #.
+            // Change it for non-english localization
+            labelImage: "Image",
+            labelOf: "of"
+        }, window.LightboxOptions || {});
+        //]]>
+    </script>
+    <script type="text/javascript">
+        //<![CDATA[
+        optionalZipCountries = [];
+        //]]>
+    </script>
+    <script type='text/javascript'>
+        !function(a,q,r,d,e,l,o){ if(a.aqr)return; e = a.aqr = function(){ e.callMethod? e.callMethod.apply(e,arguments):e.queue.push(arguments)};if(!a._aqr)a._aqr=e; e.push=e;e.loaded=!0;e.version="1.0";e.queue=[];o=q.getElementsByTagName(r); e.domo=o[o.length-1];l=q.createElement(r);l.async=!0;l.src=d;l.id='aqr-button'; o[0].parentNode.insertBefore(l,o[0]);}(window,document,'script','//b2b.acuerdalo.com/api/button.js?afid=8f2595a3-2ea2-478f-ae85-0f9f7d355e97&lang=es');
+    </script>
+    <script type="text/javascript">
+
+        /**
+         * Google Analytics Enhanced Ecommerce - Web Tracking for Magento
+         * @copyright Anowave
+         * @version 1.0
+         */
+        var EA = [], Purchase = [], AEA = {}
+
+        window.G = [];
+
+        AEA.ajax = function(context,ga)
+        {
+            var element = jQuery(context), qty = jQuery(':radio[name=qty]:checked, :text[name=qty], select[name=qty]').eq(0).val();
+
+            if (element.data('grouped'))
+            {
+                for (u = 0, y = window.G.length; u < y; u++)
+                {
+                    var qty = Math.abs(jQuery('[name="super_group[' + window.G[u].id + ']"]').val());
+
+                    if (qty)
+                    {
+                        ga('ec:addProduct',
+                                {
+                                    'id': 			window.G[u].id,
+                                    'name': 		window.G[u].name,
+                                    'category': 	window.G[u].category,
+                                    'price': 		window.G[u].price,
+                                    'quantity': 	qty
+                                });
+
+                        ga('ec:setAction', 'add');
+                        ga('send', 'event', 'UX', 'click', 'Add To Cart');
+                    }
+                }
+
+                return productAddToCartForm.submit(context);
+            }
+            else
+            {
+                if (element.data('options'))
+                {
+                    var options = element.data('options').toString().split(String.fromCharCode(44));
+
+                    for (var i = 0, l = options.length; i < l; i++)
+                    {
+                        var option = jQuery('[name="options[' + options[i].toString() + ']"]');
+
+                        if (!option.is(':checked'))
+                        {
+                            return productAddToCartForm.submit(context);
+                        }
+                    }
+                }
+
+                ga('ec:addProduct',
+                        {
+                            'id': 			element.data('id'),
+                            'name': 		element.data('name'),
+                            'category': 	element.data('category'),
+                            'variant': 		element.data('variant'),
+                            'price': 		element.data('price'),
+                            'quantity': 	qty
+                        });
+
+                ga('ec:setAction', 'add');
+                ga('send', 'event', 'UX', 'click', 'Add To Cart');
+            }
+
+            return productAddToCartForm.submit(context);
+        }
+
+        AEA.remove = function(context, ga)
+        {
+            var element = jQuery(context);
+
+            if (confirm('Are you sure you would like to remove this item from the shopping cart?'))
+            {
+                ga('ec:addProduct',
+                        {
+                            'id': 			element.data('id'),
+                            'name': 		element.data('name'),
+                            'category': 	element.data('category'),
+                            'price': 		element.data('price'),
+                            'quantity': 	element.data('quantity')
+                        });
+
+                ga('ec:setAction', 'remove');
+                ga('send', 'event', 'UX', 'click', 'Remove From Cart');
+
+                return true;
+            }
+
+            return false;
+        }
+
+        AEA.click = function(context,ga)
+        {
+            var element = jQuery(context);
+
+            ga('ec:addProduct',
+                    {
+                        'id': 			element.data('id'),
+                        'name': 		element.data('name'),
+                        'price':		element.data('price'),
+                        'category': 	element.data('category'),
+                        'quantity': 	element.data('quantity'),
+                        'position':		element.data('position')
+                    });
+
+            ga('ec:setAction', 'click',
+                    {
+                        list: 'Results'
+                    });
+
+            ga('send', 'event', 'UX', 'click', 'Results',
+                    {
+                        'hitCallback': function()
+                        {
+                            document.location = element.attr('href');
+
+                            return true;
+                        }
+                    });
+
+            return !ga.loaded;
+        }
+
+        AEA.placeOrder = function(context, review)
+        {
+            return true;
+        }
+
+        /**
+         * EC Purchase
+         *
+         */
+
+    </script><script type="text/javascript">
+    var devMode = false;
+    var dropCookie = true;
+    var cookieDuration = 90;
+    var cookieName = 'complianceCookie';
+    var cookieValue = 'on';
+    var css = '#cookie-law { background:#f7f7f7; }#cookie-law p { padding:5px 0; }';
+    var privacyUrl = 'https://ferreteria.es/politica-de-cookies/';
+    var privacyMessage = 'Este sitio web utiliza cookies, tanto propias como de terceros para recopilar información estadística sobre su navegación y mostrarle publicidad relacionada con sus preferencias, generada a partir de sus pautas de navegación. Si continua navegando, consideramos que acepta su uso.  Más información en ';
+    var privacyLinkText = 'Política de Cookies';
+    var fadeOutTime = 0;
+
+    window.onload = function(){
+        if(checkCookie(window.cookieName) != window.cookieValue){
+            createDiv();
+        } else
+        {
+            if (devMode)
+                createDiv();
+        }
+    }
+</script>
+    <script type="text/javascript">
+        /* TODO: Add logic here */
+    </script><script type="text/javascript">
+    //<![CDATA[
+    window.EM_QUICKSHOP_DISABLED = true;
+
+    if (typeof EM == 'undefined') EM = {};
+    EM.QuickShop = {
+        BASE_URL : 'https://ferreteria.es/',
+        QS_FRM_TYPE : 1,
+        QS_FRM_WIDTH : 960,
+        QS_FRM_HEIGHT : 650,
+        QS_TEXT: 'COMPRA RÁPIDA'
+    };
+    if(EM.QuickShop.QS_FRM_TYPE == 0 ){
+        EM.QuickShop.QS_FRM_WIDTH = EM.QuickShop.QS_FRM_WIDTH + "%";
+        EM.QuickShop.QS_FRM_HEIGHT = EM.QuickShop.QS_FRM_HEIGHT + "%";
+    }
+
+    //]]
+</script>
+    <script type="text/javascript">
+        etCurrencyManagerJsConfig={"precision":2,"position":16,"display":2,"input_admin":1,"excludecheckout":"1","cutzerodecimal":"0","cutzerodecimal_suffix":",- "}</script>
+
+    <script type="text/javascript">//<![CDATA[
+    var Translator = new Translate({"Please select an option.":"Por favor, seleccione una opci\u00f3n.","This is a required field.":"Campo requerido.","Please enter a valid number in this field.":"Por favor, escriba un n\u00famero v\u00e1lido en este campo.","Please use numbers only in this field. Please avoid spaces or other characters such as dots or commas.":"En este campo s\u00f3lo se pueden escribir n\u00fameros. Evita los espacios en blanco u otros caracteres, como los puntos o las comas, por ejemplo.","Please use letters only (a-z or A-Z) in this field.":"Por favor, utilice s\u00f3lo letras (a-z o A-Z) en este campo.","Please use only letters (a-z), numbers (0-9) or underscore(_) in this field, first character should be a letter.":"Por favor, use s\u00f3lo letras (a-z), n\u00fameros (0-9) o guiones bajos(_) en este campo. El primer car\u00e1cter debe ser una letra.","Please use only letters (a-z or A-Z) or numbers (0-9) only in this field. No spaces or other characters are allowed.":"Por favor, utiliza s\u00f3lo letras (a-z o A-Z) o n\u00fameros (0-9) en este campo. No est\u00e1n permitidos los espacios u otros caracteres.","Please enter a valid phone number. For example (123) 456-7890 or 123-456-7890.":"Por favor, escriba un n\u00famero de tel\u00e9fono v\u00e1lido.","Please enter a valid date.":"Por favor, escriba una fecha v\u00e1lida.","Please enter a valid email address. For example johndoe@domain.com.":"Por favor, escriba una direcci\u00f3n de correo v\u00e1lida. Por ejemplo perez@dominio.com","Please enter 6 or more characters. Leading or trailing spaces will be ignored.":"Por favor, escriba 6 o m\u00e1s caracteres. Los espacios al principio y al final ser\u00e1n ignorados.","Please make sure your passwords match.":"Aseg\u00farese de que sus contrase\u00f1as coinciden.","Please enter a valid URL. Protocol is required (http:\/\/, https:\/\/ or ftp:\/\/)":"Por favor, introduce una URL v\u00e1lida. Es necesario el protocolo (http:\/\/, https:\/\/ or ftp:\/\/)","Please enter a valid URL. For example http:\/\/www.example.com or www.example.com":"Por favor, escriba una URL v\u00e1lida. Por ejemplo http:\/\/www.ejemplo.com o www.ejemplo.com","Please enter a valid social security number. For example 123-45-6789.":"Por favor, escriba un n\u00famero v\u00e1lido de seguridad social.","Please enter a valid zip code. For example 90602 or 90602-1234.":"Por favor, escriba un c\u00f3digo postal v\u00e1lido.","Please enter a valid zip code.":"Por favor, escriba un c\u00f3digo postal v\u00e1lido.","Please use this date format: dd\/mm\/yyyy. For example 17\/03\/2006 for the 17th of March, 2006.":"Por favor, use este formato de fecha: dd\/mm\/aaaa. Por ejemplo, 17\/03\/2006 para 17 de marzo de 2006.","Please enter a valid $ amount. For example $100.00.":"Por favor, escriba un importe v\u00e1lido.","Please select one of the above options.":"Por favor, seleccione una de las opciones arriba.","Please select one of the options.":"Por favor, seleccione una de las opciones.","Please select State\/Province.":"Por favor, seleccione Estado\/Provincia","Please enter a number greater than 0 in this field.":"Por favor, escriba un n\u00famero mayor que 0 en este campo.","Please enter a valid credit card number.":"Por favor, escriba un n\u00famero de tarjeta de cr\u00e9dito v\u00e1lido.","Please wait, loading...":"Por favor, espere. Cargando...","Complete":"Completa","Add Products":"A\u00f1adir productos","Please choose to register or to checkout as a guest":"Por favor, elija registrarse o comprar como invitado","Your order cannot be completed at this time as there is no shipping methods available for it. Please make necessary changes in your shipping address.":"No se puede completar el pedido porque no hay m\u00e9todos de env\u00edo disponibles. Por favor, haz los cambios necesarios en la direcci\u00f3n de env\u00edo.","Please specify payment method.":"Por favor, especifique forma de pago.","Your order cannot be completed at this time as there is no payment methods available for it.":"No se puede completar el pedido porque no hay m\u00e9todos de pago disponibles."});
+    //]]></script><meta name="alexaVerifyID" content="i9cx5m80C8Tdq-V7VFbnfVn7ZxI"/>
+
+
+    <script type="text/javascript">
+        (function() {
+            var po = document.createElement("script"); po.type = "text/javascript"; po.async = true;
+            po.src = "https://apis.google.com/js/plusone.js?publisherid=107950856403353834474";
+            var s = document.getElementsByTagName("script")[0]; s.parentNode.insertBefore(po, s);
+        })();
+    </script>
+    <!-- Doofinder starts here -->
+    <script type='text/javascript'>var doofinder_script = '//cdn.doofinder.com/media/js/doofinder-classic.latest.min.js';(function(d,t){var f=d.createElement(t),s=d.getElementsByTagName(t)[0];f.async=1;f.src=('https:'==location.protocol?'https:':'http:')+doofinder_script;s.parentNode.insertBefore(f,s)}(document,'script'));
+    var dfClassicLayers = [{
+        "queryInput": "#search",
+        "display": {
+            "center": true,
+            "width": "100%",
+            "facets": {
+                "attached": "left",
+                "width": "250px"
+            },
+            "lang": "es"
+        },
+        "zone": "eu1",
+        "hashid": "cc386d1f2cd4be190c834aa8525a5e47"
+    }];
+    </script>
+    <!-- End doofinder -->
+    <script type="text/javascript">
+
+        if(typeof(jQuery) != 'undefined'){
+            jQuery(function($) {
+                // Link Cart
+
+                $('#topcartlink')
+                        .bind('mouseover', showCart)
+                        .bind('click', showCart)
+                        .bind('mouseout', hideCart);
+
+                // Cart Content
+                $('#top_cart')
+                        .bind('mouseover', showCart)
+                        .bind('click', showCart)
+                        .bind('mouseout', hideCart);
+
+                // Hide Cart
+                var timeout = null;
+                function hideCart() {
+                    if (timeout)
+                        clearTimeout(timeout);
+                    timeout = setTimeout(function() {
+                        timeout = null;
+                        $('#top_cart').slideUp();
+                        $('#topcartlink').removeClass('over');
+                    }, 200);
+                }
+
+                // Show Cart
+                function showCart() {
+                    if (timeout)
+                        clearTimeout(timeout);
+                    timeout = setTimeout(function() {
+                        timeout = null;
+                        $('#top_cart').slideDown();
+                        $('#topcartlink').addClass('over');
+                    }, 200);
+                }
+
+                var timeoutremove = null;
+                function hideCartRemove() {
+                    if (timeoutremove)
+                        clearTimeout(timeoutremove);
+                    timeoutremove = setTimeout(function() {
+                        timeoutremove = null;
+                        $('#top_cart').slideUp();
+                        $('#topcartlink').removeClass('over');
+                    }, 200);
+                }
+
+                // Link Login
+                $('#login-link')
+                        .bind('mouseover', showAccount)
+                        .bind('click', showAccount)
+                        .bind('mouseout', hideAccount);
+
+                // form login
+                $('#login-form-header')
+                        .bind('mouseover', showAccount)
+                        .bind('click', showAccount)
+                        .bind('mouseout', hideAccount);
+
+                // Hide Login link
+                var timeoutaccount = null;
+                function hideAccount() {
+                    if (timeoutaccount)
+                        clearTimeout(timeoutaccount);
+                    timeoutaccount = setTimeout(function() {
+                        timeoutaccount = null;
+                        $('#login-form-header').slideUp();
+                        $('#login-link').removeClass('over');
+                    }, 200);
+                }
+
+                // Show login form
+                function showAccount() {
+                    if (timeoutaccount)
+                        clearTimeout(timeoutaccount);
+                    timeoutaccount = setTimeout(function() {
+                        timeoutaccount = null;
+                        $('#login-form-header').slideDown();
+                        $('#login-link').addClass('over');
+                    }, 200);
+                }
+
+            });
+        }
+    </script><script type="text/javascript">
+    /* TODO: Add logic here */
+</script></head>
+<body itemscope itemtype="http://schema.org/WebPage" id="product" class=" cms-index-index cms-galaelectronues-home">
+<script type="application/ld+json">
+    {  "@context" : "http://schema.org",
+       "@type" : "WebSite",
+       "name" : "ferreteria.es",
+       "alternateName" : "Tu ferreteria online"
+    }
+    </script>
+<div class="wrapper">
+    <noscript>
+        <div class="global-site-notice noscript">
+            <div class="notice-inner">
+                <p>
+                    <strong>JavaScript seems to be disabled in your browser.</strong><br />
+                    You must have JavaScript enabled in your browser to utilize the functionality of this website.                </p>
+            </div>
+        </div>
+    </noscript>
+    <div class="page">
+        <div class="container-header"><div class="container_24 "><div class="grid_24"><div class="header-container">
+            <div class="header">
+
+                <h1 class="logo"><strong>Tu ferreteria online - ferreteria.es</strong><a href="https://ferreteria.es/" title="Tu ferreteria online - ferreteria.es" class="logo"><img src="https://ferreteria.es/skin/frontend/default/galaelectronues/images/logo.png" alt="Tu ferreteria online - ferreteria.es" /></a></h1>
+                <div class="header-cms-blocks">
+                    <div class="header-cms-1"><p><span style="color: #ffffff;"><strong>Tu ferreter&iacute;a Online</strong></span></p>
+                        <p><span style="text-decoration: underline;"><a title="qui&eacute;nes somos" href="http://ferreteria.es/quienes-somos"><span style="color: #ff6600; text-decoration: underline;"><strong>UN</strong><span class="apple-converted-space"><strong>&nbsp;</strong></span><strong>SIGLO A TU SERVICIO</strong></span></a></span></p>
+                        <p><span style="color: #ffffff;">Expertos en Ferreter&iacute;a y Menaje</span></p></div>
+                    <div class="header-cms-2"><p><a title="Cont&aacute;ctanos" href="http://ferreteria.es/contacts"><img title="Contacto con ferreteria.es" src="https://ferreteria.es/media/wysiwyg/contacto_ferreteria.es.jpg" alt="Cont&aacute;ctanos" /></a>&nbsp;&nbsp;<a title="RSS" href="/rss"><img title="RSS" src="https://ferreteria.es/media/wysiwyg/rss.jpg" alt="" /></a></p></div>
+                </div>
+
+                <div class="quick-access" style="padding-right:10px;">
+
+                    <p class="welcome-msg hide-lte0 hide-lte1"> </p>
+                    <ul class="links">
+                        <li class="first last" >
+                            <a  href="https://ferreteria.es/customer/account/" title="Mi cuenta" id="j2t-toplink-login">Mi cuenta</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="top-container"><div class="widget widget-static-block ">
+                </div></div>    </div>
+        </div>
+            <p id="back-top"><a href="#top"></a></p></div><div class="grid_24 grid_search"><div class="dropdown-cart no_quickshop">
+            <div class="dropdown-cart-content">
+                <div class="dropdown-cart-content-top">
+                    <span class="icon cart">icon</span>
+                    <div class="block block-cart-top">
+                        <div class="block-content">
+
+                            <div class="summary">
+                                <p class="empty"><a href="https://ferreteria.es/checkout/cart/">Mi carrito (0)</a></p>
+                            </div>
+
+
+                            <div class="cart-popup" style="display:none">
+                                <div class="cart-popup-content">
+                                    <p class="block-subtitle">
+                                        No tienes artículos en tu cesta de la compra.													</p>
+                                    <script type="text/javascript">//<![CDATA[
+                                    jQuery(function($) {
+                                        // hide dropdown cart when click on icon cart (mobile only)
+                                        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+                                            $('.dropdown-cart').unbind('click');
+                                            $('.dropdown-cart').click(function () {
+                                                $('.cart-popup').slideToggle();
+                                            });
+                                        } else {
+                                            var tm;
+                                            function show(el) {
+                                                clearTimeout(tm);
+                                                tm = setTimeout(function() {
+                                                    el.slideDown();
+                                                }, 200);
+                                            }
+                                            function hide(el) {
+                                                clearTimeout(tm);
+                                                tm = setTimeout(function() {
+                                                    el.slideUp();
+                                                }, 200);
+                                            }
+                                            $('.dropdown-cart')
+                                                    .bind('mouseenter', show.curry($('.cart-popup', this)))
+                                                    .bind('mouseleave', hide.curry($('.cart-popup', this)))
+                                                    .find('.cart-popup').slideUp();
+                                        }
+                                    });
+                                    //]]>
+                                    </script>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><form id="search_mini_form" action="https://ferreteria.es/catalogsearch/result/" method="get">
+            <div class="form-search">
+                <label for="search">Buscar:</label>
+                <div class="input_search">
+                    <input id="search" type="text" name="q" value="" class="input-text" maxlength="225" />
+                    <button type="submit" title="Buscar" class="button"><span><span>Buscar</span></span></button>
+                    <div id="search_autocomplete" class="search-autocomplete"></div>
+                    <script type="text/javascript">
+                        //<![CDATA[
+                        var searchForm = new Varien.searchForm('search_mini_form', 'search', 'Encuentra más de 30.000 artículos aquí...');
+                        searchForm.initAutocomplete('https://ferreteria.es/catalogsearch/ajax/suggest/', 'search_autocomplete');
+                        //]]>
+                    </script>
+                </div>
+            </div>
+        </form></div><div class="clear"></div></div></div><div class="container_24 "><div class="clear"></div></div><div class="container_24 "><div class="grid_18 push_6 grid_content"><div class="std"><p><span style="color: #ffffff;">.</span></p></div>
+        <div class="widget widget-static-block ">
+            <p><span>
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="https://ferreteria.es/skin/frontend/base/default/responsiveslider/css/generic-nav.css" media="all">
+<link rel="stylesheet" type="text/css" href="https://ferreteria.es/skin/frontend/base/default/responsiveslider/css/grid12.css" media="all">
+<script type="text/javascript" src="https://ferreteria.es/skin/frontend/base/default/responsiveslider/js/jquery-1.js"></script>
+<script type="text/javascript" src="https://ferreteria.es/skin/frontend/base/default/responsiveslider/js/jquery-noconflict.js"></script>
+<script type="text/javascript" src="https://ferreteria.es/skin/frontend/base/default/responsiveslider/js/jquery_004.js"></script>
+<script type="text/javascript" src="https://ferreteria.es/skin/frontend/base/default/responsiveslider/js/jquery_003.js"></script>
+
+                <!-- BEGIN GOOGLE ANALYTICS CODEs -->
+
+
+<div class="the-slideshow-wrapper nested-container clearer">
+    <div style="height: 5px;" class="the-slideshow gen-slider-arrows2 gen-slider-pager1 gen-slider-pager1-pos-bottom-right grid12-9  ">
+
+        <ul class="slides">
+            <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;" class="slide">
+                <a href="https://ferreteria.es/vuelta-al-cole.html">
+                    <img src="https://ferreteria.es/media/responsivebannerslider/responsivebannerslider/vuelta_al_cole_3.jpg" alt="Vuelta al cole" title="Vuelta al cole">
+                    <div class="caption dark3">
+                        <h2><p><span style="color: #000000; font-size: medium;"><strong>Vuelta al cole<span style="color: #ff6600;"> Aprovéchate ya de nuestras ofertas</span></strong></span></p></h2>
+        </div>
+        <div class="caption dark1 top-right">
+            <h2></h2>
+        </div>
+        </a></li>
+
+        <li style="width: 100%; float: left; margin-right: -100%; position: relative; display: none;" class="slide">
+            <a href="https://ferreteria.es/puntos-de-fidelidad">
+                <img src="https://ferreteria.es/media/responsivebannerslider/responsivebannerslider/fidelidad.jpg" alt="Puntos de fidelidad" title="Puntos de fidelidad">
+                <div class="caption dark3">
+                    <h2><p><span style="color: #000000; font-size: medium;"><strong>Puntos de fidelidad<span style="color: #ff6600;"> Te devolvemos el 3% de tus compras en DINERO</span></strong></span></p></h2>
+                </div>
+                <div class="caption dark1 top-right">
+                    <h2></h2>
+                </div>
+            </a></li>
+
+        </ul>
+
+    </div>
+    </div>
+
+        <!-- BEGIN GOOGLE ANALYTICS CODEs -->
+
+        <script type="text/javascript">
+            //<![CDATA[
+            //jQuery(function($) {
+            responsivemks = jQuery.noConflict();
+            responsivemks(window).load(function(){
+                responsivemks('.the-slideshow').flexslider({
+                    namespace:"",
+                    animation:'fade',
+                    easing:'easeInOutCirc',
+                    useCSS:	false,
+                    animationLoop:1,
+                    smoothHeight: true,
+                    slideshowSpeed:4000,
+                    animationSpeed:	600,
+                    pauseOnHover:1});
+            });
+            //]]>
+        </script>
+
+
+
+
+
+
+
+
+
+        </span></p>
+        <p>	<div class="home-category-box">
+        <div class="box novedades">
+            <div class="widget-title">
+                <h2><span>CATEGORIAS</span></h2>
+            </div>
+            <div class="widget em-widget-new-products-grid">
+                <div class="widget-products">
+                    <!---->
+                    <ul class="products-grid">
+                        <li class="item first">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/sartenes.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/sartenes_1.jpg"  style="width:100%" alt="Sartenes"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/sartenes.html">Sartenes</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/ollas-y-cacerolas.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/ollas_y_cacerolas.jpg"  style="width:100%" alt="Ollas y cacerolas"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/ollas-y-cacerolas.html">Ollas y cacerolas</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/cubos-de-basura-y-reciclaje.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/cubos_de_basura_2.jpg"  style="width:100%" alt="Cubos de basura y reciclaje"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/cubos-de-basura-y-reciclaje.html">Cubos de basura y reciclaje</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/cuchillos-y-tijeras-de-cocina.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/cuchillos_y_tijeras_de_cocina_1.jpg"  style="width:100%" alt="Cuchillos y tijeras"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/cuchillos-y-tijeras-de-cocina.html">Cuchillos y tijeras</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/carros-verduleros.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/verduleros.jpg"  style="width:100%" alt="Verduleros"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/carros-verduleros.html">Verduleros</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item last">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/menaje-de-cocina.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/productos_de_cocina.jpg"  style="width:100%" alt="+ Menaje de cocina"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/menaje-de-cocina.html">+ Menaje de cocina</a></h2>
+                        </li>
+
+                    </ul>
+                    <!---->
+                    <ul class="products-grid">
+                        <li class="item first">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/muebles-de-jardin.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/muebles_de_jardin__1.jpg"  style="width:100%" alt="Muebles de jardín"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/muebles-de-jardin.html">Muebles de jardín</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/armarios-de-resina.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/armarios_de_resina_5.jpg"  style="width:100%" alt="Armarios de resina"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/armarios-de-resina.html">Armarios de resina</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/barbacoas.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/barbacoas_4.jpg"  style="width:100%" alt="Barbacoas"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/barbacoas.html">Barbacoas</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/piscinas.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/Piscinas_1.jpg"  style="width:100%" alt="Piscinas"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/piscinas.html">Piscinas</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/camping-y-playa.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/camping_y_playa_4.jpg"  style="width:100%" alt="Camping y playa"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/camping-y-playa.html">Camping y playa</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item last">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/jardin.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/productos_de_jardineria_1.jpg"  style="width:100%" alt="+ Jardinería"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/jardin.html">+ Jardinería</a></h2>
+                        </li>
+
+                    </ul>
+                    <!---->
+                    <ul class="products-grid">
+                        <li class="item first">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/carros-de-compra-y-bolsas.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/carros_de_compra_7.jpg"  style="width:100%" alt="Carros de compra"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/carros-de-compra-y-bolsas.html">Carros de compra</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/productos-de-bano.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/productos_de_bano.jpg"  style="width:100%" alt="Productos para el baño"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/productos-de-bano.html">Productos para el baño</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/ventilacion.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/ventiladores_1.jpg"  style="width:100%" alt="Ventilación"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/ventilacion.html">Ventilación</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/muebles.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/muebles_7.jpg"  style="width:100%" alt="Muebles"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/muebles.html">Muebles</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/tendederos.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/tendedero_1.jpg"  style="width:100%" alt="Tendederos"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/tendederos.html">Tendederos</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item last">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/hogar.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/productos_del_hogar_4.jpg"  style="width:100%" alt="+ Productos de hogar"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/hogar.html">+ Productos de hogar</a></h2>
+                        </li>
+
+                    </ul>
+                    <!---->
+                    <ul class="products-grid">
+                        <li class="item first">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/herramienta-manual.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/herramientas_manuales_2.jpg"  style="width:100%" alt="Herramientas manuales"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/herramienta-manual.html">Herramientas manuales</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/herramientas-electricas.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/herramientas_electricas_2.jpg"  style="width:100%" alt="Herramientas eléctricas"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/herramientas-electricas.html">Herramientas eléctricas</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/maquinaria.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/maquinaria_6.jpg"  style="width:100%" alt="Maquinaria"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/maquinaria.html">Maquinaria</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/escaleras-de-aluminio.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/escaleras_de_aluminio_1.jpg"  style="width:100%" alt="Escaleras de aluminio"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/escaleras-de-aluminio.html">Escaleras de aluminio</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/seguridad-infantil.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/seguridad_infantil_1.jpg"  style="width:100%" alt="Seguridad infantil"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/seguridad-infantil.html">Seguridad infantil</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item last">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/pinturas-y-esmaltes.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/pinturas_1.jpg"  style="width:100%" alt="Pinturas y esmaltes"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/pinturas-y-esmaltes.html">Pinturas y esmaltes</a></h2>
+                        </li>
+
+                    </ul>
+                    <!---->
+                    <ul class="products-grid">
+                        <li class="item first">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/vestuario-y-calzado-laboral.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/vestuario_y_calzado_laboral_4.jpg"  style="width:100%" alt="Vestuario y zapatos de seguridad"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/vestuario-y-calzado-laboral.html">Vestuario y zapatos de seguridad</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/cerraduras.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/cerraduras.jpg"  style="width:100%" alt="Cerraduras"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/cerraduras.html">Cerraduras</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/buzones.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/buzones_2.jpg"  style="width:100%" alt="Buzones"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/buzones.html">Buzones</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/ferreteria-industrial.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/ferreteria_industrial_2.jpg"  style="width:100%" alt="Ferreteria Industrial"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/ferreteria-industrial.html">Ferreteria Industrial</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/iluminacion.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/bombillas_e_iluminacion.jpg"  style="width:100%" alt="Iluminación y bombillas"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/iluminacion.html">Iluminación y bombillas</a></h2>
+                        </li>
+
+                        <!---->
+                        <li class="item last">
+                            <!--<li class="item" >-->
+                            <a href="https://ferreteria.es/ferreteria-y-bricolaje.html"  class="product-image"><img src="https://ferreteria.es/media/catalog/category/ferreteria_11.jpg"  style="width:100%" alt="+ Ferretería"/></a>
+                            <h2 class="product-name"><a href="https://ferreteria.es/ferreteria-y-bricolaje.html">+ Ferretería</a></h2>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="home-category-box">
+            <div class="box novedades">
+                <div class="widget-title"><h2><span>Marcas destacadas</span></h2></div>
+                <div class="widget em-widget-new-products-grid">
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/castey.html">
+                                <img src="https://ferreteria.es/media/catalog/category/Castey_1.jpg"
+                                     border="0"
+                                     alt="Castey" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/castey.html">Castey</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/carros-de-compra-y-bolsas/carros-de-compra-play.html">
+                                <img src="https://ferreteria.es/media/catalog/category/carro-play.jpg"
+                                     border="0"
+                                     alt="Carros de compra Playmarket" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/carros-de-compra-y-bolsas/carros-de-compra-play.html">Carros de compra Playmarket</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/carros-de-compra-y-bolsas/carros-de-compra-rolser.html">
+                                <img src="https://ferreteria.es/media/catalog/category/carro-rolser.jpg"
+                                     border="0"
+                                     alt="Carros de compra Rolser" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/carros-de-compra-y-bolsas/carros-de-compra-rolser.html">Carros de compra Rolser</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/bra.html">
+                                <img src="https://ferreteria.es/media/catalog/category/bra.jpg"
+                                     border="0"
+                                     alt="Bra" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/bra.html">Bra</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/cuchillos-arcos.html">
+                                <img src="https://ferreteria.es/media/catalog/category/cuchillos-arcos.jpg"
+                                     border="0"
+                                     alt="Cuchillos Arcos" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/cuchillos-arcos.html">Cuchillos Arcos</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/herramientas-stanley-fatmax.html">
+                                <img src="https://ferreteria.es/media/catalog/category/stanley_fatmax.jpg"
+                                     border="0"
+                                     alt="Herramientas Stanley FatMax" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/herramientas-stanley-fatmax.html">Herramientas Stanley FatMax</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/pinturas-titanlux.html">
+                                <img src="https://ferreteria.es/media/catalog/category/pintura_plastica_mate_titan_una_capa.jpg"
+                                     border="0"
+                                     alt="Titanlux" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/pinturas-titanlux.html">Titanlux</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/iris.html">
+                                <img src="https://ferreteria.es/media/catalog/category/productos_iris.jpg"
+                                     border="0"
+                                     alt="Iris" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/iris.html">Iris</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/valira.html">
+                                <img src="https://ferreteria.es/media/catalog/category/valira-ferreteria.es2.jpg"
+                                     border="0"
+                                     alt="Valira" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/valira.html">Valira</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/herramientas-bosch.html">
+                                <img src="https://ferreteria.es/media/catalog/category/herramientas-bosch.jpg"
+                                     border="0"
+                                     alt="Herramientas Bosch" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/herramientas-bosch.html">Herramientas Bosch</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/curver.html">
+                                <img src="https://ferreteria.es/media/catalog/category/curver_1.jpg"
+                                     border="0"
+                                     alt="Curver" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/curver.html">Curver</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/karcher.html">
+                                <img src="https://ferreteria.es/media/catalog/category/karcher_2.jpg"
+                                     border="0"
+                                     alt="Karcher" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/karcher.html">Karcher</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/gardena.html">
+                                <img src="https://ferreteria.es/media/catalog/category/gardena.jpg"
+                                     border="0"
+                                     alt="Programadores Gardena" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/gardena.html">Programadores Gardena</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/barbacoas-weber.html">
+                                <img src="https://ferreteria.es/media/catalog/category/weber-logo.jpg"
+                                     border="0"
+                                     alt="Barbacoas Weber" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/barbacoas-weber.html">Barbacoas Weber</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/bruguer.html">
+                                <img src="https://ferreteria.es/media/catalog/category/Logo_Bruguer.jpg"
+                                     border="0"
+                                     alt="Bruguer" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/bruguer.html">Bruguer</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/productos-compo.html">
+                                <img src="https://ferreteria.es/media/catalog/category/compo.jpg"
+                                     border="0"
+                                     alt="Productos Compo" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/productos-compo.html">Productos Compo</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/inofix.html">
+                                <img src="https://ferreteria.es/media/catalog/category/inofix.jpg"
+                                     border="0"
+                                     alt="Inofix" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/inofix.html">Inofix</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/herramientas-manuales-stanley.html">
+                                <img src="https://ferreteria.es/media/catalog/category/herramienta-stanley.jpg"
+                                     border="0"
+                                     alt="Herramientas manuales Stanley" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/herramientas-manuales-stanley.html">Herramientas manuales Stanley</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/woll.html">
+                                <img src="https://ferreteria.es/media/catalog/category/woll.jpg"
+                                     border="0"
+                                     alt="Woll sartenes y cacerolas de titanio" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/woll.html">Woll sartenes y cacerolas de titanio</a></h2></div>
+                    </div>
+                    <div class="featured-cat">
+                        <div class="cat-image">
+                            <a href="https://ferreteria.es/brabantia.html">
+                                <img src="https://ferreteria.es/media/catalog/category/Brabantia.jpg"
+                                     border="0"
+                                     alt="Brabantia" />
+                            </a>
+                        </div>
+                        <div class="cat-title"><h2 style="font-size:12px;text-transform:none">
+                            <a href="https://ferreteria.es/brabantia.html">Brabantia</a></h2></div>
+                    </div>
+
+                    <script type="text/javascript">
+                        <!--
+                        //document.observe("dom:loaded", function() {
+                        window.onload = function() {
+                            var count = 0;
+                            var maxHeight = new Array();
+                            $$('.featured-cat').each(function(item){
+                                if ( maxHeight[Math.floor(count/4)] == undefined ) maxHeight[Math.floor(count/4)] = 0;
+                                if ( item.getHeight() > maxHeight[Math.floor(count/4)] )
+                                    maxHeight[Math.floor(count/4)] = item.getHeight();
+                                count++;
+                            });
+
+                            count = 0;
+                            $$('.featured-cat').each(function(item){
+                                item.setStyle({height:maxHeight[Math.floor(count/4)] + 'px'});
+                                count++;
+                            });
+                        };
+                        -->
+                    </script>
+                </div>
+            </div>
+        </div>
+        &nbsp;</p>    </div><!--- <div class="box-top"> -->
+    <div class="box-top">
+
+        <div class="widget-title">
+            <h2><span>Artículos Destacados: Lo mejor de nuestra Ferretería Online</span></h2>
+        </div>
+
+        <div class="widget em-widget-featured-products-grid">
+            <div class="widget-products">
+                <ul class="products-grid">
+                    <li class="item first"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/armario-resina-3-puertas-plastiken.html" title="Armario de resina 3 puertas Plastiken" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/a/r/armario_de_resina_3_puertas_plastiken.jpg" width="157" height="157" alt="Armario de resina 3 puertas Plastiken" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/armario-resina-3-puertas-plastiken.html" title="Armario de resina 3 puertas Plastiken">
+                                    Armario de resina 3 puertas Plastiken									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Plastiken								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9672596</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-26628-widget-new-list">
+                    148,14 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-26628-widget-new-list">
+                    123,45 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/armario-resina-3-puertas-plastiken.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-26628-widget-new-list">
+                117,28 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-26628amit">
+                    148,14 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-26628amit">
+                    123,45 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-26628amit">
+                117,28 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/26628/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/asador-plancha-castey-vulcano-45cm.html" title="Asador bandeja Castey Vulcano 45cm" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/a/s/asador-bandeja-castey-vulcano.jpg" width="157" height="157" alt="Asador bandeja Castey Vulcano 45cm" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/asador-plancha-castey-vulcano-45cm.html" title="Asador bandeja Castey Vulcano 45cm">
+                                    Asador bandeja Castey Vulcano 45cm									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Castey								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">1-P45</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-25218-widget-new-list">
+                    59,00 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-25218-widget-new-list">
+                    50,15 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/asador-plancha-castey-vulcano-45cm.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-25218-widget-new-list">
+                47,64 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-25218amit">
+                    59,00 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-25218amit">
+                    50,15 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-25218amit">
+                47,64 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/25218/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+                        <ul class="productlabels_icons">
+                            <li class="label " >
+                                <img src="https://ferreteria.es/media/em_productlabels/image/envio_gratis_50_2.gif"/>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                        <a href="https://ferreteria.es/bateria-de-cocina-bra-efficient-7-piezas.html" title="Batería de cocina Bra Efficient " class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/b/a/bateria_de_cocina_bra_efficient_5_piezas_2.jpg" width="157" height="157" alt="Batería de cocina Bra Efficient " /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/bateria-de-cocina-bra-efficient-7-piezas.html" title="Batería de cocina Bra Efficient ">
+                                    Batería de cocina Bra Efficient 									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Bra								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">pack-efficient</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-34525-widget-new-list">
+                    239,95 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-34525-widget-new-list">
+                    209,95 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/bateria-de-cocina-bra-efficient-7-piezas.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-34525-widget-new-list">
+                199,45 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-34525amit">
+                    239,95 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-34525amit">
+                    209,95 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-34525amit">
+                199,45 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/34525/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/bolsa-porta-alimentos-valira-nomad-satin-mini.html" title="Bolsa porta alimentos Valira Nomad Satín mini" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/b/o/bolso-portalimentos-valira-nomad-satin-mini_3.jpg" width="157" height="157" alt="Bolsa porta alimentos Valira Nomad Satín mini" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/bolsa-porta-alimentos-valira-nomad-satin-mini.html" title="Bolsa porta alimentos Valira Nomad Satín mini">
+                                    Bolsa porta alimentos Valira Nomad Satín mini									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Valira								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">6160/15</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-29336-widget-new-list">
+                    40,59 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-29336-widget-new-list">
+                    36,90 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-29336amit">
+                    40,59 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-29336amit">
+                    36,90 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/bolsa-porta-alimentos-valira-nomad-satin-mini.html?options=cart')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/bombilla-edison-estandard-e27-40w.html" title="Bombilla vintage Edison estandard E27 40w." class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/4/5/454027.jpg" width="157" height="157" alt="Bombilla vintage Edison estandard E27 40w." /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/bombilla-edison-estandard-e27-40w.html" title="Bombilla vintage Edison estandard E27 40w.">
+                                    Bombilla vintage Edison estandard E27 40w.									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Silver Sanz								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9680237</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-34796-widget-new-list">
+                    6,65 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-34796-widget-new-list">
+                    5,40 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-34796amit">
+                    6,65 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-34796amit">
+                    5,40 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/34796/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/pintura-bruguer-colores-del-mundo-mediterraneo-intermedio.html" title="Bruguer colores del mundo Mediterráneo intermedio" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/p/i/pintura_bruguer_4l_mediterraneo_1.jpg" width="157" height="157" alt="Bruguer colores del mundo Mediterráneo intermedio" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/pintura-bruguer-colores-del-mundo-mediterraneo-intermedio.html" title="Bruguer colores del mundo Mediterráneo intermedio">
+                                    Bruguer colores del mundo Mediterráneo intermedio									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Bruguer								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">b9630511</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-22709-widget-new-list">
+                    32,44 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-22709-widget-new-list">
+                    23,95 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-22709amit">
+                    32,44 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-22709amit">
+                    23,95 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/22709/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/caja-de-herramientas-stanley-fatmax-metalica-49cm.html" title="Caja de herramientas Stanley FatMax metálica 49cm." class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/c/a/caja-metálica-20-49cm-fatmax-stanley.jpg" width="157" height="157" alt="Caja de herramientas Stanley FatMax metálica 49cm." /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/caja-de-herramientas-stanley-fatmax-metalica-49cm.html" title="Caja de herramientas Stanley FatMax metálica 49cm.">
+                                    Caja de herramientas Stanley FatMax metálica 49cm...									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Stanley								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">1-95615</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-32285-widget-new-list">
+                    52,06 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-32285-widget-new-list">
+                    41,65 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/caja-de-herramientas-stanley-fatmax-metalica-49cm.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-32285-widget-new-list">
+                39,57 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-32285amit">
+                    52,06 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-32285amit">
+                    41,65 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-32285amit">
+                39,57 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/32285/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+                        <ul class="productlabels_icons">
+                            <li class="label " >
+                                <img src="https://ferreteria.es/media/em_productlabels/image/envio_gratis_50_2.gif"/>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                        <a href="https://ferreteria.es/carro-de-compra-playmarket-we-go-rojo.html" title="Carro de compra Playmarket We Go rojo" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/6/9664536.jpg" width="157" height="157" alt="Carro de compra Playmarket We Go rojo" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/carro-de-compra-playmarket-we-go-rojo.html" title="Carro de compra Playmarket We Go rojo">
+                                    Carro de compra Playmarket We Go rojo									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Play								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">24960-209</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-25441-widget-new-list">
+                    119,00 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-25441-widget-new-list">
+                    104,95 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-25441amit">
+                    119,00 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-25441amit">
+                    104,95 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/25441/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/cerradura-aface-tesa2240-25-3ai.html" title="Cerradura Tesa Aface 2240 25 3ai" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/5/8/5883048.jpg" width="157" height="157" alt="Cerradura Tesa Aface 2240 25 3ai" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/cerradura-aface-tesa2240-25-3ai.html" title="Cerradura Tesa Aface 2240 25 3ai">
+                                    Cerradura Tesa Aface 2240 25 3ai									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Tesa								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">5883048</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-6220-widget-new-list">
+                    62,34 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-6220-widget-new-list">
+                    48,17 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-6220amit">
+                    62,34 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-6220amit">
+                    48,17 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/6220/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/pintiplus-chalk-520cc-blanco-roto.html" title="Chalk Paint 520cc. spray blanco roto" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/9679719c.jpg" width="157" height="157" alt="Chalk Paint 520cc. spray blanco roto" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/pintiplus-chalk-520cc-blanco-roto.html" title="Chalk Paint 520cc. spray blanco roto">
+                                    Chalk Paint 520cc. spray blanco roto									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Novasol Spray								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9679719a</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-35102-widget-new-list">
+                    7,92 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-35102-widget-new-list">
+                    4,99 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-35102amit">
+                    7,92 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-35102amit">
+                    4,99 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/35102/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/colgador-haya-3-ganchos-wengue.html" title="Colgador Inofix haya 3 ganchos" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/3/7/3703-8.jpg" width="157" height="157" alt="Colgador Inofix haya 3 ganchos" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/colgador-haya-3-ganchos-wengue.html" title="Colgador Inofix haya 3 ganchos">
+                                    Colgador Inofix haya 3 ganchos									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Inofix								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">3703-0-</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-36003-widget-new-list">
+                    29,22 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-36003-widget-new-list">
+                    21,92 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-36003amit">
+                    29,22 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-36003amit">
+                    21,92 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/colgador-haya-3-ganchos-wengue.html?options=cart')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/fertilizante-tomates-500-ml.html" title="Compo huerto urbano tomates 500ml." class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/6/9680910.jpg" width="157" height="157" alt="Compo huerto urbano tomates 500ml." /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/fertilizante-tomates-500-ml.html" title="Compo huerto urbano tomates 500ml.">
+                                    Compo huerto urbano tomates 500ml.									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Compo Iberia								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9680910</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-35656-widget-new-list">
+                    5,19 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-35656-widget-new-list">
+                    4,32 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/fertilizante-tomates-500-ml.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-35656-widget-new-list">
+                4,11 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-35656amit">
+                    5,19 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-35656amit">
+                    4,32 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-35656amit">
+                4,11 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/35656/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+                        <ul class="productlabels_icons">
+                            <li class="label " >
+                                <img src="https://ferreteria.es/media/em_productlabels/image/envio_gratis_50_2.gif"/>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                        <a href="https://ferreteria.es/conjunto-2-sartenes-de-titanio-woll-induccion.html" title="Conjunto 2 sartenes de titanio Woll inducción" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/c/o/conjunto-2-sartenes-titanio-woll-induccion.jpg" width="157" height="157" alt="Conjunto 2 sartenes de titanio Woll inducción" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/conjunto-2-sartenes-de-titanio-woll-induccion.html" title="Conjunto 2 sartenes de titanio Woll inducción">
+                                    Conjunto 2 sartenes de titanio Woll inducción									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Woll								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">5110581a</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-34644-widget-new-list">
+                    242,15 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-34644-widget-new-list">
+                    193,75 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-34644amit">
+                    242,15 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-34644amit">
+                    193,75 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/34644/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/conjunto-de-3-sartenes-castey-vulcano.html" title="Conjunto 3 sartenes Castey Vulcano" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/s/e/set-3-sartenes-castey-vulcano.jpg" width="157" height="157" alt="Conjunto 3 sartenes Castey Vulcano" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/conjunto-de-3-sartenes-castey-vulcano.html" title="Conjunto 3 sartenes Castey Vulcano">
+                                    Conjunto 3 sartenes Castey Vulcano									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Castey								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">1-K1</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-27080-widget-new-list">
+                    104,80 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-27080-widget-new-list">
+                    83,15 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/conjunto-de-3-sartenes-castey-vulcano.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-27080-widget-new-list">
+                78,99 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-27080amit">
+                    104,80 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-27080amit">
+                    83,15 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-27080amit">
+                78,99 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/27080/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/escalera-de-aluminio-domestica-l40-hailo-6-peldanos.html" title="Escalera de aluminio Hailo L40 6 peldaños Easyclix" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/6/9625268.jpg" width="157" height="157" alt="Escalera de aluminio Hailo L40 6 peldaños Easyclix" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/escalera-de-aluminio-domestica-l40-hailo-6-peldanos.html" title="Escalera de aluminio Hailo L40 6 peldaños Easyclix">
+                                    Escalera de aluminio Hailo L40 6 peldaños Easycli...									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Hailo								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9679447</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-5570-widget-new-list">
+                    74,24 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-5570-widget-new-list">
+                    69,00 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-5570amit">
+                    74,24 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-5570amit">
+                    69,00 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/5570/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/estanteria-metalica-azul-naranja.html" title="Estanteria metálica Ironside 4 estantes" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/6/9672267.jpg" width="157" height="157" alt="Estanteria metálica Ironside 4 estantes" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/estanteria-metalica-azul-naranja.html" title="Estanteria metálica Ironside 4 estantes">
+                                    Estanteria metálica Ironside 4 estantes									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Ironside								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9672267</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-28103-widget-new-list">
+                    119,94 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-28103-widget-new-list">
+                    99,95 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/estanteria-metalica-azul-naranja.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-28103-widget-new-list">
+                90,20 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-28103amit">
+                    119,94 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-28103amit">
+                    99,95 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-28103amit">
+                90,20 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/28103/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/tendedero-de-aluminio-y-acero-con-alas-gimi-genio.html" title="Gimi Genio tendedero con alas " class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/6/9672532.jpg" width="157" height="157" alt="Gimi Genio tendedero con alas " /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/tendedero-de-aluminio-y-acero-con-alas-gimi-genio.html" title="Gimi Genio tendedero con alas ">
+                                    Gimi Genio tendedero con alas 									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Gimi								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9672532</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+                                                            <span class="regular-price" id="product-price-26346-widget-new-list">
+                                        		                		<span class="price" >26,50 €</span>	                	                                    </span>
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+                                                            <span class="regular-price" id="product-price-26346amit">
+                                        		                		<span class="price" >26,50 €</span>	                	                                    </span>
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/26346/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+                        <ul class="productlabels_icons">
+                            <li class="label " >
+                                <img src="https://ferreteria.es/media/em_productlabels/image/envio_gratis_50_2.gif"/>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                        <a href="https://ferreteria.es/hidrolimpiadora-k5-full-control-home.html" title="Hidrolimpiadora Karcher K5 full control home" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/6/9680823.jpg" width="157" height="157" alt="Hidrolimpiadora Karcher K5 full control home" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/hidrolimpiadora-k5-full-control-home.html" title="Hidrolimpiadora Karcher K5 full control home">
+                                    Hidrolimpiadora Karcher K5 full control home									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Karcher								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9680823</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-35378-widget-new-list">
+                    444,54 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-35378-widget-new-list">
+                    370,45 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/hidrolimpiadora-k5-full-control-home.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-35378-widget-new-list">
+                351,93 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-35378amit">
+                    444,54 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-35378amit">
+                    370,45 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-35378amit">
+                351,93 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/35378/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/mueble-bano-espejo-aktiva-gris.html" title="Mueble de baño y espejo Aktiva gris" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/6/9644024.jpg" width="157" height="157" alt="Mueble de baño y espejo Aktiva gris" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/mueble-bano-espejo-aktiva-gris.html" title="Mueble de baño y espejo Aktiva gris">
+                                    Mueble de baño y espejo Aktiva gris									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Kit Mobel Art								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9644024</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-23875-widget-new-list">
+                    116,28 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-23875-widget-new-list">
+                    96,90 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/mueble-bano-espejo-aktiva-gris.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-23875-widget-new-list">
+                92,06 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-23875amit">
+                    116,28 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-23875amit">
+                    96,90 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-23875amit">
+                92,06 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <div class="button btn-cart"></div>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/muebles-de-jardin-corfu-loungeset-blanco.html" title="Muebles de jardín Corfu Lounge set blanco" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/6/9676241_1.jpg" width="157" height="157" alt="Muebles de jardín Corfu Lounge set blanco" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/muebles-de-jardin-corfu-loungeset-blanco.html" title="Muebles de jardín Corfu Lounge set blanco">
+                                    Muebles de jardín Corfu Lounge set blanco									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Curver								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9676241</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-29997-widget-new-list">
+                    318,84 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-29997-widget-new-list">
+                    224,14 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/muebles-de-jardin-corfu-loungeset-blanco.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-29997-widget-new-list">
+                212,34 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-29997amit">
+                    318,84 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-29997amit">
+                    224,14 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-29997amit">
+                212,34 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/29997/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+
+                        <a href="https://ferreteria.es/piscina-gre-redonda-piedra-filtro-de-arena.html" title="Piscina Gre redonda de piedra con filtro de arena" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/9/6/9676841_7.jpg" width="157" height="157" alt="Piscina Gre redonda de piedra con filtro de arena" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/piscina-gre-redonda-piedra-filtro-de-arena.html" title="Piscina Gre redonda de piedra con filtro de arena">
+                                    Piscina Gre redonda de piedra con filtro de arena									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Gre								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">9676841-1</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+                <div class="price-box">
+            <p class="minimal-price">
+                <span class="price-label">Desde:</span>
+                                                    <span class="price" id="product-minimal-price-33376-widget-new-list">
+                    799,00 €                </span>
+                            </p>
+        </div>
+     -->
+
+
+
+                                <div class="price-box">
+                                    <p class="minimal-price">
+                                        <span class="price-label">Desde:</span>
+                                                    <span class="price" id="product-minimal-price-33376amit">
+                    799,00 €                </span>
+                                    </p>
+                                </div>
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/33376/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+                        <ul class="productlabels_icons">
+                            <li class="label " >
+                                <img src="https://ferreteria.es/media/em_productlabels/image/envio_gratis_50_2.gif"/>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                        <a href="https://ferreteria.es/taco-de-cuchillos-arcos-kyoto.html" title="Taco Arcos Kyoto" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/k/y/kyoto-179200.jpg" width="157" height="157" alt="Taco Arcos Kyoto" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/taco-de-cuchillos-arcos-kyoto.html" title="Taco Arcos Kyoto">
+                                    Taco Arcos Kyoto									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Arcos								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">179200</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-28912-widget-new-list">
+                    303,09 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-28912-widget-new-list">
+                    257,63 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-28912amit">
+                    303,09 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-28912amit">
+                    257,63 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/28912/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+                        <ul class="productlabels_icons">
+                            <li class="label " >
+                                <img src="https://ferreteria.es/media/em_productlabels/image/envio_gratis_50_2.gif"/>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                        <a href="https://ferreteria.es/taladro-percutor-a-bateria-stanley-fatmax-18v.html" title="Taladro percutor a batería Stanley FatMax 18V. 2Ah." class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/s/t/stanley-fatmax-fmc620lb_1.jpg" width="157" height="157" alt="Taladro percutor a batería Stanley FatMax 18V. 2Ah." /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/taladro-percutor-a-bateria-stanley-fatmax-18v.html" title="Taladro percutor a batería Stanley FatMax 18V. 2Ah.">
+                                    Taladro percutor a batería Stanley FatMax 18V. 2A...									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Stanley Fatmax								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">FMC625D2-QW</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-25923-widget-new-list">
+                    271,04 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-25923-widget-new-list">
+                    215,55 €                </span>
+            </p>
+
+
+        </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-25923amit">
+                    271,04 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-25923amit">
+                    215,55 €                </span>
+                                    </p>
+
+
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/25923/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                    <li class="item last"
+                        style="  ">
+                        <!--show label product - label extension is required-->
+                        <ul class="productlabels_icons">
+                            <li class="label " >
+                                <img src="https://ferreteria.es/media/em_productlabels/image/envio_gratis_50_2.gif"/>
+                                <p>
+                                </p>
+                            </li>
+                        </ul>
+                        <a href="https://ferreteria.es/taller-movil-metalico-stanley-fatmax.html" title="Taller móvil metálico Stanley FatMax" class="product-image"><img src="https://ferreteria.es/media/catalog/product/cache/1/small_image/157x157/9df78eab33525d08d6e5fb8d27136e95/c/a/caja-de-herramientas-stanley_2.jpg" width="157" height="157" alt="Taller móvil metálico Stanley FatMax" /></a>
+
+                        <div class="product-shop">
+                            <div class="f-fix">
+                                <!--product name-->
+                                <h3 class="product-name"><a href="https://ferreteria.es/taller-movil-metalico-stanley-fatmax.html" title="Taller móvil metálico Stanley FatMax">
+                                    Taller móvil metálico Stanley FatMax									</a></h3>
+                                <!---- MARCA ---->
+                                <div class="tiempo-entrega-div">
+
+                                    <p class="tiempo-entrega-p" style="font-weight:normal;margin:0px">Marca: <span>Stanley								</span></p>
+                                </div>
+                                <!--- FIN MARCA --->
+                                <!-- 								<p class="sku">1-95622</p> -->
+                                <!--product description-->
+
+                                <!--product reviews-->
+
+                                <!--product price-->
+                                <!--
+
+
+
+    <div class="price-box">
+
+                    <p class="old-price">
+                <span class="price-label"></span>
+                <span class="price" id="old-price-32288-widget-new-list">
+                    219,24 €                </span>
+            </p>
+
+                        <p class="special-price">
+                <span class="price-label"></span>
+                <span class="price"   id="product-price-32288-widget-new-list">
+                    157,85 €                </span>
+            </p>
+
+
+
+
+                <a href="https://ferreteria.es/taller-movil-metalico-stanley-fatmax.html" class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-32288-widget-new-list">
+                149,96 €            </span>
+                </a>
+                </div>
+
+ -->
+
+
+
+
+                                <div class="price-box">
+
+                                    <p class="old-price">
+                                        <span class="price-label"></span>
+                <span class="price" id="old-price-32288amit">
+                    219,24 €                </span>
+                                    </p>
+
+                                    <p class="special-price">
+                                        <span class="price-label"></span>
+                <span class="price"   id="product-price-32288amit">
+                    157,85 €                </span>
+                                    </p>
+
+
+
+
+                <span class="minimal-price-link">
+                    <span class="label">Desde:</span>
+            <span class="price" id="product-minimal-price-32288amit">
+                149,96 €            </span>
+                </span>
+                                </div>
+
+
+                                <!--- ADD TO CART --->
+                                <button type="button" title="Comprar" class="button btn-cart" onclick="setLocation('https://ferreteria.es/checkout/cart/add/uenc/aHR0cHM6Ly9mZXJyZXRlcmlhLmVzLw,,/product/32288/')"><span><span>Comprar</span></span></button>
+                                <!--- END ADD TO CART --->
+
+                                <!--product add to compare-wishlist-->
+
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <script type="text/javascript">
+        decorateGeneric($$('ul.products-grid'),['last','first','odd','even']);
+    </script>
+    <div class="widget widget-static-block box-bottom">
+    </div></div><div class="grid_6 pull_18"><div class="col-left sidebar"><link rel="stylesheet" type="text/css" href="https://ferreteria.es/skin/frontend/default/default/css/magebuzz/catsidebarnav/fly-out.css" media="screen">
+    <script type="text/javascript" src="https://ferreteria.es/skin/frontend/default/default/js/magebuzz/catsidebarnav/jquery-1.2.6.min.js"></script>
+    <script type="text/javascript" src="https://ferreteria.es/skin/frontend/default/default/js/magebuzz/catsidebarnav/hoverIntent.js"></script>
+    <script type="text/javascript" src="https://ferreteria.es/skin/frontend/default/default/js/magebuzz/catsidebarnav/superfish.js"></script>
+    <script type="text/javascript">
+        jQuery.noConflict();
+        jQuery(function(){
+            jQuery('ul.sf-menu').superfish();
+        });
+    </script>
+    <div class="block block-category-nav">
+        <div class="block-title">
+            <strong><span>Categorías</span></strong>
+        </div>
+        <div class="block-content">
+            <ul class="sf-menu" id="left-nav">
+                <li class="level0 nav-1 level-top first parent">
+                    <a href="http://www.espaiclinic.es/sartenes.html" class="level-top">
+                        <span>Sartenes</span>
+                    </a>
+                    <ul class="level0">
+                        <li class="level1 nav-1-1 first parent">
+                            <a href="http://www.espaiclinic.es/packs-especiales.html">
+                                <span>Packs especiales</span>
+                            </a>
+                            <ul class="level1">
+                                <li class="level2 nav-1-1-1 first">
+                                    <a href="http://www.espaiclinic.es/packs-castey.html">
+                                        <span>Packs Castey</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="level1 nav-1-2">
+                        <a href="www.espaiclinic.es/conjuntos-de-sartenes.html">
+                            <span>Conjuntos de sartenes</span>
+                        </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+    </div><div class="widget widget-static-block home-banner-left">
+        <p>&nbsp;<img title="Gastos de env&iacute;o gratis a partir de 89&euro;" src="https://ferreteria.es/media/wysiwyg/banner_portes_1.jpg" alt="Gastos de env&iacute;o gratis a partir de 89&euro;" /></p>
+        <p>&nbsp;&nbsp;</p>
+        <p><div class="widget widget-static-block"></div>
+        </p>
+        <p>&nbsp;<a title="Puntos de fidelidad" href="https://ferreteria.es/puntos-de-fidelidad"><img title="Puntos de fidelidad" src="https://ferreteria.es/media/wysiwyg/puntos-ferreteria.jpg" alt="Puntos de fidelidad" /></a></p>
+        <p><a title="Pinturas Chalk Paint" href="https://ferreteria.es/pinturas-y-esmaltes/pintura-chalk-paint.html"><span style="font-size: medium; color: #000000;"><strong><img title="chalk paint" src="https://ferreteria.es/media/wysiwyg/banner.jpg" alt="chalk paint" /></strong></span></a></p>
+        <p><span style="font-size: medium; color: #000000;"><strong>&iexcl;El mejor <span style="text-decoration: underline;"><span style="color: #ff6600;"><a title="pintura chalk paint" href="https://ferreteria.es/pinturas-y-esmaltes/pintura-chalk-paint.html"><span style="color: #ff6600; text-decoration: underline;">chalk paint</span></a></span></span>!</strong></span></p>
+        <p><a title="piscinas de oferta" href="http://ferreteria.es/piscinas.html"><img title="Las mejores piscinas de oferta" src="https://ferreteria.es/media/wysiwyg/piscinas_gre_desmontables.jpg" alt="Piscinas desmontables" /></a></p>
+        <p><strong><span style="color: #000000; font-size: medium;"><span style="text-decoration: underline; color: #ff6600;"><a title="Piscinas en oferta" href="http://ferreteria.es/piscinas.html"><span style="color: #ff6600; text-decoration: underline;">Piscinas de oferta</span></a></span>. Saluda al verano</span></strong></p>
+        <p><a title="Los mejores escurreplatos" href="http://ferreteria.es/menaje-de-cocina/utensilios-de-cocina/escurreplatos.html"><img title="Escurreplatos" src="https://ferreteria.es/media/wysiwyg/escurreplatos.jpg" alt="Escurreplatos" /></a></p>
+        <p><span style="color: #000000;"><strong><span style="font-size: medium;">Los mejores <span style="text-decoration: underline;"><span style="color: #ff6600;"><a title="escurreplatos" href="http://ferreteria.es/menaje-de-cocina/utensilios-de-cocina/escurreplatos.html"><span style="color: #ff6600; text-decoration: underline;">escurreplatos</span></a></span></span></span></strong></span></p>
+        <p><a title="Los mejores tendederos" href="http://ferreteria.es/hogar/tendederos.html"><span style="color: #000000; font-size: medium;"><strong><img title="Tendederos online" src="https://ferreteria.es/media/wysiwyg/tendedores.jpg" alt="Tendederos online" /></strong></span></a></p>
+        <p><span style="color: #000000; font-size: medium;"><strong>&iexcl;Compra tus <span style="text-decoration: underline;"><span style="color: #ff6600;"><a title="Los mejores tendederos" href="http://ferreteria.es/hogar-y-bano/tendederos.html"><span style="color: #ff6600; text-decoration: underline;">tendederos</span></a></span></span>&nbsp;online!</strong></span></p>
+        <p><a title="Blog de ferreteria.es" href="/blog" target="_blank"><img title="Blog de ferreteria.es" src="https://ferreteria.es/media/wysiwyg/blog.jpg" alt="Blog de ferreteria.es" /></a></p>
+        <p><strong style="color: #000000; font-size: medium;">Visita nuestro Blog</strong></p>    </div></div></div><div class="clear"></div></div><div class="container_24 "><div class="grid_24"><div class="widget widget-static-block footer-text">
+    <div class="arriba_footer_icons" style="width: 60%;">
+        <div class="footer-banner-1"><img title="devolucion_30dias" src="https://ferreteria.es/media/wysiwyg/devolucion_30_dias.png" alt="devolucion_30dias" /> <span>Devoluci&oacute;n en 30 d&iacute;as</span></div>
+        <div class="footer-banner-2"><img title="pago_seguro" src="https://ferreteria.es/media/wysiwyg/pago_seguro.png" alt="pago_seguro" /> <span>Pago Seguro</span></div>
+        <div class="footer-banner-3"><img title="satisfecho" src="https://ferreteria.es/media/wysiwyg/satisfecho_reembolsado.png" alt="satisfecho" /> <span>Satisfecho o Reembolso</span></div>
+        <div class="footer-banner-3"><img title="compra con confianza" src="https://ferreteria.es/media/wysiwyg/compraconfianza.png" alt="compra con confianza" width="45" height="45" />&nbsp; &nbsp;&nbsp;<span>Compra con confianza</span></div>
+    </div>    </div></div><div class="clear"></div></div><div class="container_24 "><div class="grid_16 footer-left"><div class="widget widget-static-block"><div class="customer_service">
+    <p style="text-align: center;">&nbsp;</p>
+    <hr />
+    <p style="text-align: center;"><span style="font-size: large;">CENTRO DE ATENCI&Oacute;N AL CLIENTE</span></p>
+    <p style="text-align: center;"><br /><a title="Accede a tu cuenta" href="http://ferreteria.es/customer/account/"><img title="Accede a tu cuenta" src="https://ferreteria.es/media/wysiwyg/tu-cuenta.jpg" alt="Accede a tu cuenta" width="50" /></a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<a title="Env&iacute;anos un correo" href="mailto:info@ferreteria.es"><img title="Env&iacute;anos un correo" src="https://ferreteria.es/media/wysiwyg/correo.png" alt="Env&iacute;anos un correo" width="50" /></a></p>
+    <p style="text-align: center;">Accede a tu cuenta &nbsp;&nbsp; Env&iacute;anos un correo</p>
+    <div style="border: 2px solid orange; border-radius: 10px; width: 250px; margin-left: 2.5em; box-shadow: 2px 2px 5px #999;">
+        <p style="text-align: center;"><a href="tel:93 737 00 15"><span style="font-size: x-large;"><img title="Ll&aacute;manos" src="https://ferreteria.es/media/wysiwyg/telefono.png" alt="Ll&aacute;manos" width="50" /></span></a></p>
+        <div style="text-align: center;"><a href="tel:93 737 00 15"><span style="font-size: x-large; text-decoration: none;">93 737 00 15</span></a></div>
+    </div>
+</div></div>
+
+    <div class="widget widget-static-block newsletter">
+    </div>
+
+
+    <div class="widget widget-static-block footer-information">
+        <div class="footer-row2-area">
+            <div class="grid_4">
+                <ul>
+                    <li><span style="font-size: small;"><a href="https://ferreteria.es/quienes-somos">Qui&eacute;nes somos</a></span></li>
+                    <li><span style="font-size: small;"><a title="Opiniones" href="http://ferreteria.es/opiniones">Opiniones</a></span></li>
+                    <li><span style="font-size: small;"><a href="https://ferreteria.es/contacts">Cont&aacute;ctanos</a></span></li>
+                    <li><span style="font-size: small;"><a href="http://www.ferreteria.es/blog">Blog</a></span></li>
+                </ul>
+            </div>
+            <div class="grid_4">
+                <ul>
+                    <li><span style="font-size: small;"><a href="http://www.ferreteria.es/gastos-de-envio">Gastos de env&iacute;o</a></span></li>
+                    <li><span style="font-size: small;">Seguir mi env&iacute;o</span></li>
+                    <li><span style="font-size: small;"><a href="https://ferreteria.es/formas-de-pago">Formas de pago</a></span></li>
+                    <li><span style="font-size: small;"><a title="Devoluciones" href="http://ferreteria.es/devoluciones">Devoluciones</a></span></li>
+                </ul>
+            </div>
+            <div class="grid_4">
+                <ul>
+                    <li><span style="font-size: small;"><a href="https://ferreteria.es/politica-de-cookies">Pol&iacute;tica de Cookies</a></span></li>
+                    <li><span style="font-size: small;"><a href="https://ferreteria.es/terminos-y-condiciones">T&eacute;rminos y condiciones</a></span></li>
+                    <li><span style="font-size: small;"><a href="https://ferreteria.es/nuestras-marcas">Nuestras Marcas</a></span></li>
+                    <li><span style="font-size: small;"><a href="https://ferreteria.es/puntos-de-fidelidad">Puntos de fidelidad</a></span></li>
+                </ul>
+            </div>
+        </div>    </div></div><div class="grid_8 omega"><div class="widget widget-static-block ">
+    <div class="banner-friend">
+        <div class="footer-row1-area"><img title="ferreteria.es" src="https://ferreteria.es/media/wysiwyg/logo-mail.png" alt="ferreteria.es" /></div>
+        <div class="footer-row2-area">
+            <p class="h5"><strong>S&iacute;guenos en:</strong></p>
+            <ul>
+                <ul>
+                    <li><a title="Facebook ferreteria.es" href="https://www.facebook.com/ferreteria.es" target="_blank"><span class="icon facebook">Facebook</span>Facebook</a></li>
+                    <li><a title="Visita ferreteria.es en Google +" href="https://plus.google.com/+FerreteriaEsonline" rel="publisher" target="_blank"><span class="icon googleplus">Google +</span>Google +</a></li>
+                </ul>
+                <ul>
+                    <li><a title="Linkedin" href="http://www.linkedin.com/company/ferreteria-es?trk=nav_account_sub_nav_company_admin" target="_blank"><span class="icon linkedin">Linkedin</span>Linkedin</a></li>
+                    <li><a title="Twitter de ferreteria.es" href="https://twitter.com/ferreteria_es" target="_blank"><span class="icon twitter">S&iacute;guenos en Twitter</span>S&iacute;guenos en Twitter</a></li>
+                </ul>
+        </div>
+    </div>    </div></div></div><div class="container_24 container-footer"><div class="footer-inner grid_24"><div class="grid_16 alpha"><div class="footer-container">
+    <div class="footer">
+        <p>
+        <address>Ferreteria.es | 2016 Todos los derechos reservados</address>
+        </p>
+    </div>
+</div>
+    <script type="text/javascript">
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-45877160-1', 'auto');
+
+        /* Ehnanced Ecommerce */
+        ga('require', 'ec');
+        ga('set', '&cu', 'EUR');
+
+        if (typeof ga !== "undefined")
+        {
+            for (a = 0, b = EA.length; a < b; a++)
+            {
+                EA[a].apply(this,[ga]);
+            }
+        }
+        else
+        {
+            console.log('Universal Analytics is not installed.');
+        }
+
+        ga('send', 'pageview');
+    </script></div><div class="grid_8 omega"><div class="widget widget-static-block payment">
+    <p><span><span class="brand-logo paypal">paypal</span></span> <span><span class="brand-logo visa">visa</span></span> <span><img title="Visa" src="https://ferreteria.es/media/wysiwyg/visaelectron.png" alt="VISA" /></span> <span><span class="brand-logo master">master</span></span></p>
+    <p><span><img title="Banco Sabadell" src="https://ferreteria.es/media/wysiwyg/logo-banco-sabadell.png" alt="Banco Sabadell" /></span> <span><img title="La Caixa" src="https://ferreteria.es/media/wysiwyg/lacaixa.png" alt="La Caixa" /></span> <span><img title="MRW" src="https://ferreteria.es/media/wysiwyg/mrw.png" alt="MRW" /></span></p>    </div></div><div class="clear"></div></div></div><div class=""><div id="containerDiv" style="display:none">
+    <a href="javascript:void(0);" id="close">close</a>
+    <div class="ajaxcart">
+        <img class='ajax_loading' id="ajax_loading" src='https://ferreteria.es/skin/frontend/base/default/images/em_ajaxcart/loading.gif' alt="" />
+        <div id="ajax_content" style="display:none">
+            <div class="ajaxcart_row1 row1" >
+                <div id="ajax_image"></div>
+            </div>
+            <div class="row2">
+                <a href="javascript:void(0);" id="closeLink" class="back"><span>Continuar comprando</span></a>
+                <a id="viewcart_button" href="https://ferreteria.es/checkout/cart/" class="next"><span>Ver carrito y finalizar compra</span></a>
+            </div>
+        </div>
+    </div>
+</div>
+    <input type="hidden" id="enable_module" value="1"/>
+    <input type="hidden" id="ajax_base_url" value="https://ferreteria.es/"/>
+    <input type="hidden" id="ajax_package_name" value="default"/>
+    <input type="hidden" id="ajax_layout" value="galaelectronues"/>
+    <input type="hidden" id="ajax_template" value="galaelectronues"/>
+    <input type="hidden" id="ajax_skin" value="galaelectronues"/><script>$_SKIN_URL = 'https://ferreteria.es/skin/frontend/default/default/';</script>
+    <script src="https://ferreteria.es/js/quickContact/jquery.js" type="text/javascript"></script>
+    <script src="https://ferreteria.es/js/quickContact/jquery_noconflict.js" type="text/javascript"></script>
+    <script src="https://ferreteria.es/js/quickContact/modalwindow.js" type="text/javascript"></script>
+    <script src="https://ferreteria.es/js/quickContact/quickContact.js" type="text/javascript"></script>
+    <style>
+        #mask {
+            position:fixed;
+            left:0;
+            top:0;
+            z-index:9000;
+            background-color:#000;
+            display:none;
+        }
+
+        #modalwindow .window {
+            position:absolute;
+            left:0;
+            top:0;
+            display:none;
+            z-index:9999;
+        }
+
+        #modalwindow .dialog_content {
+            padding:20px;
+        }
+
+        #modalwindow #dialog {
+            background-color: #FFF;
+            min-width:500px;
+        }
+        .docklink{
+            display: block;
+            height: 15px;
+            padding: 16px 43px 84px 0;
+            background:url('https://ferreteria.es/skin/frontend/default/default/quickcontact/images/btn_feedback.png') no-repeat;
+        }
+        .bo_docklink a:hover{
+            background:url('https://ferreteria.es/skin/frontend/default/default/quickcontact/images/btn_feedback_hover.png') no-repeat;
+            padding-right: 50px;
+        }
+        @media (max-width: 1060px) {
+            .docklink{display: none;}
+            .bo_docklink a:hover{display:none;}
+
+        }
+    </style>
+    <link type="text/css" href="https://ferreteria.es/skin/frontend/default/default/quickcontact/css/form-contact.css" rel="stylesheet">
+
+    <div style="display:none;"><img src="https://ferreteria.es/skin/frontend/default/default/quickcontact/images/btn_feedback_hover.png"></div>
+    <div style="position:fixed; left:0px; top:200px;" class="bo_docklink"><a class="docklink" href="#dialog" name="modal"></a></div>
+
+    <div id="modalwindow">
+
+        <div id="dialog" class="window">
+
+
+
+            <div class="form-quick-contact">
+                <div style="padding-right:30px;">
+                    <div class="title" style="padding-bottom:30px;"><p style="font-size:24px;margin-left:120px" id="quick_contact_title">¿En que podemos ayudarte?</p></div>
+                    <form action="https://ferreteria.es/quickcontact/index/post/" method="post" name="contactform" id="contactform">
+
+                        <div class="text">
+                            <div class="info-txt"> Nombre: <span style="color:#ff0000;">*</span></div>
+                            <div class="info-txt"> Correo electrónico: <span style="color:#ff0000;">*</span></div>
+                            <div class="info-txt"> Teléfono: <span style="color:#ff0000;">*</span></div>
+                        </div>
+
+                        <div class="input">
+                            <input class="input-text textbox" value="" type="text" name="name" id="name"/>
+                            <input class="input-text textbox" value="" type="text" name="email" id="email"/>
+                            <input class="input-text textbox" type="text" name="telephone" id="telephone" value=""/>
+                        </div>
+                        <div style="clear:both"><span></span></div>
+                        <div class="text-area">
+                            <p class="hm_content">Comentarios: <span style="color:#ff0000;">*</span></p>
+                            <textarea name="comment" id="comment" class="input-text" rows="10" cols="64"></textarea>
+                        </div>
+
+                        <div class="submit">
+                            <input id="submit" type="image" src="https://ferreteria.es/skin/frontend/default/default/quickcontact/images/submit.jpg"> <a href="#" class="close"><img src="https://ferreteria.es/skin/frontend/default/default/quickcontact/images/close.jpg" /></a> </div>
+
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <div id="mask"></div>
+
+
+    </div></div>    </div>
+</div>
+<script type="text/javascript">
+    var google_tag_params = {
+        ecomm_prodid: 'REPLACE_WITH_VALUE',
+        ecomm_pagetype: 'REPLACE_WITH_VALUE',
+        ecomm_totalvalue: 'REPLACE_WITH_VALUE',
+    };
+</script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 983039557;
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/983039557/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript>
+<!-- Google Code para etiquetas de remarketing -->
+<!--------------------------------------------------
+Es posible que las etiquetas de remarketing todavía no estén asociadas a la información de identificación personal o que estén en páginas relacionadas con las categorías delicadas. Para obtener más información e instrucciones sobre cómo configurar la etiqueta, consulte http://google.com/ads/remarketingsetup.
+--------------------------------------------------->
+<script type="text/javascript">
+    var google_tag_params = {
+        ecomm_prodid: 'REPLACE_WITH_VALUE',
+        ecomm_pagetype: 'REPLACE_WITH_VALUE',
+        ecomm_totalvalue: 'REPLACE_WITH_VALUE',
+    };
+</script>
+<script type="text/javascript">
+    /* <![CDATA[ */
+    var google_conversion_id = 983039557;
+    ga('require', 'displayfeatures');
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+    /* ]]> */
+</script>
+<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+</script>
+<noscript>
+    <div style="display:inline;">
+        <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/983039557/?value=0&amp;guid=ON&amp;script=0"/>
+    </div>
+</noscript><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"85dec1caac","applicationID":"3628802","transactionName":"MQRRYUpQCEJYBRFZDQhOclZMWAlfFgUIQ00PD1dQQB4PX10DHQ==","queueTime":0,"applicationTime":1272,"atts":"HUNSFwJKG0w=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>

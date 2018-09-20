@@ -1,0 +1,42 @@
+<?php
+
+class Subscriber extends DataBoundObject {
+
+        protected $FirstName;
+        protected $LastName;
+        protected $EmailAddress;
+        protected $DateOfSignup;
+        protected $TimeOfSignup;
+        protected $RemoteAddr;
+
+        protected function DefineTableName() {
+                return("subscriber");
+        }
+
+        protected function DefineRelationMap() {
+                return(array(
+                        "id" => "ID",
+                        "first_name" => "FirstName",
+                        "last_name" => "LastName",
+                        "email_address" => "EmailAddress",
+                        "date_of_signup" => "DateOfSignup",
+                        "time_of_signup" => "TimeOfSignup",
+                        "remote_addr" => "RemoteAddr"));
+        }
+		
+     static function checkExists($strEmail) {
+          $strEmail = strtolower($strEmail);
+          $strSQL = "SELECT \"id\" FROM \"subscriber\" WHERE
+                     lower(\"email_address\") = :email";
+          $objPDO = PDOFactory::GetPDO();
+		  $objStatement = $objPDO->prepare($strSQL);
+          $objStatement->bindParam(':email', $strEmail, PDO::PARAM_STR);
+          $objStatement->execute();
+          $arRow = $objStatement->fetch(PDO::FETCH_ASSOC);
+          $id = $arRow["id"];
+          return ($id > 0);
+     }
+		
+}
+
+?>

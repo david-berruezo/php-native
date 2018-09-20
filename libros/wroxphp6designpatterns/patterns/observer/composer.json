@@ -1,0 +1,9 @@
+{
+    "name": "david/observer",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "clases\\": "clases"
+        }
+    }
+}

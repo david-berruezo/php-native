@@ -1,0 +1,10 @@
+1- Ejecuta el archivo services.sql en la base de datos que vayas a utilizar.
+2- Añade los parámetros de conexión con tu base de datos editando el archivo includes/config.php
+
+define('DB_SERVER', 'localhost');
+define('DB_SERVER_USERNAME', 'YOUR USERNAME');
+define('DB_SERVER_PASSWORD', 'YOUR PASSWORD');
+define('DB_DATABASE', 'YOUR DATA BASE');
+
+3- Sube los archivos del paquete a tu servidor.
+4- Visita la url para ver los resultados.

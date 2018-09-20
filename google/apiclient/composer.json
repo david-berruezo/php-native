@@ -1,0 +1,7 @@
+{
+    "name": "david/apiclient",
+    "description": "Google Api Client",
+    "require": {
+        "google/apiclient": "^2.0"
+    }
+}
