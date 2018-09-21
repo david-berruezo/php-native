@@ -1,0 +1,20 @@
+{
+    "name": "david/files",
+    "description": "Programa de autoload files",
+    "authors": [
+        {
+            "name": "David Berruezo",
+            "email": "davidberruezo@davidberruezo.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "files":[
+            "files/fichero.php",
+            "files/FicheroClase.php"
+        ],
+        "psr-4":{
+            "clases\\":"clases/"
+        }
+    }
+}

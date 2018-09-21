@@ -1,0 +1,27 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Admin login</title>
+
+<link rel='stylesheet' href='/admin/style.css' />
+</head>
+<body>
+<div id="topBar"><h1>Admin login</h1></div>
+
+<div id='main'>
+
+	  <form method="post" action="login.php" class='loginform'>
+
+		  <p class='error'><!--::msg::--></p><br /><br />
+
+		  <label for="username">Username:</label>
+		  <input name="username" type="text" id="username" maxlength="20" class='input' /><br />
+		  <label for="password">Password:</label>
+		  <input name="password" type="password" id="password" maxlength="30" class='input' /><br />
+		  <input type="submit" name="submit" value="Log in" />
+	  </form>
+</div>
+
+</body>
+</html>
