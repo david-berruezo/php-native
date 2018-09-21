@@ -1,0 +1,11 @@
+{
+  "name": "autoloader/librerias-composer",
+  "require": {
+    "league/csv": "^8.1"
+  },
+  "autoload":{
+    "classmap":[
+      "clases"
+    ]
+  }
+}

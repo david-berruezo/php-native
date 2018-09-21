@@ -1,0 +1,998 @@
+ID;"Active (0/1)";"Name *";"Parent category";"Root category (0/1)";Description;"Meta title";"Meta keywords";"Meta description";"URL rewritten";"Image URL"
+3;1;Sartenes;2;0
+4;1;"Packs especiales";3;0
+5;1;"Packs Castey";4;0
+6;1;"Packs Bra";4;0
+7;1;"Packs Woll";4;0
+8;1;"Packs Le Creuset";4;0
+9;1;"Conjuntos de sartenes";3;0
+10;1;"Sartenes para gas e inducción";3;0
+11;1;"Sartenes para gas y vitro";3;0
+12;1;"Sartenes de titanio";3;0
+13;1;"Sartenes de hierro";3;0
+14;1;"Woks y creperas";3;0
+15;1;Asadores;3;0
+16;1;Grills;3;0
+17;1;"Planchas y asadores bandeja";3;0
+18;1;"Protectores de sartenes";3;0
+19;1;"Tapas para sartenes";3;0
+20;1;"Ollas y cacerolas";2;0
+21;1;Ollas;20;0
+22;1;"Ollas a presión";20;0
+23;1;Cacerolas;20;0
+24;1;Cocottes;20;0
+25;1;"Cazuelas de barro";20;0
+26;1;"Paellas y paelleras";20;0
+27;1;"Paellas tradicionales";26;0
+28;1;"Paelleras eléctricas";26;0
+29;1;"Tapas para paelleras";26;0
+30;1;Trébedes;26;0
+31;1;"Accesorios de paelleros";26;0
+32;1;"Difusores para paelleros";26;0
+33;1;"Baterías de cocina";20;0
+34;1;"Potes hervidores";20;0
+35;1;Cazos;20;0
+36;1;"Tapas sueltas y recambios para ollas";20;0
+37;1;"Cubos de basura y reciclaje";2;0
+38;1;"Cubos de basura 1 residuo";37;0
+39;1;"Cubos de reciclaje doméstico";37;0
+40;1;"Cubos de basura para el baño";37;0
+41;1;"Contenedores reciclaje industrial";37;0
+42;1;"Barreños y cubos de goma";37;0
+43;1;"Bolsas de basura";37;0
+44;1;"Cuchillos y tijeras";2;0
+45;1;"Cuchillos de cocineros";44;0
+46;1;"Cuchillos paneros";45;0
+47;1;"Cuchillos para verdura";45;0
+48;1;"Cuchillos mondadores";45;0
+49;1;"Cuchillos para chef";45;0
+50;1;"Cuchillos jamoneros";45;0
+51;1;"Cuchillos de cerámica";44;0
+52;1;"Cuchillos de colores";44;0
+53;1;"Juegos de cuchillos";44;0
+54;1;"Tijeras de cocina";44;0
+55;1;"Accesorios para cuchillos y tijeras";44;0
+56;1;"Afiladores de cuchillos";55;0
+57;1;"Guantes de protección";55;0
+58;1;"Delantales de malla";55;0
+59;1;Verduleros;2;0
+60;1;"Verduleros de 3 cestas";59;0
+61;1;"Verduleros de 4 cestas";59;0
+62;1;"Verduleros dobles";59;0
+63;1;"Carros de cocina";59;0
+64;1;"+ Menaje de cocina";2;0
+65;1;Escurreplatos;64;0
+66;1;Jamoneros;64;0
+67;1;"Recipientes para horno";64;0
+68;1;Vajillas;64;0
+69;1;"Platos y servicio de mesa";64;0
+70;1;Platos;69;0
+71;1;"Fuentes, ensaladeras y entremeseros";69;0
+72;1;"Tazas y bols desayuno";69;0
+73;1;"Juegos para desayuno";69;0
+74;1;"Juegos de café y té";69;0
+75;1;"Cubiertos de mesa";64;0
+76;1;Cuchillos;75;0
+77;1;Cucharas;75;0
+78;1;Tenedores;75;0
+79;1;"Cuberterías completas";75;0
+80;1;Aperitivos;75;0
+81;1;"Accesorios para cubiertos";75;0
+82;1;"Vasos y copas";64;0
+83;1;Vasos;82;0
+84;1;Copas;82;0
+85;1;"Posavasos y marcadores";82;0
+86;1;"Electrodomésticos de cocina";64;0
+87;1;"Robots de Cocina";86;0
+88;1;"Cafeteras eléctricas";86;0
+89;1;"Batidoras de Varillas";86;0
+90;1;"Batidoras de Vaso";86;0
+91;1;Freidoras;86;0
+92;1;"Específicos (Panificadora, Yogurtera...)";86;0
+93;1;"Exprimidores y licuadoras";86;0
+94;1;"Balanzas de Cocina";86;0
+95;1;"Foundues y Raclettes";86;0
+96;1;"Planchas eléctricas";86;0
+97;1;"Creperas y planchas eléctricas";86;0
+98;1;"Microondas - Horno";86;0
+99;1;"Tostadoras - Sandwicheras";86;0
+100;1;"Hervidores y Teteras";86;0
+101;1;Cortafiambres;86;0
+102;1;"Picadoras y Embutidoras";86;0
+103;1;Cocedores;86;0
+104;1;"Campanas Extractoras";86;0
+105;1;"Fiambreras y porta alimentos";64;0
+106;1;"Porta alimentos y botellas";105;0
+107;1;Fiambreras;105;0
+108;1;"Fiambreras de cristal";105;0
+109;1;"Complementos para porta alimentos";105;0
+110;1;"Bolsas de envasado";105;0
+111;1;"Botellas y fundas";105;0
+112;1;"Fondues y raclettes";64;0
+113;1;"Paelleros de gas";64;0
+114;1;"Cafeteras y molinillos";64;0
+115;1;"Cafeteras tradicionales y teteras";114;0
+116;1;"Embudos, filtros y recambios";114;0
+117;1;Molinillos;114;0
+118;1;"Repostería creativa";64;0
+119;1;"Moldes de repostería";118;0
+120;1;Ingredientes;118;0
+121;1;"Cortadores de galletas y pastas";118;0
+122;1;"Otros utensilios";118;0
+123;1;"Libros de cocina";118;0
+124;1;"Cocinar al microondas";64;0
+125;1;"Utensilios de cocina";64;0
+126;1;"Abrelatas y cascanueces";125;0
+127;1;"Portarrollos de cocina";125;0
+128;1;"Aceiteras, salseras y pimenteros";125;0
+129;1;"Azucareros y saleros";125;0
+130;1;"Bandejas y tablas de corte";125;0
+131;1;"Mandolinas y ralladores";125;0
+132;1;"Coladores de cocina";125;0
+133;1;Encendedores;125;0
+134;1;"Picadoras y pasapurés";125;0
+135;1;"Alarmas y termómetros de cocina";125;0
+136;1;"Embudos y exprimidores";125;0
+137;1;"Fruteros y paneras";125;0
+138;1;"Botes y tarros";125;0
+139;1;"Guarda alimentos";125;0
+140;1;"Moldes de cocina";125;0
+141;1;Cucharones;125;0
+142;1;"Espátulas y palas de cocina";125;0
+143;1;Espumaderas;125;0
+144;1;Batidores;125;0
+145;1;"Utensilios de bebida";64;0
+146;1;"Termo líquidos y sólidos";145;0
+147;1;"Accesorios para botellas de vino y cava";145;0
+148;1;"Accesorios para cóctel";145;0
+149;1;"Enfriadores y cubiteras";145;0
+150;1;"Otros utensilios de bebida";145;0
+151;1;"Filtros y jarras Brita";145;0
+152;1;"Botellas y jarras";145;0
+153;1;"Textil cocina";64;0
+154;1;"Guantes y manoplas de cocina";153;0
+155;1;"Hules y manteles";153;0
+156;1;"Salvaplatos y portabolsas";153;0
+157;1;"Paños de cocina y delantales";153;0
+158;1;"Salvamanteles y pinzas para manteles";153;0
+159;1;"Grifos de cocina";64;0
+160;1;"Muebles de jardín";2;0
+161;1;"Conjuntos de muebles de jardín";160;0
+162;1;"Mesas de jardín plegables";160;0
+163;1;"Mesas de jardín metal y aluminio";160;0
+164;1;"Mesas de jardín ratán y resina";160;0
+165;1;"Mesas de jardín de madera";160;0
+166;1;"Sillas y butacas de jardín";160;0
+167;1;"Sillas de jardín";166;0
+168;1;"Sillas apilables de plástico";166;0
+169;1;"Sillones de Jardín";166;0
+170;1;"Butacas de Jardín";166;0
+171;1;"Hamacas y tumbonas";160;0
+172;1;Cojines;160;0
+173;1;"Cojines sin respaldo";172;0
+174;1;"Cojines con respaldo";172;0
+175;1;"Carpas y pérgolas";160;0
+176;1;"Balancines y bancos";160;0
+177;1;"Baúles y arcones";160;0
+178;1;"Parasoles y pies";160;0
+179;1;"Fundas protectoras";160;0
+180;1;"Casas de madera";160;0
+181;1;"Casetas y cobertizos metálicos";160;0
+182;1;"Casetas de resina";160;0
+183;1;"Casetas para animales";160;0
+184;1;"Mobiliario y juegos infantiles";160;0
+185;1;"Armarios de resina";2;0
+186;1;"Armarios escoberos de resina";185;0
+187;1;"Armarios de resina medianos";185;0
+188;1;"Armarios de resina altos";185;0
+189;1;"Armarios de resina con persiana";185;0
+190;1;"Taquillas de resina";185;0
+191;1;"Estanterías de resina";185;0
+192;1;Barbacoas;2;0
+193;1;"Barbacoas de gas";192;0
+194;1;"Barbacoas de carbón";192;0
+195;1;"Parrillas de barbacoa";192;0
+196;1;"Cajones de barbacoa";192;0
+197;1;"Barbacoas eléctricas";192;0
+198;1;"Accesorios de barbacoa";192;0
+199;1;Piscinas;2;0
+200;1;"Piscinas Gre";199;0
+201;1;"Piscinas Gre con filtro de arena";200;0
+202;1;"Piscinas Gre con filtro de cartucho";200;0
+203;1;"Piscinas desmontables";199;0
+204;1;"Duchas de jardín";199;0
+205;1;"Bombas y depuradoras";199;0
+206;1;"Accesorios para piscinas";199;0
+207;1;"Productos químicos y cloros";199;0
+208;1;"Limpiafondos piscinas";199;0
+209;1;"Fundas cobertoras";199;0
+210;1;"Pintura de piscinas";199;0
+211;1;"Camping y playa";2;0
+212;1;Insecticidas;211;0
+213;1;Raticidas;212;0
+214;1;"Repelentes para mosquitos";212;0
+215;1;"Velas antimosquitos";212;0
+216;1;"Anti plagas para hormigas";212;0
+217;1;Cucarachas;212;0
+218;1;Ahuyentadores;212;0
+219;1;"Mosquiteras y cortinas";211;0
+220;1;"Mosquiteras para ventana";219;0
+221;1;"Mosquiteras para puerta";219;0
+222;1;"Mosquiteras de fibra de vidrio";219;0
+223;1;"Cortinas anti insectos";219;0
+224;1;"Camping gas y hornillos";211;0
+225;1;Linternas;211;0
+226;1;"Cestas y bolsas de picnic";211;0
+227;1;"Neveras y bolsas térmicas";211;0
+228;1;"Termos y cantimploras";211;0
+229;1;"Colchones de camping";211;0
+230;1;Sombrillas;211;0
+231;1;"Sillas y sillones de playa";211;0
+232;1;"Accesorios de deporte y navajas";211;0
+233;1;"Flotadores y colchonetas";211;0
+234;1;"+ Jardinería";2;0
+235;1;"Herramientas de jardín";234;0
+236;1;Cortarramas;235;0
+237;1;"Cortasetos manuales";235;0
+238;1;"Tijeras cortacésped";235;0
+239;1;"Tijeras de podar y navajas";235;0
+240;1;"Cultivadores, binadores y aireadores";235;0
+241;1;"Palas, picos y azadas";235;0
+242;1;"Hachas, mazas, cuñas y piedras";235;0
+243;1;"Herramientas infantiles";235;0
+244;1;"Hoces y guadañas";235;0
+245;1;"Mangos sueltos";235;0
+246;1;"Rastrillos, escobas y accesorios";235;0
+247;1;"Sierras y hojas de sierra";235;0
+248;1;"Maquinaria de jardín";234;0
+249;1;"Aspiradores y sopladores";248;0
+250;1;Biotrituradores;248;0
+251;1;Cortabordes;248;0
+252;1;Cortasetos;248;0
+253;1;"Motosierras eléctricas";248;0
+254;1;"Motosierras de gasolina";248;0
+255;1;"Cortacésped de gasolina";248;0
+256;1;"Cortacésped eléctrico";248;0
+257;1;"Cortacésped manual";248;0
+258;1;Desbrozadoras;248;0
+259;1;"Hidrolimpiadoras a presión";248;0
+260;1;"Maquinaria agrícola";248;0
+261;1;Motoazadas;248;0
+262;1;Escarificadores;248;0
+263;1;"Accesorios maquinaria de jardín";248;0
+264;1;"Decoración jardín";234;0
+265;1;"Césped artificial y losetas";264;0
+266;1;"Velas decorativas para jardín";264;0
+267;1;"Balizas solares";264;0
+268;1;"Antorchas y guirnaldas de jardín";264;0
+269;1;Macetas;264;0
+270;1;Jardineras;264;0
+271;1;"Estanques y accesorios para fuentes";264;0
+272;1;"Figuras decorativas de jardín";264;0
+273;1;"Casetas de Pájaros";264;0
+274;1;"Productos de riego";234;0
+275;1;"Programadores de riego";274;0
+276;1;"Pistolas de riego y lanzariegos";274;0
+277;1;"Distribuidores de riego";274;0
+278;1;"Conexiones de goteo";274;0
+279;1;"Conexiones de riego enterrado";274;0
+280;1;Mangueras;274;0
+281;1;"Carros portamangueras";274;0
+282;1;"Kits de riego completos";274;0
+283;1;Aspersores;274;0
+284;1;"Riego gota a gota";274;0
+285;1;Electroválvulas;274;0
+286;1;"Tuberías de baja presión";274;0
+287;1;Regadoras;274;0
+288;1;"Depósitos de Agua";274;0
+289;1;"Iluminación exterior";234;0
+290;1;"Apliques de exterior";289;0
+291;1;Farolas;289;0
+292;1;"Focos halógenos";289;0
+293;1;"Balizas de sobremuro";289;0
+294;1;"Luz exterior de suelo";289;0
+295;1;"Productos de cultivo";234;0
+296;1;Herbicidas;295;0
+297;1;"Abonos y fertilizantes";295;0
+298;1;Compostadores;295;0
+299;1;Semillas;295;0
+300;1;"Pulverizadores y vaporizadores";295;0
+301;1;Substratos;295;0
+302;1;"Huertos urbanos";234;0
+303;1;Animales;234;0
+304;1;"Bombas de agua";234;0
+305;1;"Bombas de transvase";304;0
+306;1;"Bombas eléctricas";304;0
+307;1;"Grupos de presión";304;0
+308;1;Sumergibles;304;0
+309;1;"Mallas sombreadoras";234;0
+310;1;"Toldos y accesorios";234;0
+311;1;"Cañizo y brezo";234;0
+312;1;"Vallas y cercados";234;0
+313;1;"Accesorios para enrejados metálicos";312;0
+314;1;"Borduras de madera o PVC";312;0
+315;1;"Vallado de madera";312;0
+316;1;Celosías;312;0
+317;1;"Cubos de jardín";234;0
+318;1;"Carros de compra";2;0
+319;1;"Carros de compra Playmarket";318;0
+320;1;"Carros de compra Rolser";318;0
+321;1;"Carros de compra Ambit";318;0
+322;1;"Bolsas para la compra";318;0
+323;1;"Productos para el baño";2;0
+324;1;"Grifería de baño";323;0
+325;1;"Grifería de baño";324;0
+326;1;"Grifos termostáticos";324;0
+327;1;"Tapones y ahorro de agua";324;0
+328;1;"Conjuntos de baño";323;0
+329;1;"Serie de baño Scooter";328;0
+330;1;"Serie de baño Route 66";328;0
+331;1;"Serie Boston";328;0
+332;1;"Serie Andrea";328;0
+333;1;"Serie Rainbow";328;0
+334;1;"Serie Polaris";328;0
+335;1;"Serie Cube";328;0
+336;1;"Serie Wenko";328;0
+337;1;"Serie Etna";328;0
+338;1;"Serie Tatay Flat";328;0
+339;1;"Serie Tatay Ronda";328;0
+340;1;"Serie Tatay Design";328;0
+341;1;"Serie Power loc";328;0
+342;1;"Serie Items";328;0
+343;1;"Serie Tube";328;0
+344;1;"Serie Move";328;0
+345;1;"Serie Brasil";328;0
+346;1;"Dosificadores de jabón";323;0
+347;1;"Vasos portacepillos";323;0
+348;1;"Portarollos de baño";323;0
+349;1;"Cestos de baño y ducha";323;0
+350;1;Escobilleros;323;0
+351;1;Toalleros;323;0
+352;1;"Taburetes de baño";323;0
+353;1;"Seguridad - 3ª edad";323;0
+354;1;"Alfombras de baño";323;0
+355;1;Espejos;323;0
+356;1;"Básculas de baño";323;0
+357;1;"Flexos y mangos de ducha";323;0
+358;1;"Mangos de ducha";357;0
+359;1;"Columnas de ducha";357;0
+360;1;"Conjuntos y kits de ducha";357;0
+361;1;"Flexos de ducha";357;0
+362;1;"Muebles de baño";323;0
+363;1;"Mamparas de ducha";323;0
+364;1;"Sanitarios y tapas";323;0
+365;1;"Cortinas y barras de baño";323;0
+366;1;"Cortinas de baño";365;0
+367;1;"Barras de cortina baño";365;0
+368;1;Tarimas;323;0
+369;1;Ventilación;2;0
+370;1;Ventiladores;369;0
+371;1;"Ventiladores industriales";369;0
+372;1;"Ventiladores de torre";369;0
+373;1;"Ventiladores de techo y pared";369;0
+374;1;"Aires acondicionados";369;0
+375;1;Nebulizadores;369;0
+376;1;Muebles;2;0
+377;1;Cajoneras;376;0
+378;1;Botelleros;376;0
+379;1;Zapateros;376;0
+380;1;Armarios;376;0
+381;1;"Muebles infantiles";376;0
+382;1;"Muebles para la cocina";376;0
+383;1;"Mesas y ordenación";376;0
+384;1;"Mesas de ordenador - estudio";383;0
+385;1;"Recibidores y bufete";383;0
+386;1;"Mobiliario de audio, video, TV";383;0
+387;1;"Interiores de armario";383;0
+388;1;Caballetes;383;0
+389;1;"Estantes y baldas";376;0
+390;1;Estanterías;376;0
+391;1;"Estanterías domésticas";390;0
+392;1;"Estanterías de almacén";390;0
+393;1;"Accesorios de estantería";390;0
+394;1;"Consolas y Escuadras";390;0
+395;1;Sillas;376;0
+396;1;"Resortes para muebles";376;0
+397;1;Tendederos;2;0
+398;1;"Tendederos con alas";397;0
+399;1;"Tendederos de pared";397;0
+400;1;"Tendederos de balcón extensibles";397;0
+401;1;"Tendederos de bañera";397;0
+402;1;"Accesorios para tender";397;0
+403;1;"+ Productos de hogar";2;0
+404;1;"Mirillas digitales";403;0
+405;1;"Calefacción y estufas";403;0
+406;1;"Estufas de pellets";405;0
+407;1;"Estufas de leña";405;0
+408;1;"Estufas de gas";405;0
+409;1;"Radiadores y estufas eléctricas";405;0
+410;1;"Emisores térmicos y convectores";405;0
+411;1;"Estufas industriales y de queroseno";405;0
+412;1;Biochimeneas;405;0
+413;1;"Accesorios para chimenea";405;0
+414;1;"Productos de encendido";405;0
+415;1;Humidificación;405;0
+416;1;"Termostatos y programadores";405;0
+417;1;"Mantas eléctricas y calientapies";405;0
+418;1;Electrodomésticos;403;0
+419;1;"Electrodomésticos de baño";418;0
+420;1;"Limpieza del hogar";418;0
+421;1;"Planchas de la ropa";418;0
+422;1;"Máquinas de coser";418;0
+423;1;"Termómetros y estaciones metereológicas";418;0
+424;1;"Limpiadores profesionales HG";403;0
+425;1;"Limpiadores para baldosas";424;0
+426;1;"Limpiadores para mármol";424;0
+427;1;"Limpiadores para parquet";424;0
+428;1;"Limpiadores para suelo terracota";424;0
+429;1;"Limpiadores para suelo laminado";424;0
+430;1;"Limpiadores de cocinas y baños";424;0
+431;1;"Desatascadores HG";424;0
+432;1;"Limpiadores antical y antimoho";424;0
+433;1;"Limpiadores de cemento";424;0
+434;1;"Limpiadores específicos HG";424;0
+435;1;"Tablas de planchar";403;0
+436;1;"Tablas de planchado";435;0
+437;1;"Fundas de planchar";435;0
+438;1;"Bolsas y fundas protectoras";403;0
+439;1;"Cestas para la ropa";403;0
+440;1;"Alfombras y felpudos";403;0
+441;1;"Alfombras de cocina";440;0
+442;1;Felpudos;440;0
+443;1;"Cortinas, estores y rieles";403;0
+444;1;Estores;443;0
+445;1;"Barras de cortinas";443;0
+446;1;Cortinas;443;0
+447;1;"Cuadros, Marcos y Vinilos";403;0
+448;1;"Cajas y baúles";403;0
+449;1;"Baules y Puffs";448;0
+450;1;"Cajas y organizadores";448;0
+451;1;"Cajas decorativas";448;0
+452;1;"Almacenaje para armarios y muebles";448;0
+453;1;"Cajas y organizadores infantiles";448;0
+454;1;"Cajas de madera";448;0
+455;1;"Perchas y percheros";403;0
+456;1;"Artículos de Limpieza";403;0
+457;1;"Limpiacristales y Rascadores";456;0
+458;1;"Bayetas, Estropajos y Esponjas";456;0
+459;1;"Cubos y barreños";456;0
+460;1;"Escoba, Fregona, Mopa, Recogedor";456;0
+461;1;"Ambientadores y Absorbe Humedad";456;0
+462;1;Pulimentos;456;0
+463;1;"Productos Químicos";456;0
+464;1;Quitapelusas;456;0
+465;1;Electrónica;403;0
+466;1;Domótica;465;0
+467;1;Telefonía;465;0
+468;1;"Accesorios para dispositivos móviles";465;0
+469;1;Televisión;465;0
+470;1;"Timbres, Sirenas y Videoporteros";465;0
+471;1;"Radios digitales y transistores";465;0
+472;1;"Relojes y despertadores";403;0
+473;1;Gadgets;403;0
+474;1;"Herramientas manuales";2;0
+475;1;"Alicates y tenazas";474;0
+476;1;Alicates;475;0
+477;1;Cortatubos;475;0
+478;1;"Espejo de mecánico";475;0
+479;1;"Juego de alicates";475;0
+480;1;"Pinzas de precision";475;0
+481;1;"Prensa terminales";475;0
+482;1;Tenazas;475;0
+483;1;Destornilladores;474;0
+484;1;Verificadores;483;0
+485;1;"Boca cuadrada";483;0
+486;1;"Boca plana";483;0
+487;1;"Destornilladores electricista";483;0
+488;1;Hexagonal-bola;483;0
+489;1;"Juego destornilladores";483;0
+490;1;Mango;483;0
+491;1;Mecánico;483;0
+492;1;Phillips;483;0
+493;1;Portapuntas;483;0
+494;1;Pozidriv;483;0
+495;1;Torx;483;0
+496;1;Tri-wing;483;0
+497;1;Varillas;483;0
+498;1;"Vaso hexagonal";483;0
+499;1;Puntas;483;0
+500;1;Llaves;474;0
+501;1;"Llaves de vaso";500;0
+502;1;"Juego de llaves de vaso";500;0
+503;1;"Llaves ajustables";500;0
+504;1;"Llaves fijas";500;0
+505;1;"Llaves de carraca";500;0
+506;1;"Llaves allen";500;0
+507;1;"Llaves de pipa";500;0
+508;1;"Llaves acodadas";500;0
+509;1;"Llaves combinadas";500;0
+510;1;"Llaves de tubo";500;0
+511;1;"Llaves hexagonales";500;0
+512;1;"Llaves Torx";500;0
+513;1;"Martillos y mazas";474;0
+514;1;Mazas;513;0
+515;1;Martillos;513;0
+516;1;"Limas y escofinas";474;0
+517;1;Limas;516;0
+518;1;Escofinas;516;0
+519;1;"Mangos para limas y escofinas, y cepillos.";516;0
+520;1;"Botadores y sacabocados";474;0
+521;1;Sacabocados;520;0
+522;1;Botadores;520;0
+523;1;Punzones;520;0
+524;1;"Sierras y consumibles";474;0
+525;1;Serruchos;524;0
+526;1;Sierras;524;0
+527;1;"Consumibles sierras y guias";524;0
+528;1;"Cúters, navajas y tijeras";474;0
+529;1;Cúter;528;0
+530;1;"Navajas / cuchillos";528;0
+531;1;Tijeras;528;0
+532;1;"Útiles de medida de precisión";474;0
+533;1;Calibres;532;0
+534;1;Compás;532;0
+535;1;"Transportadores de angulos";532;0
+536;1;"Instrumental digital";532;0
+537;1;Galgas;532;0
+538;1;Niveles;532;0
+539;1;"Medidores láser";532;0
+540;1;Micrómetros;532;0
+541;1;"Escuadras y reglas";474;0
+542;1;Escuadras;541;0
+543;1;Reglas;541;0
+544;1;Flexómetros;474;0
+545;1;"Cintas metricas";544;0
+546;1;flexometros;544;0
+547;1;"Niveles de construcción";474;0
+548;1;"Tiralíneas y marcaje";474;0
+549;1;"Marcadores manuales";548;0
+550;1;"Cordeles y tiralineas";548;0
+551;1;"Sargentos y pinzas";474;0
+552;1;"Tornillos de apriete";551;0
+553;1;"Pinzas de apriete";551;0
+554;1;"Remachadoras y remaches";474;0
+555;1;"Grapadoras y clavadoras";474;0
+556;1;"Estuches de herramientas";474;0
+557;1;"Cajas de herramientas";474;0
+558;1;"Bolsas porta herramientas";557;0
+559;1;"Caja herramientas de plástico";557;0
+560;1;"Caja herramientas de metal";557;0
+561;1;"Talleres móviles";557;0
+562;1;"Clasificadores de herramientas";557;0
+563;1;Gavetas;557;0
+564;1;"Extractores manuales y mecanicos";474;0
+565;1;"accesorios extraccion";564;0
+566;1;"extractores accion tijera";564;0
+567;1;"extractores autocentrantes";564;0
+568;1;"extractores autogrip";564;0
+569;1;"extractores con abrazadera lateral";564;0
+570;1;"extractores con husillo hidraulico";564;0
+571;1;"extractores de alcance preajustable";564;0
+572;1;"extractores de percusion";564;0
+573;1;"extractores de rodamientos";564;0
+574;1;"extractores patas articuladas";564;0
+575;1;"extractores universales dos patas";564;0
+576;1;"extractores universales tres patas";564;0
+577;1;"herramientas de extraccion";564;0
+578;1;"herramientas especiales automocion";564;0
+579;1;"husillos mecanicos";564;0
+580;1;"juego de extractores";564;0
+581;1;"llaves de golpe";564;0
+582;1;patas;564;0
+583;1;"prensas y husillos hidraulicos";564;0
+584;1;"programa basico de extractores";564;0
+585;1;Pasahilos;474;0
+586;1;Cabezas;585;0
+587;1;Lubricante;585;0
+588;1;Pasahilos;585;0
+589;1;Plomada;474;0
+590;1;"Herramientas y utiles de engrase";474;0
+591;1;"Escoplos y gubias";474;0
+592;1;escoplos;591;0
+593;1;gubias;591;0
+594;1;Desbarbadoras;474;0
+595;1;"Barras industriales";474;0
+596;1;"Herramienta especializada";474;0
+597;1;"Herramientas de Albañil - Embaldosador";596;0
+598;1;"Herramientas de Carpintero";596;0
+599;1;"Herramientas de Electricista";596;0
+600;1;"Herramientas de Fontanero";596;0
+601;1;"Herramientas para Placas y Yeso";596;0
+602;1;"Herramientas eléctricas";2;0
+603;1;"Taladros y atornilladores";602;0
+604;1;"Taladros con cable";603;0
+605;1;"Taladros a batería";603;0
+606;1;"Atornilladores de batería";603;0
+607;1;Brocas;602;0
+608;1;"Brocas para madera";607;0
+609;1;"Brocas para metal";607;0
+610;1;"Brocas para piedra";607;0
+611;1;"Brocas SDS";607;0
+612;1;"Juegos de brocas";607;0
+613;1;"Portabrocas, llaves y accesorios";607;0
+614;1;"Brocas HSS";607;0
+615;1;Amoladoras;602;0
+616;1;"Amoladoras Bosch";615;0
+617;1;"Amoladoras Makita";615;0
+618;1;"Amoladoras Stanley";615;0
+619;1;"Amoladoras DeWalt";615;0
+620;1;"Amoladoras Black&Decker";615;0
+621;1;"Otras amoladoras";615;0
+622;1;"Discos amoladora";615;0
+623;1;"Discos de diamante";615;0
+624;1;"Accesorios amoladora";615;0
+625;1;Cepillos;602;0
+626;1;"Cortadoras y tronzadoras";602;0
+627;1;"Pistolas de aire caliente";602;0
+628;1;Fresadoras;602;0
+629;1;Lijadoras;602;0
+630;1;"Martillos eléctricos";602;0
+631;1;"Multi herramientas y accesorios";602;0
+632;1;"Pistolas para pintar";602;0
+633;1;"Sierras circulares";602;0
+634;1;"Sierras de calar";602;0
+635;1;"Sierras sable";602;0
+636;1;"Medidores y niveles láser";602;0
+637;1;"Pistolas de silicona y encoladoras";602;0
+638;1;"Accesorios de herramientas";602;0
+639;1;"Cepillos y Tazas";638;0
+640;1;"Cinceles - punteros - escarpas";638;0
+641;1;"Coronas y accesorios";638;0
+642;1;"Cuchillas cepillo";638;0
+643;1;Ensamblaje;638;0
+644;1;Fresas;638;0
+645;1;"Lamas sierra de calar";638;0
+646;1;"Lijas y tacos abrasivos";638;0
+647;1;Muelas;638;0
+648;1;"Puntas para atornillar";638;0
+649;1;"Soportes maquinaria";638;0
+650;1;Maquinaria;2;0
+651;1;"Aspiradores industriales";650;0
+652;1;Compresores;650;0
+653;1;Generadores;650;0
+654;1;Motobombas;650;0
+655;1;"Equipación taller";650;0
+656;1;Esmeriladoras;655;0
+657;1;Gatos;655;0
+658;1;"Luz portátil";655;0
+659;1;"Sierras de sobremesa";655;0
+660;1;"Taladros de columna y sobremesa";655;0
+661;1;"Tornillos de banco, mordaza y específicos";655;0
+662;1;"Soportes anti-vibratorios";650;0
+663;1;Soldadores;650;0
+664;1;"Soldadores Inverter";663;0
+665;1;"Soldadura Eléctrica";663;0
+666;1;"Soldadura a Gas";663;0
+667;1;"Bombonas y Cartuchos de Gas";663;0
+668;1;"Accesorios de Soldadura";663;0
+669;1;"Escaleras de aluminio";2;0
+670;1;"Escaleras de aluminio domésticas";669;0
+671;1;"Escaleras de aluminio profesional";669;0
+672;1;"Escaleras telescópicas";669;0
+673;1;"Escaleras de fibra de vidrio";669;0
+674;1;"Escaleras de madera";669;0
+675;1;"Taburetes y accesorios";669;0
+676;1;"Recambios escaleras";669;0
+677;1;Andamios;669;0
+678;1;Rampas;669;0
+679;1;"Seguridad infantil";2;0
+680;1;"Protectores cantoneras";679;0
+681;1;"Vallas de seguridad infantil";679;0
+682;1;"Protectores para enchufes";679;0
+683;1;"Cierres de seguridad y salvadedos";679;0
+684;1;"Pinturas y esmaltes";2;0
+685;1;"Pintura de interior";684;0
+686;1;"Pinturas específicas";684;0
+687;1;"Pinturas de exterior";686;0
+688;1;"Pintura para cocinas y baños";686;0
+689;1;"Pinturas antihumedad y antigoteras";686;0
+690;1;"Pinturas para Piscinas";686;0
+691;1;"Pinturas para Suelo y Párking";686;0
+692;1;"Chalk Paint - efecto tiza";684;0
+693;1;"Chalk Paint Xylazel Oleum";692;0
+694;1;"Chalk paint spray";692;0
+695;1;"Chalk Paint Titan";692;0
+696;1;"Chalk Paint Bruguer";692;0
+697;1;"Barniz y cera Chalky Paint";692;0
+698;1;"Accesorios para chalk paint";692;0
+699;1;Esmaltes;684;0
+700;1;"Esmaltes Sintéticos";699;0
+701;1;"Esmaltes Acrílicos";699;0
+702;1;"Esmaltes Anti-óxido";699;0
+703;1;"Accesorios de pintura";684;0
+704;1;"Accesorios Básicos";703;0
+705;1;"Brochas y Pinceles";703;0
+706;1;"Cubos y Cubetas";703;0
+707;1;Espátulas;703;0
+708;1;"Cinta y Plástico Protector";703;0
+709;1;Paletinas;703;0
+710;1;"Papel de Lija y Lana de Acero";703;0
+711;1;"Rodillos y Accesorios";703;0
+712;1;"Pistolas para pintar";684;0
+713;1;Masillas;684;0
+714;1;Cementos;713;0
+715;1;Masillas;713;0
+716;1;"Yesos y Escayolas";713;0
+717;1;"Aislamientos e impermeabilización";684;0
+718;1;"Decapantes y quitapinturas";684;0
+719;1;"Disolventes y aguarrás";684;0
+720;1;"Preparación de la madera";684;0
+721;1;Aceites;720;0
+722;1;"Barniz, tinte y lasure exterior";720;0
+723;1;"Barniz, tinte y lasure interior";720;0
+724;1;Ceras;720;0
+725;1;"Imprimación, selladoras y lacas";720;0
+726;1;"Aguaplast para madera";720;0
+727;1;"Protección de madera contra insectos";720;0
+728;1;"Retocadores y restauradores";720;0
+729;1;"Preparación del metal";720;0
+730;1;"Pintura en spray y aerosoles";684;0
+731;1;"Vestuario y zapatos de seguridad";2;0
+732;1;"Zapatos de seguridad";731;0
+733;1;"Botas de seguridad";731;0
+734;1;"Chaquetas y cazadoras";731;0
+735;1;Cazadoras;734;0
+736;1;Chaquetas;734;0
+737;1;Chalecos;734;0
+738;1;"Trajes impermeables";731;0
+739;1;"Polos, camisas y camisetas";731;0
+740;1;"Camisetas térmicas";731;0
+741;1;"Pantalones térmicos";731;0
+742;1;"Pantalones de trabajo";731;0
+743;1;"Pantalones cortos";742;0
+744;1;"Pantalones largos";742;0
+745;1;"Pantalones de alta visibilidad";742;0
+746;1;"Protección de la cabeza";731;0
+747;1;"Cascos y Gorras";746;0
+748;1;"Filtros Mascarillas";746;0
+749;1;"Gafas de Seguridad";746;0
+750;1;"Mascarillas con Filtro";746;0
+751;1;"Mascarillas Desechables";746;0
+752;1;"Pantallas de Soldadura";746;0
+753;1;"Pantallas Transparentes";746;0
+754;1;"Protección Auditiva";746;0
+755;1;"Fajas y tobilleras";731;0
+756;1;Guantes;731;0
+757;1;"Guantes desechable";756;0
+758;1;"Guantes de precisión";756;0
+759;1;"Guantes de uso general";756;0
+760;1;"Guantes de construcción y jardinería";756;0
+761;1;"Guantes de mecánica";756;0
+762;1;"Guantes química y limpieza";756;0
+763;1;"Guantes térmicos";756;0
+764;1;"Guantes de soldadura";756;0
+765;1;"Guantes cristal y resbaladizos.";756;0
+766;1;"Guantes de malla para el corte";756;0
+767;1;Arneses;731;0
+768;1;Calcetines;731;0
+769;1;Plantillas;731;0
+770;1;"Monos y buzos";731;0
+771;1;"Vestuario sanitario";731;0
+772;1;Gorras;731;0
+773;1;Cerraduras;2;0
+774;1;"Cerraduras Azbe";773;0
+775;1;"Cerraduras tesa";773;0
+776;1;"Cerraduras de seguridad";775;0
+777;1;"Cilindros tesa";775;0
+778;1;"Manillas tesa";775;0
+779;1;"Picaportes tesa";775;0
+780;1;"Pomos tesa";775;0
+781;1;"Barras antipánico";775;0
+782;1;"Cerraduras MCM";773;0
+783;1;"Cerraduras Ezkurra";773;0
+784;1;"Cerraduras JIS";773;0
+785;1;"Cilindros Abus";773;0
+786;1;"Cerraduras UCEM";773;0
+787;1;"Cerraduras URKO";773;0
+788;1;"Cerraduras Lar";773;0
+789;1;Picaportes;773;0
+790;1;Buzones;2;0
+791;1;"Buzones y accesorios";790;0
+792;1;"Armarios para archivar llaves";790;0
+793;1;Botiquines;790;0
+794;1;"Paneles para anuncios";790;0
+795;1;"Ferreteria Industrial";2;0
+796;1;Abrazaderas;795;0
+797;1;"Consumibles soldadura";795;0
+798;1;Remaches;795;0
+799;1;"Cable de acero";795;0
+800;1;Mangueras;795;0
+801;1;"Especialidades industrial";795;0
+802;1;"Aplicadores de mortero";801;0
+803;1;"Candados industriales";801;0
+804;1;"Cubos de mezcla";801;0
+805;1;"Flejes y bandas de fijación";801;0
+806;1;Mezcladoras;801;0
+807;1;"Varillas para mezcladoras";801;0
+808;1;"productos quimicos";801;0
+809;1;"Recambios rampas";801;0
+810;1;"Spray y pasta de corte";801;0
+811;1;"Herramienta abrasion industrial";795;0
+812;1;"bandas abrasivas y ruedas con vastago";811;0
+813;1;"bandas abrasivas";811;0
+814;1;"bases de lijadora";811;0
+815;1;"brocas de diamante";811;0
+816;1;"coronas y muelas abrasivas";811;0
+817;1;"discos de pulido y corte";811;0
+818;1;lijadoras;811;0
+819;1;"papel lija";811;0
+820;1;"rollos abrasivos";811;0
+821;1;"Herramienta de corte industrial";795;0
+822;1;cuchillos;821;0
+823;1;accesorios;821;0
+824;1;amoladoras;821;0
+825;1;"brocas sds";821;0
+826;1;brocas;821;0
+827;1;cojinetes;821;0
+828;1;coronas;821;0
+829;1;cuchillas;821;0
+830;1;"discos de pulido y corte";821;0
+831;1;fresa;821;0
+832;1;"herramienta manual";821;0
+833;1;"herramientas de corte manual";821;0
+834;1;"herramientas para reparacion de roscas";821;0
+835;1;"herramientas para roscar";821;0
+836;1;"machos para roscar";821;0
+837;1;"sierras circulares";821;0
+838;1;"sierras de calar";821;0
+839;1;taladros;821;0
+840;1;"Machos y cojinetes";821;0
+841;1;"Sistemas de fijacion industrial";795;0
+842;1;tacos;841;0
+843;1;tornillos;841;0
+844;1;"Iluminación y bombillas";2;0
+845;1;"Material eléctrico";844;0
+846;1;Programadores;845;0
+847;1;Termostatos;845;0
+848;1;"Focos empotrables";845;0
+849;1;Fluorescentes;845;0
+850;1;"Focos decorativos";845;0
+851;1;Plafones;845;0
+852;1;Apliques;845;0
+853;1;"Lámparas Colgantes";845;0
+854;1;"Lámparas de Pie";845;0
+855;1;"Lámpara de Sobremesa";845;0
+856;1;Cables;845;0
+857;1;"Pequeño material eléctrico";845;0
+858;1;"Tomas de corriente";845;0
+859;1;"Materiales de Instalación";845;0
+860;1;Mecanismos;845;0
+861;1;Pilas;845;0
+862;1;"Barras de led";845;0
+863;1;Bombillas;844;0
+864;1;"Bombillas de led";863;0
+865;1;"Bombillas vintage Edison";863;0
+866;1;"Bombillas de bajo consumo";863;0
+867;1;"Bombillas tradicionales";863;0
+868;1;"Bombillas específicas";863;0
+869;1;"Linestras y fluorescentes";863;0
+870;1;"+ Ferretería";2;0
+871;1;"Colgadores y cuelga fácil";870;0
+872;1;"Colgadores grandes";871;0
+873;1;"Colgadores pequeños";871;0
+874;1;"Cuelga escobas";871;0
+875;1;"Colgadores de cocina";871;0
+876;1;"Cuelga cuadros";871;0
+877;1;"Topes de puerta";870;0
+878;1;"Cierrapuertas y retenedores";870;0
+879;1;"Accesorios para muebles";870;0
+880;1;"Fieltros y gotas";879;0
+881;1;Antideslizantes;879;0
+882;1;Conteras;879;0
+883;1;"Gotas adhesivas";879;0
+884;1;"Patines y deslizadores";879;0
+885;1;"Tiradores para muebles";879;0
+886;1;"Accesorios para puertas y ventanas";870;0
+887;1;Burletes;886;0
+888;1;"Tapajuntas y cubrejuntas";886;0
+889;1;"Pomos para puertas";886;0
+890;1;Rosetas;886;0
+891;1;"Manillas y manillones";886;0
+892;1;"Pestillos y Pasadores";886;0
+893;1;Bisagras;886;0
+894;1;"Bisagras de puerta";886;0
+895;1;Pernios;886;0
+896;1;"Cerrojos y cierres";886;0
+897;1;"Cremonas y grisans";886;0
+898;1;"Guías de cajón y accesorios";886;0
+899;1;"Herrajes para muebles";886;0
+900;1;"Escuadras y conectores";886;0
+901;1;"Mirillas y accesorios";886;0
+902;1;"Accesorios puertas correderas";886;0
+903;1;"Accesorios para persianas";886;0
+904;1;"Elementos de fijación cables";870;0
+905;1;"Cintas adhesivas";870;0
+906;1;"Cintas de doble cara";905;0
+907;1;"Cintas de embalaje";905;0
+908;1;"Cintas multiuso (Americana, etc.)";905;0
+909;1;"Adhesivos y pegamentos";870;0
+910;1;"Adhesivo de 2 componentes";909;0
+911;1;"Adhesivos de montaje";909;0
+912;1;"Cola blanca";909;0
+913;1;"Cola de contacto";909;0
+914;1;"Cola de termofusión a pistola";909;0
+915;1;"Adhesivos instantáneos - Super Glue";909;0
+916;1;"Siliconas, masillas y selladores";909;0
+917;1;"Pegamentos especificos";909;0
+918;1;"Cajas fuertes";870;0
+919;1;"Cajas fuertes de empotrar";918;0
+920;1;"Cajas fuertes de superficie";918;0
+921;1;"Cajas fuertes de ocultación";918;0
+922;1;"Cajas de caudales";918;0
+923;1;"Candados y cadenas";870;0
+924;1;Candados;923;0
+925;1;Portacandados;923;0
+926;1;"Cadenas y Candados de Moto";923;0
+927;1;"Antirrobo Coche y Moto";923;0
+928;1;"Cadenas y Cables para Bicicletas";923;0
+929;1;"Cadenas y Accesorios";923;0
+930;1;"Ceniceros de exterior";870;0
+931;1;"Papeleras urbanas";870;0
+932;1;Fontanería;870;0
+933;1;"Accesorios y sifones";932;0
+934;1;"Aislante de tuberías";932;0
+935;1;"Accesorios de Calefacción";932;0
+936;1;"Calentadores y Calderas";932;0
+937;1;"Cobre y Latón";932;0
+938;1;"Complementos de Soladadura";932;0
+939;1;"Extracción Aire";932;0
+940;1;"Accesorios para gas Butano";932;0
+941;1;"Grifería Industrial";932;0
+942;1;Polietileno;932;0
+943;1;"Tubos y Accesorios Pvc";932;0
+944;1;Accesorios;932;0
+945;1;"Tratamiento de Agua";932;0
+946;1;"Bancos de trabajo y armarios";870;0
+947;1;"Tornillería y fijación lineal";870;0
+948;1;Arandelas;947;0
+949;1;Clavos;947;0
+950;1;"Ganchos, hembrillas y alcayatas";947;0
+951;1;Métrico;947;0
+952;1;"Surtidos de tornillos";947;0
+953;1;Tacos;947;0
+954;1;"Tacos con tornillo";947;0
+955;1;"Tacos para paredes huecas";947;0
+956;1;"Tacos y anclajes de fijaciones pesadas";947;0
+957;1;"Tornillos chapa";947;0
+958;1;"Tornillos para madera";947;0
+959;1;"Tornillos inoxidables";947;0
+960;1;Tuercas;947;0
+961;1;"Varillas roscadas";947;0
+962;1;"Varios específicos";947;0
+963;1;"Tornillería en general";947;0
+964;1;"Fijación Profesional";947;0
+965;1;"Embalajes y mudanzas";870;0
+966;1;Carretillas;870;0
+967;1;"Aceites, grasas y lubricantes";870;0
+968;1;"Aceites y lubricantes";967;0
+969;1;Grasas;967;0
+970;1;"Grasas de ferretería industrial";967;0
+971;1;"Aceites y grasas - lubricantes industriales";967;0
+972;1;"Accesorios engrase y ferretería";967;0
+973;1;"Aceiteras industriales";967;0
+974;1;"Productos de la construcción";870;0
+975;1;Eslingas;974;0
+976;1;"Mallas para la construcción";974;0
+977;1;"Maquinaria de construcción";974;0
+978;1;"Placas Lisas y Onduladas";974;0
+979;1;Puertas;974;0
+980;1;"Puntales y Caballetes";974;0
+981;1;Recipientes;974;0
+982;1;"Rejas y Tapas";974;0
+983;1;"Señalización de seguridad obras";974;0
+984;1;Sumideros;974;0
+985;1;"Toldos de obra";974;0
+986;1;Trefilería;974;0
+987;1;Extintores;974;0
+988;1;"Carretillas de obras";974;0
+989;1;"Cuerdas y sujeciones";870;0
+990;1;"Accesorios de cuerda y poleas";989;0
+991;1;Cuerdas;989;0
+992;1;Alambres;989;0
+993;1;"Sujeción transporte";989;0
+994;1;Bridas;989;0
+995;1;"Accesorios para el coche";870;0
+996;1;"Productos para párkings";995;0
+997;1;"Pulpos y sujeciones para coche";995;0
+998;1;"Accesorios baterías para coche";995;0
+999;1;"Accesorios automóvil";995;0

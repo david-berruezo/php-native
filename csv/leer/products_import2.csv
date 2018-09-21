@@ -1,0 +1,945 @@
+ID;Active;Name;Categories;Price;Tax;"Wholesale price";OnSale;Discount;DiscountPercent;DiscountFrom;DiscountTo;Reference;SupplierReference;Supplier;Manufacturer;Ean13;Upc;Ecotax;Width;Height;Depth;Weight;Quantity;MinimalQuantity;Visibility;AdditionalShippingCost;Unity;UnityPrice;ShortDescription;Description;Tags;Metatitle;MetaKeywords;MetaDescription;UrlRewritten;TextStock;TextBackorder;Avaiable;ProductAvaiableDate;ProductCreationDate;ShowPrice;ImageUrls;DeleteExistingImages;Feature;AvaiableOnline;Condition;Customizable;Uploadable;TextFields;OutStock;IdNameShop;AdvancedStockManagement;DependsOnStock;Warehouse
+1001;1;;74;;31;;;;;;;1001;;;;;;;;;;;100;1;both;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl....";;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1002;1;;74;;31;;;;;;;1002;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1003;1;;74;;31;;;;;;;1003;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1004;1;;74;;31;;;;;;;1004;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1005;1;;74;;31;;;;;;;1005;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1006;1;;74;;31;;;;;;;1006;;;;;;;;;;;100;1;both;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1007;1;;74;;31;;;;;;;1007;;;;;;;;;;;100;1;both;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1008;1;;74;;31;;;;;;;1008;;;;;;;;;;;100;1;both;;;;"Azul marino con borde interior fucsia.300 ml...";;;;;"Azul marino con borde interior fucsia.300 ml...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1009;1;;74;;31;;;;;;;1009;;;;;;;;;;;100;1;both;;;;"Mug de porcelana rojo con borde interior azul celeste....";;;;;"Mug de porcelana rojo con borde interior azul celeste....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1010;1;;74;;31;;;;;;;1010;;;;;;;;;;;100;1;both;;;;"Violeta claro con borde interior azul celeste. 300 ml...";;;;;"Violeta claro con borde interior azul celeste. 300 ml...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1011;1;;74;;31;;;;;;;1011;;;;;;;;;;;100;1;both;;;;"Si eres de los que le gusta el café a grandes dosis, aquí puedes encontrar esta bonita taza mug de porcelana de gran capacidad.
+Esta mu...";;;;;"Si eres de los que le gusta el café a grandes dosis, aquí puedes encontrar esta bonita taza mug de porcelana de gran capacidad.
+Esta mu...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1012;1;;74;;31;;;;;;;1012;;;;;;;;;;;100;1;both;;;;"Si eres de los que le gusta el café a grandes dosis, aquí puedes encontrar esta bonita taza mug de porcelana de gran capacidad.
+Esta mu...";;;;;"Si eres de los que le gusta el café a grandes dosis, aquí puedes encontrar esta bonita taza mug de porcelana de gran capacidad.
+Esta mu...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1013;1;;74;;31;;;;;;;1013;;;;;;;;;;;100;1;both;;;;"Si eres de los que le gusta el café a grandes dosis, aquí puedes encontrar esta bonita taza mug de porcelana de gran capacidad.
+Esta mu...";;;;;"Si eres de los que le gusta el café a grandes dosis, aquí puedes encontrar esta bonita taza mug de porcelana de gran capacidad.
+Esta mu...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1014;1;;74;;31;;;;;;;1014;;;;;;;;;;;100;1;both;;;;"Si eres de los que le gusta el café a grandes dosis, aquí puedes encontrar esta bonita taza mug de porcelana de gran capacidad.
+Esta mu...";;;;;"Si eres de los que le gusta el café a grandes dosis, aquí puedes encontrar esta bonita taza mug de porcelana de gran capacidad.
+Esta mu...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1015;1;;74;;31;;;;;;;1015;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1016;1;;74;;31;;;;;;;1016;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1017;1;;74;;31;;;;;;;1017;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1018;1;;74;;31;;;;;;;1018;;;;;;;;;;;100;1;both;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1019;1;;74;;31;;;;;;;1019;;;;;;;;;;;100;1;both;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1020;1;;74;;31;;;;;;;1020;;;;;;;;;;;100;1;both;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1021;1;;74;;31;;;;;;;1021;;;;;;;;;;;100;1;both;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;"Mug de porcelana Ambit Farr con una capacidad de 30cl. Caja de 6 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1022;1;;74;;31;;;;;;;1022;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1023;1;;74;;31;;;;;;;1023;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1024;1;;74;;31;;;;;;;1024;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1025;1;;74;;31;;;;;;;1025;;;;;;;;;;;100;1;both;;;;"Taza desayuno Ambit Farr rayas rojas (6 Uds.)...";;;;;"Taza desayuno Ambit Farr rayas rojas (6 Uds.)...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1026;1;;74;;31;;;;;;;1026;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1027;1;;74;;31;;;;;;;1027;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1028;1;;74;;31;;;;;;;1028;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1029;1;;74;;31;;;;;;;1029;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1030;1;;74;;31;;;;;;;1030;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1031;1;;74;;31;;;;;;;1031;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1032;1;;74;;31;;;;;;;1032;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1033;1;;74;;31;;;;;;;1033;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1034;1;;74;;31;;;;;;;1034;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1035;1;;74;;31;;;;;;;1035;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1036;1;;74;;31;;;;;;;1036;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1037;1;;74;;31;;;;;;;1037;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1038;1;;74;;31;;;;;;;1038;;;;;;;;;;;100;1;both;;;;"Taza desayuno Ambit Farr banda roja (6 Uds.)...";;;;;"Taza desayuno Ambit Farr banda roja (6 Uds.)...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1039;1;;74;;31;;;;;;;1039;;;;;;;;;;;100;1;both;;;;"Taza desayuno Ambit Farr rayas rosas (6 Uds.)...";;;;;"Taza desayuno Ambit Farr rayas rosas (6 Uds.)...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1040;1;;74;;31;;;;;;;1040;;;;;;;;;;;100;1;both;;;;"Taza desayuno Ambit Farr cuadros rosa (6 Uds.)...";;;;;"Taza desayuno Ambit Farr cuadros rosa (6 Uds.)...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1041;1;;74;;31;;;;;;;1041;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1042;1;;75;;31;;;;;;;1042;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1043;1;;75;;31;;;;;;;1043;;;;;;;;;;;100;1;both;;;;"Juego de 6 Tazas de te porcelna blanca 3689/3587...";;;;;"Juego de 6 Tazas de te porcelna blanca 3689/3587...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1044;1;;75;;31;;;;;;;1044;;;;;;;;;;;100;1;both;;;;"6 tazas para café de porcelna blanca. Incorporan plato....";;;;;"6 tazas para café de porcelna blanca. Incorporan plato....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1045;1;;75;;31;;;;;;;1045;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1046;1;;75;;31;;;;;;;1046;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1047;1;;75;;31;;;;;;;1047;;;;;;;;;;;100;1;both;;;;"Juego de 6 tazas con plato Duet Grey....";;;;;"Juego de 6 tazas con plato Duet Grey....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1048;1;;75;;31;;;;;;;1048;;;;;;;;;;;100;1;both;;;;"Coor Textile, 6 tazas con plato        ...";;;;;"Coor Textile, 6 tazas con plato        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1049;1;;75;;31;;;;;;;1049;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1050;1;;75;;31;;;;;;;1050;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1051;1;;75;;31;;;;;;;1051;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1052;1;;75;;31;;;;;;;1052;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1053;1;;75;;31;;;;;;;1053;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1054;1;;75;;31;;;;;;;1054;;;;;;;;;;;100;1;both;;;;"Juego de 6 Tazas de café porcelana lápiz negro...";;;;;"Juego de 6 Tazas de café porcelana lápiz negro...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1055;1;;75;;31;;;;;;;1055;;;;;;;;;;;100;1;both;;;;"Tazas de te porcelana set duo con filtro Mit 215...";;;;;"Tazas de te porcelana set duo con filtro Mit 215...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1056;1;;75;;31;;;;;;;1056;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1057;1;;75;;31;;;;;;;1057;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1058;1;;75;;31;;;;;;;1058;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1059;1;;75;;31;;;;;;;1059;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1060;1;;75;;31;;;;;;;1060;;;;;;;;;;;100;1;both;;;;"Tazas de Café de porcelana decorada Silver Ring.
+Incorpora 6 unidades....";;;;;"Tazas de Café de porcelana decorada Silver Ring.
+Incorpora 6 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1061;1;;75;;31;;;;;;;1061;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1062;1;;75;;31;;;;;;;1062;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1063;1;;75;;31;;;;;;;1063;;;;;;;;;;;100;1;both;;;;"6 tazas con platoVerde vertical        ...";;;;;"6 tazas con platoVerde vertical        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1064;1;;75;;31;;;;;;;1064;;;;;;;;;;;100;1;both;;;;"6 tazas con platoNaranja vertical        ...";;;;;"6 tazas con platoNaranja vertical        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1065;1;;75;;31;;;;;;;1065;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1066;1;;75;;31;;;;;;;1066;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1067;1;;75;;31;;;;;;;1067;;;;;;;;;;;100;1;both;;;;"Juego de café 14 piezas Quadrifoglio Spot azul...";;;;;"Juego de café 14 piezas Quadrifoglio Spot azul...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1068;1;;75;;31;;;;;;;1068;;;;;;;;;;;100;1;both;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con topos rosas....";;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con topos rosas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1069;1;;75;;31;;;;;;;1069;;;;;;;;;;;100;1;both;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con rayas blancas y rosas....";;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con rayas blancas y rosas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1070;1;;75;;31;;;;;;;1070;;;;;;;;;;;100;1;both;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con bandas blancas y rojas....";;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con bandas blancas y rojas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1071;1;;75;;31;;;;;;;1071;;;;;;;;;;;100;1;both;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con cuadros rojos....";;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con cuadros rojos....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1072;1;;75;;31;;;;;;;1072;;;;;;;;;;;100;1;both;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con rayas blancas y rojas....";;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con rayas blancas y rojas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1073;1;;75;;31;;;;;;;1073;;;;;;;;;;;100;1;both;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con bandas blancas y lilas....";;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con bandas blancas y lilas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1074;1;;75;;31;;;;;;;1074;;;;;;;;;;;100;1;both;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con cuadros lilas....";;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con cuadros lilas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1075;1;;75;;31;;;;;;;1075;;;;;;;;;;;100;1;both;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con rayas blancas y lilas....";;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decorada con rayas blancas y lilas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1076;1;;75;;31;;;;;;;1076;;;;;;;;;;;100;1;both;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decoradas en color amarillo....";;;;;"6 unidades de tazas de te de porcelana. Fabricadas por Farr Ceramics para Ambit. Decoradas en color amarillo....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1077;1;;75;;31;;;;;;;1077;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1078;1;;75;;31;;;;;;;1078;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1079;1;;75;;31;;;;;;;1079;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1080;1;;75;;31;;;;;;;1080;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1081;1;;75;;31;;;;;;;1081;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1082;1;;75;;31;;;;;;;1082;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1083;1;;75;;31;;;;;;;1083;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1084;1;;75;;31;;;;;;;1084;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1085;1;;75;;31;;;;;;;1085;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1086;1;;75;;31;;;;;;;1086;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1087;1;;75;;31;;;;;;;1087;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1088;1;;75;;31;;;;;;;1088;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1089;1;;75;;31;;;;;;;1089;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1090;1;;75;;31;;;;;;;1090;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1091;1;;75;;31;;;;;;;1091;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1092;1;;75;;31;;;;;;;1092;;;;;;;;;;;100;1;both;;;;"Si quieres que tus tazas no pasen de moda y peguen con todo, elige este conjunto de taza y plato de porcelana en color blanco, perfecta para tu caf&ea...";;;;;"Si quieres que tus tazas no pasen de moda y peguen con todo, elige este conjunto de taza y plato de porcelana en color blanco, perfecta para tu caf&ea...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1093;1;;77;;31;;;;;;;1093;;;;;;;;;;;100;1;both;;;;"Elegante juego de 6 cuchillos chuleteros Aros, fabricados íntegramente en acero inoxidable de la mejor calidad (Nitrum). Sierra perfecta para cortar ...";;;;;"Elegante juego de 6 cuchillos chuleteros Aros, fabricados íntegramente en acero inoxidable de la mejor calidad (Nitrum). Sierra perfecta para cortar ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1094;1;;77;;31;;;;;;;1094;;;;;;;;;;;100;1;both;;;;"Rústico cuchillo Arcos con mango de madera.
+Mango fabricado en madera barnizada con remaches acabados en acero inoxidable.
+Hoja de sierra en ...";;;;;"Rústico cuchillo Arcos con mango de madera.
+Mango fabricado en madera barnizada con remaches acabados en acero inoxidable.
+Hoja de sierra en ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1095;1;;77;;31;;;;;;;1095;;;;;;;;;;;100;1;both;;;;"Cuchillo Mesa Arcos Modelo 370300
+Cuchillo para mesa con hoja de acero inoxidable martensítico, con alto contenido en Cromo que alcanza u...";;;;;"Cuchillo Mesa Arcos Modelo 370300
+Cuchillo para mesa con hoja de acero inoxidable martensítico, con alto contenido en Cromo que alcanza u...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1096;1;;77;;31;;;;;;;1096;;;;;;;;;;;100;1;both;;;;"Rústico cuchillo Arcos con mango de madera. Mango fabricado en madera barnizada con remaches acabados en acero inoxidable. No se recomienda el uso de...";;;;;"Rústico cuchillo Arcos con mango de madera. Mango fabricado en madera barnizada con remaches acabados en acero inoxidable. No se recomienda el uso de...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1097;1;;77;;31;;;;;;;1097;;;;;;;;;;;100;1;both;;;;"Cuchillo de postre modelo Lisboa pack de 2 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra idea...";;;;;"Cuchillo de postre modelo Lisboa pack de 2 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra idea...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1098;1;;77;;31;;;;;;;1098;;;;;;;;;;;100;1;both;;;;"Cuchillo chuletero modelo Oporto pack de 2 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una sierra ideal para cor...";;;;;"Cuchillo chuletero modelo Oporto pack de 2 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una sierra ideal para cor...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1099;1;;77;;31;;;;;;;1099;;;;;;;;;;;100;1;both;;;;"Cuchillo de postre modelo Oporto pack de 2 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra idea...";;;;;"Cuchillo de postre modelo Oporto pack de 2 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra idea...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1100;1;;77;;31;;;;;;;1100;;;;;;;;;;;100;1;both;;;;"Cuchillos con pala para pescado modelo Lisboa pack de 4 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+La pala es ideal para reco...";;;;;"Cuchillos con pala para pescado modelo Lisboa pack de 4 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+La pala es ideal para reco...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1101;1;;77;;31;;;;;;;1101;;;;;;;;;;;100;1;both;;;;"Cuchillo de mesa Arcos 370300
+Este cuchillo de mesa Arcos, tiene un mango de polipropileno con una hoja fabricada, íntegramente, en acero inox...";;;;;"Cuchillo de mesa Arcos 370300
+Este cuchillo de mesa Arcos, tiene un mango de polipropileno con una hoja fabricada, íntegramente, en acero inox...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1102;1;;77;;31;;;;;;;1102;;;;;;;;;;;100;1;both;;;;"Cuchillo chuletero modelo Lisboa pack de 2 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene sierra ideal para cortar carne...";;;;;"Cuchillo chuletero modelo Lisboa pack de 2 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene sierra ideal para cortar carne...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1103;1;;77;;31;;;;;;;1103;;;;;;;;;;;100;1;both;;;;"Cuchillo de postre Pintinox pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra ideal par...";;;;;"Cuchillo de postre Pintinox pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra ideal par...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1104;1;;77;;31;;;;;;;1104;;;;;;;;;;;100;1;both;;;;"Cuchillo de mesa Pintinox pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra ideal para ...";;;;;"Cuchillo de mesa Pintinox pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra ideal para ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1105;1;;77;;31;;;;;;;1105;;;;;;;;;;;100;1;both;;;;"Cuchillo de postre Pintinox pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra ideal par...";;;;;"Cuchillo de postre Pintinox pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña sierra ideal par...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1106;1;;77;;31;;;;;;;1106;;;;;;;;;;;100;1;both;;;;"Cuchillo de mesa Pintinox modelo Brasilia pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña si...";;;;;"Cuchillo de mesa Pintinox modelo Brasilia pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una pequeña si...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1107;1;;77;;31;;;;;;;1107;;;;;;;;;;;100;1;both;;;;"Cuchillos chuleteros de la marca Odag, pack de 6 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una sierra marcada ideal...";;;;;"Cuchillos chuleteros de la marca Odag, pack de 6 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una sierra marcada ideal...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1108;1;;77;;31;;;;;;;1108;;;;;;;;;;;100;1;both;;;;"Cuchillo Arcos Chuletero Modelo 3715 Mango Madera
+Cuchillo especial para chuletas con manco de madera y hoja de acero inoxidable martensí...";;;;;"Cuchillo Arcos Chuletero Modelo 3715 Mango Madera
+Cuchillo especial para chuletas con manco de madera y hoja de acero inoxidable martensí...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1109;1;;77;;31;;;;;;;1109;;;;;;;;;;;100;1;both;;;;"Cuchillo Chuletero Arcos Monoblock Modelo 375500
+Cuchillo chuletero de una única pieza de acero inoxidable martensítico, con ...";;;;;"Cuchillo Chuletero Arcos Monoblock Modelo 375500
+Cuchillo chuletero de una única pieza de acero inoxidable martensítico, con ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1110;1;;77;;31;;;;;;;1110;;;;;;;;;;;100;1;both;;;;"Cuchillos chuleteros de la marca Pintinox modelo Syntesis, pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una ...";;;;;"Cuchillos chuleteros de la marca Pintinox modelo Syntesis, pack de 3 unidades.
+Fabricado en acero inoxidable de primera calidad 18/10.
+Contiene una ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1111;1;;78;;31;;;;;;;1111;;;;;;;;;;;100;1;both;;;;"Cuchara extra Larga para Cóctel....";;;;;"Cuchara extra Larga para Cóctel....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1112;1;;78;;31;;;;;;;1112;;;;;;;;;;;100;1;both;;;;"OPORTO, cuchara moka 6 unidades        ...";;;;;"OPORTO, cuchara moka 6 unidades        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1113;1;;78;;31;;;;;;;1113;;;;;;;;;;;100;1;both;;;;"OPORTO, cuchara postre 6 unidades        ...";;;;;"OPORTO, cuchara postre 6 unidades        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1114;1;;78;;31;;;;;;;1114;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1115;1;;78;;31;;;;;;;1115;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1116;1;;78;;31;;;;;;;1116;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1117;1;;78;;31;;;;;;;1117;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1118;1;;78;;31;;;;;;;1118;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1119;1;;78;;31;;;;;;;1119;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1120;1;;78;;31;;;;;;;1120;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1121;1;;78;;31;;;;;;;1121;;;;;;;;;;;100;1;both;;;;"OPORTO, cuchara mesa 4 unidades        ...";;;;;"OPORTO, cuchara mesa 4 unidades        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1122;1;;78;;31;;;;;;;1122;;;;;;;;;;;100;1;both;;;;"Cuchara postre 6 unidadesLisboa        ...";;;;;"Cuchara postre 6 unidadesLisboa        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1123;1;;78;;31;;;;;;;1123;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1124;1;;78;;31;;;;;;;1124;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1125;1;;78;;31;;;;;;;1125;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1126;1;;78;;31;;;;;;;1126;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1127;1;;78;;31;;;;;;;1127;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1128;1;;78;;31;;;;;;;1128;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1129;1;;78;;31;;;;;;;1129;;;;;;;;;;;100;1;both;;;;"Cuchara café 6 unidadesLisboa        ...";;;;;"Cuchara café 6 unidadesLisboa        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1130;1;;78;;31;;;;;;;1130;;;;;;;;;;;100;1;both;;;;"Cuchara mesa 4 unidadesLisboa        ...";;;;;"Cuchara mesa 4 unidadesLisboa        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1131;1;;78;;31;;;;;;;1131;;;;;;;;;;;100;1;both;;;;"Cuchara moka 6 unidadesLisboa        ...";;;;;"Cuchara moka 6 unidadesLisboa        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1132;1;;78;;31;;;;;;;1132;;;;;;;;;;;100;1;both;;;;"Cubiertos Castey Senso Set Cucharas Expreso
+Set Castey de Cucharas Expreso fabricado en acero inoxidable 18/10 al igual que toda la cuberte...";;;;;"Cubiertos Castey Senso Set Cucharas Expreso
+Set Castey de Cucharas Expreso fabricado en acero inoxidable 18/10 al igual que toda la cuberte...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1133;1;;78;;31;;;;;;;1133;;;;;;;;;;;100;1;both;;;;"Cuchara de Melamina 32cm Zak Verde...";;;;;"Cuchara de Melamina 32cm Zak Verde...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1134;1;;78;;31;;;;;;;1134;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1135;1;;78;;31;;;;;;;1135;;;;;;;;;;;100;1;both;;;;"Pack de 6 Unidades de Cucharas de Café, Marca Ambit OPORTO. 
+Magnífico pack de Cucharas de Café de Acero Inoxidable, apto p...";;;;;"Pack de 6 Unidades de Cucharas de Café, Marca Ambit OPORTO. 
+Magnífico pack de Cucharas de Café de Acero Inoxidable, apto p...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1136;1;;78;;31;;;;;;;1136;;;;;;;;;;;100;1;both;;;;"4,7x3,7x10,4cm, set 4 unidades. Servir y utilizar 2 en 1....";;;;;"4,7x3,7x10,4cm, set 4 unidades. Servir y utilizar 2 en 1....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1137;1;;78;;31;;;;;;;1137;;;;;;;;;;;100;1;both;;;;"Rústica cuchara Arcos con mango de madera. Mango fabricado en madera barnizada con remaches acabados en acero inoxidable. No se recomienda el uso de ...";;;;;"Rústica cuchara Arcos con mango de madera. Mango fabricado en madera barnizada con remaches acabados en acero inoxidable. No se recomienda el uso de ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1138;1;;79;;31;;;;;;;1138;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1139;1;;79;;31;;;;;;;1139;;;;;;;;;;;100;1;both;;;;"4 tenedores paras mesa Ambit Oporto, fabricados en acero inox....";;;;;"4 tenedores paras mesa Ambit Oporto, fabricados en acero inox....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1140;1;;79;;31;;;;;;;1140;;;;;;;;;;;100;1;both;;;;"6 tenedores de postre Ambit Oporto        ...";;;;;"6 tenedores de postre Ambit Oporto        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1141;1;;79;;31;;;;;;;1141;;;;;;;;;;;100;1;both;;;;"Oporto        ...";;;;;"Oporto        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1142;1;;79;;31;;;;;;;1142;;;;;;;;;;;100;1;both;;;;"Tenedores para servir Ambit Oporto, fabricados en acero inoxidable de la mejor calidad....";;;;;"Tenedores para servir Ambit Oporto, fabricados en acero inoxidable de la mejor calidad....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1143;1;;79;;31;;;;;;;1143;;;;;;;;;;;100;1;both;;;;"4 tenedores Ambit Oporto de acero inoxidable....";;;;;"4 tenedores Ambit Oporto de acero inoxidable....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1144;1;;79;;31;;;;;;;1144;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1145;1;;79;;31;;;;;;;1145;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1146;1;;79;;31;;;;;;;1146;;;;;;;;;;;100;1;both;;;;"Elegante set de 4 tenedores 3 Claveles para marisco. Fabricados en acero inoxidable íntegramente, con una duración indeterminada. Ideal para ofrecer...";;;;;"Elegante set de 4 tenedores 3 Claveles para marisco. Fabricados en acero inoxidable íntegramente, con una duración indeterminada. Ideal para ofrecer...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1147;1;;79;;31;;;;;;;1147;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1148;1;;79;;31;;;;;;;1148;;;;;;;;;;;100;1;both;;;;"Set cubiertos para ensalada 2 Uds. 
+Cubiertos para ensalada, de diseño moderno y actual, para mover la ensalada después de aliña...";;;;;"Set cubiertos para ensalada 2 Uds. 
+Cubiertos para ensalada, de diseño moderno y actual, para mover la ensalada después de aliña...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1149;1;;79;;31;;;;;;;1149;;;;;;;;;;;100;1;both;;;;"Set de cubiertos Iris.
+Práctico set de cubiertos compuesto por 3 piezas: cuchara, cuchillo y tenedor, y una funda de plástico para llev...";;;;;"Set de cubiertos Iris.
+Práctico set de cubiertos compuesto por 3 piezas: cuchara, cuchillo y tenedor, y una funda de plástico para llev...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1150;1;;79;;31;;;;;;;1150;;;;;;;;;;;100;1;both;;;;"6 tenedores Ambit Oporto Lunch, fabricados en acero inoxidable de la mejor calidad....";;;;;"6 tenedores Ambit Oporto Lunch, fabricados en acero inoxidable de la mejor calidad....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1151;1;;79;;31;;;;;;;1151;;;;;;;;;;;100;1;both;;;;"Tenedores de postre Ambit Lisboa, de acero inoxidable. 6 unidades...";;;;;"Tenedores de postre Ambit Lisboa, de acero inoxidable. 6 unidades...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1152;1;;79;;31;;;;;;;1152;;;;;;;;;;;100;1;both;;;;"Tenedores de mesa Ambit Lisboa 4 unidades....";;;;;"Tenedores de mesa Ambit Lisboa 4 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1153;1;;79;;31;;;;;;;1153;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1154;1;;79;;31;;;;;;;1154;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1155;1;;79;;31;;;;;;;1155;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1156;1;;79;;31;;;;;;;1156;;;;;;;;;;;100;1;both;;;;"Serie Inox....";;;;;"Serie Inox....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1157;1;;79;;31;;;;;;;1157;;;;;;;;;;;100;1;both;;;;"Serie Madera        ...";;;;;"Serie Madera        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1158;1;;79;;31;;;;;;;1158;;;;;;;;;;;100;1;both;;;;"Tenedor Arcos
+Tenedor Arcos con mango de madera comprimida y hoja de acero inoxidable que proporciona una resistencia y una durabilidad casi infinita...";;;;;"Tenedor Arcos
+Tenedor Arcos con mango de madera comprimida y hoja de acero inoxidable que proporciona una resistencia y una durabilidad casi infinita...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1159;1;;79;;31;;;;;;;1159;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1160;1;;79;;31;;;;;;;1160;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1161;1;;79;;31;;;;;;;1161;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1162;1;;79;;31;;;;;;;1162;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1163;1;;79;;31;;;;;;;1163;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1164;1;;79;;31;;;;;;;1164;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1165;1;;80;;31;;;;;;;1165;;;;;;;;;;;100;1;both;;;;"Cuberteria Swing de 24 piezas fabricada en acero inox 18/10....";;;;;"Cuberteria Swing de 24 piezas fabricada en acero inox 18/10....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1166;1;;80;;31;;;;;;;1166;;;;;;;;;;;100;1;both;;;;"Cubiertos Castey Senso Set 6 Servicios + Utensilios Cocina
+Set de Cubiertos Castey Set de 6 Servicios más Utensilios Cocina fabricado en&...";;;;;"Cubiertos Castey Senso Set 6 Servicios + Utensilios Cocina
+Set de Cubiertos Castey Set de 6 Servicios más Utensilios Cocina fabricado en&...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1167;1;;80;;31;;;;;;;1167;;;;;;;;;;;100;1;both;;;;"Cubiertos Castey Senso Set 12 Servicios
+Set de Cubiertos Castey de 12 Servicios fabricado en acero inoxidable 18/10 al igual que toda ...";;;;;"Cubiertos Castey Senso Set 12 Servicios
+Set de Cubiertos Castey de 12 Servicios fabricado en acero inoxidable 18/10 al igual que toda ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1168;1;;80;;31;;;;;;;1168;;;;;;;;;;;100;1;both;;;;"Sofisticada cubertería Arcos modelo Berlín, elaborada íntegramente en acero inoxidable de la mejor calidad.
+Su diseño es ...";;;;;"Sofisticada cubertería Arcos modelo Berlín, elaborada íntegramente en acero inoxidable de la mejor calidad.
+Su diseño es ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1169;1;;80;;31;;;;;;;1169;;;;;;;;;;;100;1;both;;;;"Cubertería Arcos modelo Madrid referencia 557500.
+¿En qué consiste?
+Consiste en una elegante cubertería Arcos modelo Mad...";;;;;"Cubertería Arcos modelo Madrid referencia 557500.
+¿En qué consiste?
+Consiste en una elegante cubertería Arcos modelo Mad...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1170;1;;80;;31;;;;;;;1170;;;;;;;;;;;100;1;both;;;;"Cubertería serie Manille (24 piezas)
+Magnífico juego de cubertería serie Manille de diseño clásico y elegante fabr...";;;;;"Cubertería serie Manille (24 piezas)
+Magnífico juego de cubertería serie Manille de diseño clásico y elegante fabr...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1171;1;;80;;31;;;;;;;1171;;;;;;;;;;;100;1;both;;;;"Cubertería Serie Oslo 18/10 (24 piezas) 
+Magnífico juego de cubertería serie Oslo de diseño moderno y actual fabricado en...";;;;;"Cubertería Serie Oslo 18/10 (24 piezas) 
+Magnífico juego de cubertería serie Oslo de diseño moderno y actual fabricado en...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1172;1;;80;;31;;;;;;;1172;;;;;;;;;;;100;1;both;;;;"Acero inoxidable 1.5 mm de espesor, acabado brillante, mango de plástico con dibujos....";;;;;"Acero inoxidable 1.5 mm de espesor, acabado brillante, mango de plástico con dibujos....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1173;1;;80;;31;;;;;;;1173;;;;;;;;;;;100;1;both;;;;"Acero inoxidable 1.5 mm de espesor, acabado brillante, mango de plástico con dibujos....";;;;;"Acero inoxidable 1.5 mm de espesor, acabado brillante, mango de plástico con dibujos....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1174;1;;80;;31;;;;;;;1174;;;;;;;;;;;100;1;both;;;;"Acero inoxidable 1.5 mm de espesor, acabado brillante, mango de plástico con dibujos....";;;;;"Acero inoxidable 1.5 mm de espesor, acabado brillante, mango de plástico con dibujos....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1175;1;;80;;31;;;;;;;1175;;;;;;;;;;;100;1;both;;;;"Acero inoxidable 1.5 mm de espesor, acabado brillante, mango de plástico con dibujos....";;;;;"Acero inoxidable 1.5 mm de espesor, acabado brillante, mango de plástico con dibujos....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1176;1;;80;;31;;;;;;;1176;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1177;1;;80;;31;;;;;;;1177;;;;;;;;;;;100;1;both;;;;"Acero inoxidable 18/10, 2.5mm de espesor, acabado brillante, diseño infantil tallado en el mango....";;;;;"Acero inoxidable 18/10, 2.5mm de espesor, acabado brillante, diseño infantil tallado en el mango....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1178;1;;80;;31;;;;;;;1178;;;;;;;;;;;100;1;both;;;;"Acero inoxidable 1,8 mm de espesor. Acabado brillante....";;;;;"Acero inoxidable 1,8 mm de espesor. Acabado brillante....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1179;1;;80;;31;;;;;;;1179;;;;;;;;;;;100;1;both;;;;"Acero inoxidable de 2 mm de espesor. Mango redondeado. Acabado brillante....";;;;;"Acero inoxidable de 2 mm de espesor. Mango redondeado. Acabado brillante....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1180;1;;80;;31;;;;;;;1180;;;;;;;;;;;100;1;both;;;;"Set Cubiertos de Mesa Castey Senso
+Set de Cubiertos de Mesa Castey fabricado en acero inoxidable 18/10 al igual que toda la cuberter&i...";;;;;"Set Cubiertos de Mesa Castey Senso
+Set de Cubiertos de Mesa Castey fabricado en acero inoxidable 18/10 al igual que toda la cuberter&i...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1181;1;;80;;31;;;;;;;1181;;;;;;;;;;;100;1;both;;;;"Set Utensilios de Cocina Castey Senso
+Set de Utensilios de Cocina Castey fabricado en acero inoxidable 18/10 al igual que toda la cube...";;;;;"Set Utensilios de Cocina Castey Senso
+Set de Utensilios de Cocina Castey fabricado en acero inoxidable 18/10 al igual que toda la cube...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1182;1;;80;;31;;;;;;;1182;;;;;;;;;;;100;1;both;;;;"Cubiertos Castey Senso Set Postre y Café
+Set Castey de Postre y Café fabricado en acero inoxidable 18/10 al igual que toda la...";;;;;"Cubiertos Castey Senso Set Postre y Café
+Set Castey de Postre y Café fabricado en acero inoxidable 18/10 al igual que toda la...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1183;1;;80;;31;;;;;;;1183;;;;;;;;;;;100;1;both;;;;"Cubertería Pinti Tecna compuesta por 51 piezas....";;;;;"Cubertería Pinti Tecna compuesta por 51 piezas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1184;1;;80;;31;;;;;;;1184;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1185;1;;80;;31;;;;;;;1185;;;;;;;;;;;100;1;both;;;;"12 piezas, especial chuletero        ...";;;;;"12 piezas, especial chuletero        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1186;1;;80;;31;;;;;;;1186;;;;;;;;;;;100;1;both;;;;"OPORTO, 24 piezas. Fabricada en acero inoxidable de 1a calidad....";;;;;"OPORTO, 24 piezas. Fabricada en acero inoxidable de 1a calidad....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1187;1;;80;;31;;;;;;;1187;;;;;;;;;;;100;1;both;;;;"MOMO, 24 piezas. Fabricada en acero inoxidable de 1a calidad....";;;;;"MOMO, 24 piezas. Fabricada en acero inoxidable de 1a calidad....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1188;1;;80;;31;;;;;;;1188;;;;;;;;;;;100;1;both;;;;"Tiara, 24 piezas. Fabricada en acero inoxidable de 1a calidad....";;;;;"Tiara, 24 piezas. Fabricada en acero inoxidable de 1a calidad....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1189;1;;80;;31;;;;;;;1189;;;;;;;;;;;100;1;both;;;;"OPORTO, 75 piezas, divididas en:
+- 12 Cuchillos mesa.
+- 12 Tenedores de mesa.
+- 12 Cucharas de mesa.
+- 12 Tenedores lunch.
+- 12 Cucharas lunch.
+...";;;;;"OPORTO, 75 piezas, divididas en:
+- 12 Cuchillos mesa.
+- 12 Tenedores de mesa.
+- 12 Cucharas de mesa.
+- 12 Tenedores lunch.
+- 12 Cucharas lunch.
+...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1190;1;;80;;31;;;;;;;1190;;;;;;;;;;;100;1;both;;;;"NOMO, 75 piezas. Fabricada en acero inoxidable de 1a calidad....";;;;;"NOMO, 75 piezas. Fabricada en acero inoxidable de 1a calidad....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1191;1;;80;;31;;;;;;;1191;;;;;;;;;;;100;1;both;;;;"Cubiertos Castey Senso Set Pescado
+Set para pescado fabricado en acero inoxidable 18/10 al igual que toda la cubertería Senso, lo que le ...";;;;;"Cubiertos Castey Senso Set Pescado
+Set para pescado fabricado en acero inoxidable 18/10 al igual que toda la cubertería Senso, lo que le ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1192;1;;80;;31;;;;;;;1192;;;;;;;;;;;100;1;both;;;;"Cubiertos Castey Senso Set Básico
+Set Castey Básico fabricado en acero inoxidable 18/10 al igual que toda la cubertería Sen...";;;;;"Cubiertos Castey Senso Set Básico
+Set Castey Básico fabricado en acero inoxidable 18/10 al igual que toda la cubertería Sen...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1193;1;;80;;31;;;;;;;1193;;;;;;;;;;;100;1;both;;;;"Cubertería 24 piezas Pinti Movie roja...";;;;;"Cubertería 24 piezas Pinti Movie roja...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1194;1;;80;;31;;;;;;;1194;;;;;;;;;;;100;1;both;;;;"Cuberteria Pinti Syntesis, fabricada en acero inox 18/10. Consta de 24 piezas.
+6 cucharas soperas
+6 cucharas de postre
+6 tenedores
+6 cuchillos...";;;;;"Cuberteria Pinti Syntesis, fabricada en acero inox 18/10. Consta de 24 piezas.
+6 cucharas soperas
+6 cucharas de postre
+6 tenedores
+6 cuchillos...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1195;1;;80;;31;;;;;;;1195;;;;;;;;;;;100;1;both;;;;"Movie lila, 24 piezas....";;;;;"Movie lila, 24 piezas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1196;1;;80;;31;;;;;;;1196;;;;;;;;;;;100;1;both;;;;"Movie verde, 24 piezas....";;;;;"Movie verde, 24 piezas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1197;1;;80;;31;;;;;;;1197;;;;;;;;;;;100;1;both;;;;"Set cubiertos Rosti. Funda color lima
+Práctico set de cubiertos de acero inoxidable, compuesto por 3 piezas: cuchara, cuchillo y tenedor. Disp...";;;;;"Set cubiertos Rosti. Funda color lima
+Práctico set de cubiertos de acero inoxidable, compuesto por 3 piezas: cuchara, cuchillo y tenedor. Disp...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1198;1;;80;;31;;;;;;;1198;;;;;;;;;;;100;1;both;;;;"Set cubiertos Rosti. Funda color blanco
+Práctico set de cubiertos de acero inoxidable, compuesto por 3 piezas: cuchara, cuchillo y tenedor. Di...";;;;;"Set cubiertos Rosti. Funda color blanco
+Práctico set de cubiertos de acero inoxidable, compuesto por 3 piezas: cuchara, cuchillo y tenedor. Di...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1199;1;;80;;31;;;;;;;1199;;;;;;;;;;;100;1;both;;;;"Práctico set de cubiertos de acero inoxidable, compuesto por 3 piezas: cuchara, cuchillo y tenedor. Dispone de funda de plástico para llevar cómoda...";;;;;"Práctico set de cubiertos de acero inoxidable, compuesto por 3 piezas: cuchara, cuchillo y tenedor. Dispone de funda de plástico para llevar cómoda...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1200;1;;80;;31;;;;;;;1200;;;;;;;;;;;100;1;both;;;;"Cubertería completa con mango de Polyresina en color egro.
+Constituída por 96 piezas que se dividen en:
+- 24 cucharas de postre.
+- 24...";;;;;"Cubertería completa con mango de Polyresina en color egro.
+Constituída por 96 piezas que se dividen en:
+- 24 cucharas de postre.
+- 24...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1201;1;;80;;31;;;;;;;1201;;;;;;;;;;;100;1;both;;;;"Cubertería completa con mango de Polyresina en color rojo.
+Constituída por 96 piezas que se dividen en:
+- 24 cucharas de postre.
+- 24...";;;;;"Cubertería completa con mango de Polyresina en color rojo.
+Constituída por 96 piezas que se dividen en:
+- 24 cucharas de postre.
+- 24...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1202;1;;80;;31;;;;;;;1202;;;;;;;;;;;100;1;both;;;;"Verde        ...";;;;;"Verde        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1203;1;;80;;31;;;;;;;1203;;;;;;;;;;;100;1;both;;;;"Set cubiertos Rosti. Funda color rosa
+Práctico set de cubiertos de acero inoxidable, compuesto por 3 piezas: cuchara, cuchillo y tenedor. Disp...";;;;;"Set cubiertos Rosti. Funda color rosa
+Práctico set de cubiertos de acero inoxidable, compuesto por 3 piezas: cuchara, cuchillo y tenedor. Disp...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1204;1;;81;;31;;;;;;;1204;;;;;;;;;;;100;1;both;;;;"Azure, juego 6 unidades        ...";;;;;"Azure, juego 6 unidades        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1205;1;;81;;31;;;;;;;1205;;;;;;;;;;;100;1;both;;;;"Amuse, juego 6 unidades....";;;;;"Amuse, juego 6 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1206;1;;81;;31;;;;;;;1206;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1207;1;;81;;31;;;;;;;1207;;;;;;;;;;;100;1;both;;;;"Tenedores para degustación Ambit Azure, 6 unidades. Fabricados en acero inoxidable de la mejor calidad....";;;;;"Tenedores para degustación Ambit Azure, 6 unidades. Fabricados en acero inoxidable de la mejor calidad....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1208;1;;81;;31;;;;;;;1208;;;;;;;;;;;100;1;both;;;;"Pinchos especiales para marisco de Iris.
+Fabricados en acero inoxidable.
+Por un extremos son en forma de tenedor, pero con dos puntas y por el otro ...";;;;;"Pinchos especiales para marisco de Iris.
+Fabricados en acero inoxidable.
+Por un extremos son en forma de tenedor, pero con dos puntas y por el otro ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1209;1;;81;;31;;;;;;;1209;;;;;;;;;;;100;1;both;;;;"Divertidos palillos para aperitivos de colores, con un diseño alegre y moderno.
+Este conjunto está compuesto por 8 palillos de picoteo ...";;;;;"Divertidos palillos para aperitivos de colores, con un diseño alegre y moderno.
+Este conjunto está compuesto por 8 palillos de picoteo ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1210;1;;82;;31;;;;;;;1210;;;;;;;;;;;100;1;both;;;;"Cubertero doble con bandeja superior movil. 
+Medidas: 31 x 39,5 x 7cm....";;;;;"Cubertero doble con bandeja superior movil. 
+Medidas: 31 x 39,5 x 7cm....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1211;1;;82;;31;;;;;;;1211;;;;;;;;;;;100;1;both;;;;"Elegante soporte mágnético Arcos en madera de 30cm. Ideal para dar un toque de distinción a la cocina. De una forma original podrás tener ordenado...";;;;;"Elegante soporte mágnético Arcos en madera de 30cm. Ideal para dar un toque de distinción a la cocina. De una forma original podrás tener ordenado...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1212;1;;82;;31;;;;;;;1212;;;;;;;;;;;100;1;both;;;;"Elegante bolsa Arcos para transportar hasta 8 cuchillos, de una manera cómoda, gracias a su material ligero y moldeable.  ...";;;;;"Elegante bolsa Arcos para transportar hasta 8 cuchillos, de una manera cómoda, gracias a su material ligero y moldeable.  ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1213;1;;82;;31;;;;;;;1213;;;;;;;;;;;100;1;both;;;;"Elegante bolsa Arcos para transportar hasta 4 cuchillos, de una manera cómoda, gracias a su material ligero y moldeable.  ...";;;;;"Elegante bolsa Arcos para transportar hasta 4 cuchillos, de una manera cómoda, gracias a su material ligero y moldeable.  ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1214;1;;82;;31;;;;;;;1214;;;;;;;;;;;100;1;both;;;;"Sistema modular antideslizante, no necesita fijación. Dimensiones 15.2X22,8X5cm 52640       ...";;;;;"Sistema modular antideslizante, no necesita fijación. Dimensiones 15.2X22,8X5cm 52640       ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1215;1;;82;;31;;;;;;;1215;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1216;1;;82;;31;;;;;;;1216;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1217;1;;82;;31;;;;;;;1217;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1218;1;;82;;31;;;;;;;1218;;;;;;;;;;;100;1;both;;;;"Elegante organizador para cubiertos Rayen, diseñado con un tapete adhesivo de 40x80cm.
+Contiene los sujeta cubiertos, también adhesivos...";;;;;"Elegante organizador para cubiertos Rayen, diseñado con un tapete adhesivo de 40x80cm.
+Contiene los sujeta cubiertos, también adhesivos...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1219;1;;82;;31;;;;;;;1219;;;;;;;;;;;100;1;both;;;;"Tradicional soporte magnético Arcos de metal de 30 cm. Ideal para tener en orden tus cuchillos, sin que se estropeen, ni se rayen en un cajón....";;;;;"Tradicional soporte magnético Arcos de metal de 30 cm. Ideal para tener en orden tus cuchillos, sin que se estropeen, ni se rayen en un cajón....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1220;1;;84;;31;;;;;;;1220;;;;;;;;;;;100;1;both;;;;"Ya tienes aquí, para el verano tus jarras gigantes con pajita y tapa para que no se te escape ni gota.
+Estas jarras vienen en set de 3 y son c...";;;;;"Ya tienes aquí, para el verano tus jarras gigantes con pajita y tapa para que no se te escape ni gota.
+Estas jarras vienen en set de 3 y son c...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1221;1;;84;;31;;;;;;;1221;;;;;;;;;;;100;1;both;;;;"Agua-28 cl (36 uds.)...";;;;;"Agua-28 cl (36 uds.)...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1222;1;;84;;31;;;;;;;1222;;;;;;;;;;;100;1;both;;;;"Agua-25 cl (24 uds.)...";;;;;"Agua-25 cl (24 uds.)...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1223;1;;84;;31;;;;;;;1223;;;;;;;;;;;100;1;both;;;;"Bodega decorado gin/mojito 50 cl (18 uds.)...";;;;;"Bodega decorado gin/mojito 50 cl (18 uds.)...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1224;1;;84;;31;;;;;;;1224;;;;;;;;;;;100;1;both;;;;"Set de mojito/ mojito y caipirhna. Completo set de mojito, con dos vasos, jigger, machacador y exprimidor. Ideal para tus cenas divertidas....";;;;;"Set de mojito/ mojito y caipirhna. Completo set de mojito, con dos vasos, jigger, machacador y exprimidor. Ideal para tus cenas divertidas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1225;1;;84;;31;;;;;;;1225;;;;;;;;;;;100;1;both;;;;"58 cl...";;;;;"58 cl...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1226;1;;84;;31;;;;;;;1226;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1227;1;;84;;31;;;;;;;1227;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1228;1;;84;;31;;;;;;;1228;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1229;1;;84;;31;;;;;;;1229;;;;;;;;;;;100;1;both;;;;"Set 4 unidades, fibra bambú, ø8,3x13 cm....";;;;;"Set 4 unidades, fibra bambú, ø8,3x13 cm....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1230;1;;84;;31;;;;;;;1230;;;;;;;;;;;100;1;both;;;;"25,5 cl ...";;;;;"25,5 cl ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1231;1;;84;;31;;;;;;;1231;;;;;;;;;;;100;1;both;;;;"39 cl...";;;;;"39 cl...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1232;1;;84;;31;;;;;;;1232;;;;;;;;;;;100;1;both;;;;"30 cl...";;;;;"30 cl...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1233;1;;84;;31;;;;;;;1233;;;;;;;;;;;100;1;both;;;;"Agua-30,5 cl...";;;;;"Agua-30,5 cl...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1234;1;;84;;31;;;;;;;1234;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1235;1;;84;;31;;;;;;;1235;;;;;;;;;;;100;1;both;;;;"Descubre una de las novedades de Iris para los más peques de la casa. Ya tienes aquí una taza resistente, hecha de polipropileno, por su...";;;;;"Descubre una de las novedades de Iris para los más peques de la casa. Ya tienes aquí una taza resistente, hecha de polipropileno, por su...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1236;1;;84;;31;;;;;;;1236;;;;;;;;;;;100;1;both;;;;"Descubre una de las novedades de Iris para los más peques de la casa. Ya tienes aquí una taza resistente, hecha de polipropileno, por su...";;;;;"Descubre una de las novedades de Iris para los más peques de la casa. Ya tienes aquí una taza resistente, hecha de polipropileno, por su...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1237;1;;84;;31;;;;;;;1237;;;;;;;;;;;100;1;both;;;;"Descubre una de las novedades de Iris para los más peques de la casa. Ya tienes aquí una taza resistente, hecha de polipropileno, por su...";;;;;"Descubre una de las novedades de Iris para los más peques de la casa. Ya tienes aquí una taza resistente, hecha de polipropileno, por su...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1238;1;;84;;31;;;;;;;1238;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1239;1;;84;;31;;;;;;;1239;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1240;1;;84;;31;;;;;;;1240;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1241;1;;84;;31;;;;;;;1241;;;;;;;;;;;100;1;both;;;;"Conjunto de 3 vasos de vidrio, decorados con simpáticos búhos con una capacidad de 25cl.
+Son perfectos para los más peques, grac...";;;;;"Conjunto de 3 vasos de vidrio, decorados con simpáticos búhos con una capacidad de 25cl.
+Son perfectos para los más peques, grac...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1242;1;;84;;31;;;;;;;1242;;;;;;;;;;;100;1;both;;;;"Graphix, juego de 6 unidades. 19cl.        ...";;;;;"Graphix, juego de 6 unidades. 19cl.        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1243;1;;84;;31;;;;;;;1243;;;;;;;;;;;100;1;both;;;;"Vaso bodega Bormioli, pack de 3 unidades.
+
+Tiene una capacidad de 22cl.
+...";;;;;"Vaso bodega Bormioli, pack de 3 unidades.
+
+Tiene una capacidad de 22cl.
+...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1244;1;;84;;31;;;;;;;1244;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1245;1;;84;;31;;;;;;;1245;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1246;1;;84;;31;;;;;;;1246;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1247;1;;84;;31;;;;;;;1247;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1248;1;;84;;31;;;;;;;1248;;;;;;;;;;;100;1;both;;;;"Agua-310cc        ...";;;;;"Agua-310cc        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1249;1;;84;;31;;;;;;;1249;;;;;;;;;;;100;1;both;;;;"Refresco-290cc        ...";;;;;"Refresco-290cc        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1250;1;;84;;31;;;;;;;1250;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1251;1;;84;;31;;;;;;;1251;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1252;1;;84;;31;;;;;;;1252;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1253;1;;84;;31;;;;;;;1253;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1254;1;;84;;31;;;;;;;1254;;;;;;;;;;;100;1;both;;;;"Renueva tus vasos viejos, con estos acrílicos, finos y modernos.
+Su diseño es actual con una gran estrella blanca en su exterior y fond...";;;;;"Renueva tus vasos viejos, con estos acrílicos, finos y modernos.
+Su diseño es actual con una gran estrella blanca en su exterior y fond...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1255;1;;84;;31;;;;;;;1255;;;;;;;;;;;100;1;both;;;;"Renueva tus vasos viejos, con estos acrílicos, finos y modernos.
+Su diseño es actual con una gran estrella negra en su exterior y fondo...";;;;;"Renueva tus vasos viejos, con estos acrílicos, finos y modernos.
+Su diseño es actual con una gran estrella negra en su exterior y fondo...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1256;1;;84;;31;;;;;;;1256;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1257;1;;84;;31;;;;;;;1257;;;;;;;;;;;100;1;both;;;;"Apto para microondas, lavavajillas y congelador,recomendado para .elp.el uso exterior en terrazas,piscinas...al no tener peligro de causar......cortes...";;;;;"Apto para microondas, lavavajillas y congelador,recomendado para .elp.el uso exterior en terrazas,piscinas...al no tener peligro de causar......cortes...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1258;1;;84;;31;;;;;;;1258;;;;;;;;;;;100;1;both;;;;"Apto para microondas, lavavajillas y congelador,recomendado parael uso exterior en terrazas,piscinas...al no tener peligro de causarcortes por rotura,...";;;;;"Apto para microondas, lavavajillas y congelador,recomendado parael uso exterior en terrazas,piscinas...al no tener peligro de causarcortes por rotura,...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1259;1;;84;;31;;;;;;;1259;;;;;;;;;;;100;1;both;;;;"Apto para microondas, lavavajillas y congelador,recomendado parael uso exterior en terrazas,piscinas...al no tener peligro de causar cortes por rotura...";;;;;"Apto para microondas, lavavajillas y congelador,recomendado parael uso exterior en terrazas,piscinas...al no tener peligro de causar cortes por rotura...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1260;1;;84;;31;;;;;;;1260;;;;;;;;;;;100;1;both;;;;"Perfecto set de 2 vasos acrílicos transparentes con una capacidad de 275ml.
+Estos vasos acrílicos, son muy parecidos de apariencia al v...";;;;;"Perfecto set de 2 vasos acrílicos transparentes con una capacidad de 275ml.
+Estos vasos acrílicos, son muy parecidos de apariencia al v...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1261;1;;84;;31;;;;;;;1261;;;;;;;;;;;100;1;both;;;;"Pack de 6 vasos para refresco color manzana. Durobor 208/34....";;;;;"Pack de 6 vasos para refresco color manzana. Durobor 208/34....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1262;1;;84;;31;;;;;;;1262;;;;;;;;;;;100;1;both;;;;"Limón        ...";;;;;"Limón        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1263;1;;84;;31;;;;;;;1263;;;;;;;;;;;100;1;both;;;;"Azul        ...";;;;;"Azul        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1264;1;;84;;31;;;;;;;1264;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1265;1;;84;;31;;;;;;;1265;;;;;;;;;;;100;1;both;;;;"Conjunto de 6 vasos con colores variados con una capacidad de 31cl.
+Cada par de vasos son de un color y de vidrio muy resistente.
+Estos vasos son pe...";;;;;"Conjunto de 6 vasos con colores variados con una capacidad de 31cl.
+Cada par de vasos son de un color y de vidrio muy resistente.
+Estos vasos son pe...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1266;1;;84;;31;;;;;;;1266;;;;;;;;;;;100;1;both;;;;"Conjunto de 3 vasos de vidrio decorados, con una capacidad de 31cl.
+Estos vasos con naranjas impresas en su vidrio, son totalmente aptos para lavavaj...";;;;;"Conjunto de 3 vasos de vidrio decorados, con una capacidad de 31cl.
+Estos vasos con naranjas impresas en su vidrio, son totalmente aptos para lavavaj...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1267;1;;84;;31;;;;;;;1267;;;;;;;;;;;100;1;both;;;;"Conjunto de 3 vasos de vidrio decorados, con una capacidad de 25cl.
+Estos vasos con naranjas impresas en su vidrio, son totalmente aptos para lavavaj...";;;;;"Conjunto de 3 vasos de vidrio decorados, con una capacidad de 25cl.
+Estos vasos con naranjas impresas en su vidrio, son totalmente aptos para lavavaj...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1268;1;;84;;31;;;;;;;1268;;;;;;;;;;;100;1;both;;;;"Conjunto de 3 vasos de vidrio decorados, con una capacidad de 31cl.Estos vasos con limones impresos en su vidrio, son totalmente aptos para lavavajill...";;;;;"Conjunto de 3 vasos de vidrio decorados, con una capacidad de 31cl.Estos vasos con limones impresos en su vidrio, son totalmente aptos para lavavajill...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1269;1;;84;;31;;;;;;;1269;;;;;;;;;;;100;1;both;;;;"Conjunto de 3 vasos de vidrio decorados, con una capacidad de 25cl.
+Estos vasos con limones impresos en su vidrio, son totalmente aptos paralavavajil...";;;;;"Conjunto de 3 vasos de vidrio decorados, con una capacidad de 25cl.
+Estos vasos con limones impresos en su vidrio, son totalmente aptos paralavavajil...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1270;1;;84;;31;;;;;;;1270;;;;;;;;;;;100;1;both;;;;"Conjunto de 3 vasos con colores variados con una capacidad de 25cl.
+Cada par de vasos son de un color y de vidrio muy resistente.
+Estos vasos son pe...";;;;;"Conjunto de 3 vasos con colores variados con una capacidad de 25cl.
+Cada par de vasos son de un color y de vidrio muy resistente.
+Estos vasos son pe...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1271;1;;85;;31;;;;;;;1271;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1272;1;;85;;31;;;;;;;1272;;;;;;;;;;;100;1;both;;;;"Estuche con 2 Copas de Vino Diva Borgoña Swiesel...";;;;;"Estuche con 2 Copas de Vino Diva Borgoña Swiesel...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1273;1;;85;;31;;;;;;;1273;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1274;1;;85;;31;;;;;;;1274;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1275;1;;85;;31;;;;;;;1275;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1276;1;;85;;31;;;;;;;1276;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1277;1;;85;;31;;;;;;;1277;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1278;1;;85;;31;;;;;;;1278;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1279;1;;85;;31;;;;;;;1279;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1280;1;;85;;31;;;;;;;1280;;;;;;;;;;;100;1;both;;;;"Viste tu mesa y hazlo de forma económica y a la vez elegante con estas copas para cava de vidrio.
+Estas copas tienen una capacidad de 190 cl. ...";;;;;"Viste tu mesa y hazlo de forma económica y a la vez elegante con estas copas para cava de vidrio.
+Estas copas tienen una capacidad de 190 cl. ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1281;1;;85;;31;;;;;;;1281;;;;;;;;;;;100;1;both;;;;"Copa Gin Tonic 99cl....";;;;;"Copa Gin Tonic 99cl....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1282;1;;85;;31;;;;;;;1282;;;;;;;;;;;100;1;both;;;;"Copa Apilable Sun Stacky Zak 25cl Transparente...";;;;;"Copa Apilable Sun Stacky Zak 25cl Transparente...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1283;1;;85;;31;;;;;;;1283;;;;;;;;;;;100;1;both;;;;"Kit de 2 copas de Gin Tonic + Utensilios.
+Presentación en caja de regalo que contiene 2 copas de Gin Tonic de 82cl. 
+Incorpora un cortador pa...";;;;;"Kit de 2 copas de Gin Tonic + Utensilios.
+Presentación en caja de regalo que contiene 2 copas de Gin Tonic de 82cl. 
+Incorpora un cortador pa...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1284;1;;85;;31;;;;;;;1284;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1285;1;;85;;31;;;;;;;1285;;;;;;;;;;;100;1;both;;;;"Copa de cava modelo Verso
+ Copa Verso para el cava, de diseño moderno y actual. Disponemos de copas de vino y agua a juego para una bonita pre...";;;;;"Copa de cava modelo Verso
+ Copa Verso para el cava, de diseño moderno y actual. Disponemos de copas de vino y agua a juego para una bonita pre...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1286;1;;85;;31;;;;;;;1286;;;;;;;;;;;100;1;both;;;;"Copa de vino modelo Verso
+Copa Verso para el vino, de diseño moderno y actual. Disponemos de copas de vino y agua a juego para una bonita prep...";;;;;"Copa de vino modelo Verso
+Copa Verso para el vino, de diseño moderno y actual. Disponemos de copas de vino y agua a juego para una bonita prep...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1287;1;;85;;31;;;;;;;1287;;;;;;;;;;;100;1;both;;;;"Copa de agua modelo Verso
+Copa para el agua o vino, de diseño moderno y actual. Disponemos de copas de vino y agua a juego para una bonita pre...";;;;;"Copa de agua modelo Verso
+Copa para el agua o vino, de diseño moderno y actual. Disponemos de copas de vino y agua a juego para una bonita pre...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1288;1;;85;;31;;;;;;;1288;;;;;;;;;;;100;1;both;;;;"Copa de vino Natalia Bohemia.
+Medidas:
+Alto: 235 mm
+Ancho: 97 mm
+Capacidad: 350 ml
+La copa ha sido fabricada en cristal de BOHEMIA, altamente val...";;;;;"Copa de vino Natalia Bohemia.
+Medidas:
+Alto: 235 mm
+Ancho: 97 mm
+Capacidad: 350 ml
+La copa ha sido fabricada en cristal de BOHEMIA, altamente val...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1289;1;;85;;31;;;;;;;1289;;;;;;;;;;;100;1;both;;;;"Copa Swiesel Diva para Burdeos (2 Uds.) 768Cl....";;;;;"Copa Swiesel Diva para Burdeos (2 Uds.) 768Cl....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1290;1;;85;;31;;;;;;;1290;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1291;1;;85;;31;;;;;;;1291;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1292;1;;85;;31;;;;;;;1292;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1293;1;;85;;31;;;;;;;1293;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1294;1;;85;;31;;;;;;;1294;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1295;1;;85;;31;;;;;;;1295;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1296;1;;85;;31;;;;;;;1296;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1297;1;;85;;31;;;;;;;1297;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1298;1;;85;;31;;;;;;;1298;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1299;1;;85;;31;;;;;;;1299;;;;;;;;;;;100;1;both;;;;"Borgoña, 570cc        ...";;;;;"Borgoña, 570cc        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1300;1;;85;;31;;;;;;;1300;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1301;1;;85;;31;;;;;;;1301;;;;;;;;;;;100;1;both;;;;"Agua (300)        ...";;;;;"Agua (300)        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1302;1;;85;;31;;;;;;;1302;;;;;;;;;;;100;1;both;;;;"Set de 6 Copas de Agua Natalia Bohemia de 26 Cl. de capacidad.   ...";;;;;"Set de 6 Copas de Agua Natalia Bohemia de 26 Cl. de capacidad.   ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1303;1;;85;;31;;;;;;;1303;;;;;;;;;;;100;1;both;;;;"Set de 3 Copas de Cava - Champagne Natalia Bohemia Modelo Flauta de 19 Cl.       ...";;;;;"Set de 3 Copas de Cava - Champagne Natalia Bohemia Modelo Flauta de 19 Cl.       ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1304;1;;85;;31;;;;;;;1304;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1305;1;;85;;31;;;;;;;1305;;;;;;;;;;;100;1;both;;;;"56749-645cc        ...";;;;;"56749-645cc        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1306;1;;85;;31;;;;;;;1306;;;;;;;;;;;100;1;both;;;;"Bonitas copas balón, diseñadas especialmente para cóctel o gintonic.
+Estas copas de vidrio tienen una capacidad de 71,50 cl...";;;;;"Bonitas copas balón, diseñadas especialmente para cóctel o gintonic.
+Estas copas de vidrio tienen una capacidad de 71,50 cl...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1307;1;;86;;31;;;;;;;1307;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1308;1;;86;;31;;;;;;;1308;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1309;1;;86;;31;;;;;;;1309;;;;;;;;;;;100;1;both;;;;"El pack contiene 12 unidades....";;;;;"El pack contiene 12 unidades....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1310;1;;86;;31;;;;;;;1310;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1311;1;;86;;31;;;;;;;1311;;;;;;;;;;;100;1;both;;;;"Este pack contiene 6 unidades, en cada agitador hay una receta indicada y tapón de goma deslizante para sujetar al vaso. 
+Reutilizable       ...";;;;;"Este pack contiene 6 unidades, en cada agitador hay una receta indicada y tapón de goma deslizante para sujetar al vaso. 
+Reutilizable       ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1312;1;;88;;31;;;;;;;1312;;;;;;;;;;;100;1;both;;;;"Robot cocina Kenwood Km282.
+- 900 W, bol de acero inoxidable de 4,3 litros. 3 salidas de potencia para mayor versatilidad.
+- Diseño compacto,...";;;;;"Robot cocina Kenwood Km282.
+- 900 W, bol de acero inoxidable de 4,3 litros. 3 salidas de potencia para mayor versatilidad.
+- Diseño compacto,...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1313;1;;88;;31;;;;;;;1313;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1314;1;;88;;31;;;;;;;1314;;;;;;;;;;;100;1;both;;;;"Robot de cocina Taurus MyCook.
+Descubre el nuevo robot de cocina Taurus con una potencia de 1600 w.
+Este robot, te hará la vida más f&...";;;;;"Robot de cocina Taurus MyCook.
+Descubre el nuevo robot de cocina Taurus con una potencia de 1600 w.
+Este robot, te hará la vida más f&...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1315;1;;88;;31;;;;;;;1315;;;;;;;;;;;100;1;both;;;;"Robot de cocina inteligente Moulinex.
+Empieza a disfrutar de la cocina con este robot que nos presenta Moulinex, diseñado para que puedas hace...";;;;;"Robot de cocina inteligente Moulinex.
+Empieza a disfrutar de la cocina con este robot que nos presenta Moulinex, diseñado para que puedas hace...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1316;1;;88;;31;;;;;;;1316;;;;;;;;;;;100;1;both;;;;"Robot de cocina MUMS54420.
+- 900 w, 7 velocidades + función turbo, control de velocidad electrónico.
+- Equipamiento: recipiente para m...";;;;;"Robot de cocina MUMS54420.
+- 900 w, 7 velocidades + función turbo, control de velocidad electrónico.
+- Equipamiento: recipiente para m...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1317;1;;88;;31;;;;;;;1317;;;;;;;;;;;100;1;both;;;;"Robot de cocina Bosch Mum54420.
+- 900 w, 7 velocidades + función turbo, control de velocidad electrónico.
+- Equipamiento: recipiente p...";;;;;"Robot de cocina Bosch Mum54420.
+- 900 w, 7 velocidades + función turbo, control de velocidad electrónico.
+- Equipamiento: recipiente p...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1318;1;;88;;31;;;;;;;1318;;;;;;;;;;;100;1;both;;;;"Robot Cocina Vapor Taurus
+Prepara recetas saludables para toda la familia con este robot de cocina Vapore. Pica, tritura y gracias a sus cuchillas de...";;;;;"Robot Cocina Vapor Taurus
+Prepara recetas saludables para toda la familia con este robot de cocina Vapore. Pica, tritura y gracias a sus cuchillas de...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1319;1;;88;;31;;;;;;;1319;;;;;;;;;;;100;1;both;;;;"Ya tienes para ti, el robot cortador y triturador de alimentos Bosch Red Diamond todo en uno.
+Este robot contiene muchas novedades como:
+-Sistema gi...";;;;;"Ya tienes para ti, el robot cortador y triturador de alimentos Bosch Red Diamond todo en uno.
+Este robot contiene muchas novedades como:
+-Sistema gi...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1320;1;;89;;31;;;;;;;1320;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1321;1;;89;;31;;;;;;;1321;;;;;;;;;;;100;1;both;;;;"Cafetera express minimoka. Cm-1821, 15 bares de presión. Incluye 2 cacillos de acero inoxidable con filtro extracreme incorporado. Vaporizador de lec...";;;;;"Cafetera express minimoka. Cm-1821, 15 bares de presión. Incluye 2 cacillos de acero inoxidable con filtro extracreme incorporado. Vaporizador de lec...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1322;1;;89;;31;;;;;;;1322;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1323;1;;89;;31;;;;;;;1323;;;;;;;;;;;100;1;both;;;;"Descubre la nueva máquina de NESCAFÉ Dolce Gusto, MINI ME
+compacta, automática y a un precio MINI.
+Te enamorarás de su d...";;;;;"Descubre la nueva máquina de NESCAFÉ Dolce Gusto, MINI ME
+compacta, automática y a un precio MINI.
+Te enamorarás de su d...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1324;1;;89;;31;;;;;;;1324;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1325;1;;89;;31;;;;;;;1325;;;;;;;;;;;100;1;both;;;;"Cafetera de goteo Taurus de 800w de potencia, para 12 tazas y con filtro permanente extraíble. Incorpora placa calefactora, sistema anti goteo y jarr...";;;;;"Cafetera de goteo Taurus de 800w de potencia, para 12 tazas y con filtro permanente extraíble. Incorpora placa calefactora, sistema anti goteo y jarr...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1326;1;;89;;31;;;;;;;1326;;;;;;;;;;;100;1;both;;;;"Cafetera de goteo Taurus de 550w de potencia, para 6 tazas y con filtro permanente extraíble. Incorpora placa calefactora, sistema anti goteo y jarra...";;;;;"Cafetera de goteo Taurus de 550w de potencia, para 6 tazas y con filtro permanente extraíble. Incorpora placa calefactora, sistema anti goteo y jarra...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1327;1;;89;;31;;;;;;;1327;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1328;1;;89;;31;;;;;;;1328;;;;;;;;;;;100;1;both;;;;"Original cafetera Dolce Gusto modelo Circolo.
+Tiene una potencia de 1500 w. y una bomba de 15 bares de presión.
+Puede preparar una gran varie...";;;;;"Original cafetera Dolce Gusto modelo Circolo.
+Tiene una potencia de 1500 w. y una bomba de 15 bares de presión.
+Puede preparar una gran varie...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1329;1;;89;;31;;;;;;;1329;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1330;1;;89;;31;;;;;;;1330;;;;;;;;;;;100;1;both;;;;"Original cafetera Dolce Gusto modelo Circolo.
+Tiene una potencia de 1500 w. y una bomba de 15 bares de presión.
+Puede preparar una gran varie...";;;;;"Original cafetera Dolce Gusto modelo Circolo.
+Tiene una potencia de 1500 w. y una bomba de 15 bares de presión.
+Puede preparar una gran varie...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1331;1;;89;;31;;;;;;;1331;;;;;;;;;;;100;1;both;;;;"Ya tienes aquí esta magífica cafetera Nespresso, con funcionamiento automático.
+Tiene 19 bares de presión con un nuevo si...";;;;;"Ya tienes aquí esta magífica cafetera Nespresso, con funcionamiento automático.
+Tiene 19 bares de presión con un nuevo si...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1332;1;;89;;31;;;;;;;1332;;;;;;;;;;;100;1;both;;;;"AROMATIC, cuchillas y recipiente de acero inoxidable, pulsador de puestaen marcha de seguridad, depósito de café 50gr       ...";;;;;"AROMATIC, cuchillas y recipiente de acero inoxidable, pulsador de puestaen marcha de seguridad, depósito de café 50gr       ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1333;1;;89;;31;;;;;;;1333;;;;;;;;;;;100;1;both;;;;"Descripción del producto
+- Sistema multibebida: prepara distintas variedades de bebidas calientes: espresso, cappuccino, bebida con sabor a ch...";;;;;"Descripción del producto
+- Sistema multibebida: prepara distintas variedades de bebidas calientes: espresso, cappuccino, bebida con sabor a ch...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1334;1;;90;;31;;;;;;;1334;;;;;;;;;;;100;1;both;;;;"Batidora Amasadora TAURUS Modelo PRIMA, 300 W, 6 velocidades y función Turbo. Varillas Amasadoras y Batidoras desmontables....";;;;;"Batidora Amasadora TAURUS Modelo PRIMA, 300 W, 6 velocidades y función Turbo. Varillas Amasadoras y Batidoras desmontables....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1335;1;;90;;31;;;;;;;1335;;;;;;;;;;;100;1;both;;;;"800w, selector electrónico de 20 velocidades, pie con sistema bayoneta desmontable de acero inoxidable 18/10, cuchilla exclusiva de alto rendimiento ...";;;;;"800w, selector electrónico de 20 velocidades, pie con sistema bayoneta desmontable de acero inoxidable 18/10, cuchilla exclusiva de alto rendimiento ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1336;1;;90;;31;;;;;;;1336;;;;;;;;;;;100;1;both;;;;"Batidora de varilla Bosch Ergomixx
+Batidora Bosch Ergomixx en color gris y fucsia, con un diseño moderno y actual, potencia de 750 w...";;;;;"Batidora de varilla Bosch Ergomixx
+Batidora Bosch Ergomixx en color gris y fucsia, con un diseño moderno y actual, potencia de 750 w...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1337;1;;90;;31;;;;;;;1337;;;;;;;;;;;100;1;both;;;;"Batidora de reposteria Bosch Styline Red Diamond
+Batidora de repostería Bosch Styline Red Diamond con potencia de 500 w, 5 nive...";;;;;"Batidora de reposteria Bosch Styline Red Diamond
+Batidora de repostería Bosch Styline Red Diamond con potencia de 500 w, 5 nive...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1338;1;;90;;31;;;;;;;1338;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1339;1;;90;;31;;;;;;;1339;;;;;;;;;;;100;1;both;;;;"Descubre lo que Delonghi ha inventado para ti.
+Si te gusta la cocina y quieres cocinar de forma rápida, cómoda y apenas sin ensuciar ca...";;;;;"Descubre lo que Delonghi ha inventado para ti.
+Si te gusta la cocina y quieres cocinar de forma rápida, cómoda y apenas sin ensuciar ca...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1340;1;;90;;31;;;;;;;1340;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1341;1;;90;;31;;;;;;;1341;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1342;1;;90;;31;;;;;;;1342;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1343;1;;90;;31;;;;;;;1343;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1344;1;;90;;31;;;;;;;1344;;;;;;;;;;;100;1;both;;;;"800w, selector electrónico de 20 velocidades, pie con sistema bayoneta desmontable de acero inoxidable 18/10, cuchilla exclusiva de alto rendimiento ...";;;;;"800w, selector electrónico de 20 velocidades, pie con sistema bayoneta desmontable de acero inoxidable 18/10, cuchilla exclusiva de alto rendimiento ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1345;1;;90;;31;;;;;;;1345;;;;;;;;;;;100;1;both;;;;"700 W, pie de acero inoxidable desmontable, doble cuchilla de acero inoxidable de gran solidez, 2 pulsadores, 2 velocidades, asa ergonómica, va...";;;;;"700 W, pie de acero inoxidable desmontable, doble cuchilla de acero inoxidable de gran solidez, 2 pulsadores, 2 velocidades, asa ergonómica, va...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1346;1;;91;;31;;;;;;;1346;;;;;;;;;;;100;1;both;;;;"Batidora amasadora POWERMIX Moulinex HM6151
+Potencia de 500w, dispone de 5 velocidades + turbo
+2 sets de accesorios batidor y amasador
+Bol con...";;;;;"Batidora amasadora POWERMIX Moulinex HM6151
+Potencia de 500w, dispone de 5 velocidades + turbo
+2 sets de accesorios batidor y amasador
+Bol con...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1347;1;;91;;31;;;;;;;1347;;;;;;;;;;;100;1;both;;;;"Jarra 1l. Incluye accesorio picador para especias, pesto, salsas y puré.(130 ml) ,2 velocidades. Cuchilla y cuerpo de acero inox....";;;;;"Jarra 1l. Incluye accesorio picador para especias, pesto, salsas y puré.(130 ml) ,2 velocidades. Cuchilla y cuerpo de acero inox....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1348;1;;91;;31;;;;;;;1348;;;;;;;;;;;100;1;both;;;;"Jarra de cristal 1,5l. 2 velocidades + función turbo. 2 cuchillas acero inox. Apta para picar hielo....";;;;;"Jarra de cristal 1,5l. 2 velocidades + función turbo. 2 cuchillas acero inox. Apta para picar hielo....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1349;1;;91;;31;;;;;;;1349;;;;;;;;;;;100;1;both;;;;"Batidora Botella Tristar
+Con esta batidora podrás preparar tus batidos en tan sólo unos minutos. Además, te lo podrás lle...";;;;;"Batidora Botella Tristar
+Con esta batidora podrás preparar tus batidos en tan sólo unos minutos. Además, te lo podrás lle...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1350;1;;91;;31;;;;;;;1350;;;;;;;;;;;100;1;both;;;;"Batidora Amasadora Kitchen Aid 
+Batidora Amasadora con tapa funcional incluida, bol de acero inoxidable con asa, batidora, batidora de vari...";;;;;"Batidora Amasadora Kitchen Aid 
+Batidora Amasadora con tapa funcional incluida, bol de acero inoxidable con asa, batidora, batidora de vari...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1351;1;;91;;31;;;;;;;1351;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1352;1;;91;;31;;;;;;;1352;;;;;;;;;;;100;1;both;;;;"Batidora de vaso Tristar Inox 1,5l 500w...";;;;;"Batidora de vaso Tristar Inox 1,5l 500w...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1353;1;;91;;31;;;;;;;1353;;;;;;;;;;;100;1;both;;;;"Batidora de vaso Orbegozo Bv-11000
+Batidora con jarra de cristal de 1,5L y 2 velocidades.
+Con cuerpo y cuchilla de acero inoxidable.
+1000W...";;;;;"Batidora de vaso Orbegozo Bv-11000
+Batidora con jarra de cristal de 1,5L y 2 velocidades.
+Con cuerpo y cuchilla de acero inoxidable.
+1000W...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1354;1;;91;;31;;;;;;;1354;;;;;;;;;;;100;1;both;;;;"Excepcional batidora de vaso Taurus modelo Optima con una potencia de 550 w.
+Esta batidora Taurus contiene 2 velocidades y una tercera Turbo, para ba...";;;;;"Excepcional batidora de vaso Taurus modelo Optima con una potencia de 550 w.
+Esta batidora Taurus contiene 2 velocidades y una tercera Turbo, para ba...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1355;1;;91;;31;;;;;;;1355;;;;;;;;;;;100;1;both;;;;"Jarra de cristal de 1,5l. 1000w. máxima potencia para picar incluso hielo. Cuchillas extralargas de acero inox. Con 6 filos. 5 velocidades + función...";;;;;"Jarra de cristal de 1,5l. 1000w. máxima potencia para picar incluso hielo. Cuchillas extralargas de acero inox. Con 6 filos. 5 velocidades + función...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1356;1;;92;;31;;;;;;;1356;;;;;;;;;;;100;1;both;;;;"Freidora Jata de 1l. modelo FR326. Incorpora un cuba con antiadherente ecológico libre de pfoa y ptfe.
+Estructura 100% metálica con cue...";;;;;"Freidora Jata de 1l. modelo FR326. Incorpora un cuba con antiadherente ecológico libre de pfoa y ptfe.
+Estructura 100% metálica con cue...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1357;1;;92;;31;;;;;;;1357;;;;;;;;;;;100;1;both;;;;"Freidora Taurus modelo profesional con acabo en acero inox.
+Capacidad de 3l.
+Potencia de 1700 w.
+Resistencia sumergida, regulador de temperatura, p...";;;;;"Freidora Taurus modelo profesional con acabo en acero inox.
+Capacidad de 3l.
+Potencia de 1700 w.
+Resistencia sumergida, regulador de temperatura, p...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1358;1;;92;;31;;;;;;;1358;;;;;;;;;;;100;1;both;;;;"Freidora Taurus modelo profesional con acabo en acero inox.
+Capacidad de 2l.
+Potencia de 1700 w.
+Resistencia sumergida, regulador de temperatura, p...";;;;;"Freidora Taurus modelo profesional con acabo en acero inox.
+Capacidad de 2l.
+Potencia de 1700 w.
+Resistencia sumergida, regulador de temperatura, p...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1359;1;;92;;31;;;;;;;1359;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1360;1;;92;;31;;;;;;;1360;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1361;1;;92;;31;;;;;;;1361;;;;;;;;;;;100;1;both;;;;"Acero inoxidable, apto lavavajillas.10x9 cm...";;;;;"Acero inoxidable, apto lavavajillas.10x9 cm...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1362;1;;92;;31;;;;;;;1362;;;;;;;;;;;100;1;both;;;;"13x10 cmacero inoxidable, apto lavavajillas....";;;;;"13x10 cmacero inoxidable, apto lavavajillas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1363;1;;93;;31;;;;;;;1363;;;;;;;;;;;100;1;both;;;;"Cuchillo de cocina electrónico de la casa Orbegozo. Potencia de corte de 180W. Fabricado en acero inoxidable de primera calidad, el cuchillo ofrece u...";;;;;"Cuchillo de cocina electrónico de la casa Orbegozo. Potencia de corte de 180W. Fabricado en acero inoxidable de primera calidad, el cuchillo ofrece u...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1364;1;;93;;31;;;;;;;1364;;;;;;;;;;;100;1;both;;;;"Heladera Rosa de 1.2L de capacidad.
+¡Crea tus propios sorbetes y helados gracias a esta bonita heladera de color rosa de 1.2L de capacidad!.
+D...";;;;;"Heladera Rosa de 1.2L de capacidad.
+¡Crea tus propios sorbetes y helados gracias a esta bonita heladera de color rosa de 1.2L de capacidad!.
+D...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1365;1;;93;;31;;;;;;;1365;;;;;;;;;;;100;1;both;;;;"Heladera Taurus
+Heladera con bol refrigerante extraible de 1,5 L y pies anti-deslizantes. Gira en ambos sentidos. La heladera va con 8 recetas para q...";;;;;"Heladera Taurus
+Heladera con bol refrigerante extraible de 1,5 L y pies anti-deslizantes. Gira en ambos sentidos. La heladera va con 8 recetas para q...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1366;1;;93;;31;;;;;;;1366;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1367;1;;93;;31;;;;;;;1367;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1368;1;;93;;31;;;;;;;1368;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1369;1;;93;;31;;;;;;;1369;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1370;1;;93;;31;;;;;;;1370;;;;;;;;;;;100;1;both;;;;"Panificadora Moulinex OW610110.
+- Con una potencia de 1.650W.
+- Su capacidad es de 750G, 1.000G, 1.500G.
+- Tiene 3 niveles de tostado de corteza, h...";;;;;"Panificadora Moulinex OW610110.
+- Con una potencia de 1.650W.
+- Su capacidad es de 750G, 1.000G, 1.500G.
+- Tiene 3 niveles de tostado de corteza, h...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1371;1;;93;;31;;;;;;;1371;;;;;;;;;;;100;1;both;;;;"Tr Sa-1125...";;;;;"Tr Sa-1125...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1372;1;;93;;31;;;;;;;1372;;;;;;;;;;;100;1;both;;;;"Máquina para hacer Cake pops Modelo T Sa-1123
+Se trata de uno de los artículos que están a la última moda en la cocina di...";;;;;"Máquina para hacer Cake pops Modelo T Sa-1123
+Se trata de uno de los artículos que están a la última moda en la cocina di...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1373;1;;93;;31;;;;;;;1373;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1374;1;;93;;31;;;;;;;1374;;;;;;;;;;;100;1;both;;;;"Saborea un postre diferente y natural cada día, con el robot para postres Tefal MULTIDELICE. Sus 3 funciones te permitirán sorprender a ...";;;;;"Saborea un postre diferente y natural cada día, con el robot para postres Tefal MULTIDELICE. Sus 3 funciones te permitirán sorprender a ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1375;1;;93;;31;;;;;;;1375;;;;;;;;;;;100;1;both;;;;"YONANAS Ps-282700, 200 W, hace helados de suave sabor y saludables con frutas congeladas en tan sólo unos minutos.       ...";;;;;"YONANAS Ps-282700, 200 W, hace helados de suave sabor y saludables con frutas congeladas en tan sólo unos minutos.       ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1376;1;;93;;31;;;;;;;1376;;;;;;;;;;;100;1;both;;;;"Heladera Fagor ICE-15
+Permite hacer sorbetes y helados
+Capacidad: 1,6 litros
+Minutero de 30 minutos
+Incorpora un bol desmontable. La base es conve...";;;;;"Heladera Fagor ICE-15
+Permite hacer sorbetes y helados
+Capacidad: 1,6 litros
+Minutero de 30 minutos
+Incorpora un bol desmontable. La base es conve...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1377;1;;93;;31;;;;;;;1377;;;;;;;;;;;100;1;both;;;;"Máquina Pica Hielo Eléctrica  Pk-4200
+Máquina para que puedas picar el hielo en casa y preparar refrescantes bebidas. Tiene...";;;;;"Máquina Pica Hielo Eléctrica  Pk-4200
+Máquina para que puedas picar el hielo en casa y preparar refrescantes bebidas. Tiene...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1378;1;;93;;31;;;;;;;1378;;;;;;;;;;;100;1;both;;;;"162300, 2500 w. Seis sartencitas de acero con un diámetro de 16 cm que proporcionan toda la libertad para preparar individualmente la carne, el...";;;;;"162300, 2500 w. Seis sartencitas de acero con un diámetro de 16 cm que proporcionan toda la libertad para preparar individualmente la carne, el...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1379;1;;93;;31;;;;;;;1379;;;;;;;;;;;100;1;both;;;;"Máquina Envasadora al Vacío Lacor 69050
+Os presentamos una de las únicas máquinas de envasado al vacío domé...";;;;;"Máquina Envasadora al Vacío Lacor 69050
+Os presentamos una de las únicas máquinas de envasado al vacío domé...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1380;1;;94;;31;;;;;;;1380;;;;;;;;;;;100;1;both;;;;"Licuadora TAURUS LIQUAFRESH, 250 W, Sistema de vertido contínuo: Zumosin Límite, doble sistema de seguridad  ...";;;;;"Licuadora TAURUS LIQUAFRESH, 250 W, Sistema de vertido contínuo: Zumosin Límite, doble sistema de seguridad  ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1381;1;;94;;31;;;;;;;1381;;;;;;;;;;;100;1;both;;;;"Potencia: 25w. Jarra de plástico transparente graduada. Doble sentido de giro. Jarra de 0,6l. Almacenaje de cable. On/off automàtico: detecta la pre...";;;;;"Potencia: 25w. Jarra de plástico transparente graduada. Doble sentido de giro. Jarra de 0,6l. Almacenaje de cable. On/off automàtico: detecta la pre...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1382;1;;94;;31;;;;;;;1382;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1383;1;;94;;31;;;;;;;1383;;;;;;;;;;;100;1;both;;;;"Licuadora de la marca Vega con una potencia de 200W. Tiene una velocidad baja, lo que permite mantener inalterados los principales nutrientes y vitami...";;;;;"Licuadora de la marca Vega con una potencia de 200W. Tiene una velocidad baja, lo que permite mantener inalterados los principales nutrientes y vitami...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1384;1;;94;;31;;;;;;;1384;;;;;;;;;;;100;1;both;;;;"Licuadora Princess
+Licuadora a 2 velocidades con boca ancha de 75 mm., para piezas grandes. Tiene depósito de recogida de pulpa de 1,8L.
+700W...";;;;;"Licuadora Princess
+Licuadora a 2 velocidades con boca ancha de 75 mm., para piezas grandes. Tiene depósito de recogida de pulpa de 1,8L.
+700W...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1385;1;;94;;31;;;;;;;1385;;;;;;;;;;;100;1;both;;;;"Si eres de los que le gusta los zumos de naranja recién hechos, naturales, conservando todas sus vitaminas y nutrientes, aquí tienes el ...";;;;;"Si eres de los que le gusta los zumos de naranja recién hechos, naturales, conservando todas sus vitaminas y nutrientes, aquí tienes el ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1386;1;;94;;31;;;;;;;1386;;;;;;;;;;;100;1;both;;;;"Exprimidor naranjas Eléctrico con Brazo de 120w de potencia marca LACOR.
+Elegante y cómodo exprimidor de naranjas o cítrico...";;;;;"Exprimidor naranjas Eléctrico con Brazo de 120w de potencia marca LACOR.
+Elegante y cómodo exprimidor de naranjas o cítrico...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1387;1;;94;;31;;;;;;;1387;;;;;;;;;;;100;1;both;;;;"JU200045, 200W, tapa y contenedor de pulpa transparente, filtro inoxidable sistema de seguridad       ...";;;;;"JU200045, 200W, tapa y contenedor de pulpa transparente, filtro inoxidable sistema de seguridad       ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1388;1;;94;;31;;;;;;;1388;;;;;;;;;;;100;1;both;;;;"Cómodo exprimidor eléctrico Taurus con una potencia de 25 w.
+Este exprimidor Taurus, gira en ambos sentidos.
+Para facilitar su limpiez...";;;;;"Cómodo exprimidor eléctrico Taurus con una potencia de 25 w.
+Este exprimidor Taurus, gira en ambos sentidos.
+Para facilitar su limpiez...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1389;1;;94;;31;;;;;;;1389;;;;;;;;;;;100;1;both;;;;"Licuadora profesional. 69373, 240 w, extracción de zumo en frío a baja velocidad. 60 revoluciones por minuto de manera que optimiza la extracción d...";;;;;"Licuadora profesional. 69373, 240 w, extracción de zumo en frío a baja velocidad. 60 revoluciones por minuto de manera que optimiza la extracción d...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1390;1;;94;;31;;;;;;;1390;;;;;;;;;;;100;1;both;;;;"PRINCESS VITAPURE.
+Si te gustan los zumos, pero los quieres sin pulpas, manteniendo todas sus vitaminas, prueba esta perfecta licuadora Princess Vita...";;;;;"PRINCESS VITAPURE.
+Si te gustan los zumos, pero los quieres sin pulpas, manteniendo todas sus vitaminas, prueba esta perfecta licuadora Princess Vita...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1391;1;;95;;31;;;;;;;1391;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1392;1;;95;;31;;;;;;;1392;;;;;;;;;;;100;1;both;;;;"Balanza Cocina Digital Craft Roja
+Balanza con superficie de cristal y capacidad de hasta 5 kg. Graduación de 1 kg.
+Diámetro. 19 cm....";;;;;"Balanza Cocina Digital Craft Roja
+Balanza con superficie de cristal y capacidad de hasta 5 kg. Graduación de 1 kg.
+Diámetro. 19 cm....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1393;1;;95;;31;;;;;;;1393;;;;;;;;;;;100;1;both;;;;"Balanza Cocina Digital Craft Verde
+Balanza con superficie de cristal y capacidad de hasta 5 kg. Graduación de 1 kg.
+Diámetro: 19 cm....";;;;;"Balanza Cocina Digital Craft Verde
+Balanza con superficie de cristal y capacidad de hasta 5 kg. Graduación de 1 kg.
+Diámetro: 19 cm....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1394;1;;95;;31;;;;;;;1394;;;;;;;;;;;100;1;both;;;;"Balanza de cocina con capacidad para pesar hasta 5 kg. Graduaciones de 1 kg. En acero mate. Lleva temporizador.
+Medidas: Ancho 12,5 x Largo 21 cm....";;;;;"Balanza de cocina con capacidad para pesar hasta 5 kg. Graduaciones de 1 kg. En acero mate. Lleva temporizador.
+Medidas: Ancho 12,5 x Largo 21 cm....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1395;1;;95;;31;;;;;;;1395;;;;;;;;;;;100;1;both;;;;"Balanza Cocina Essential Brabantia
+Balanza con gancho para colgar. Tiene superficie de cristal. Con capacidad hasta 5 kg y gradauciones de 1 kg....";;;;;"Balanza Cocina Essential Brabantia
+Balanza con gancho para colgar. Tiene superficie de cristal. Con capacidad hasta 5 kg y gradauciones de 1 kg....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1396;1;;95;;31;;;;;;;1396;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1397;1;;95;;31;;;;;;;1397;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1398;1;;95;;31;;;;;;;1398;;;;;;;;;;;100;1;both;;;;"5075, plata, 5 kg, graduacion 1gr, pila de litio incorporada        ...";;;;;"5075, plata, 5 kg, graduacion 1gr, pila de litio incorporada        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1399;1;;95;;31;;;;;;;1399;;;;;;;;;;;100;1;both;;;;"KS-22, medición 3 kg/1 gr. Pequeña y manejable, plataforma de aceroinoxidable cepillado. Función auto tara. Medida zona pesaje: 11 x 11cm. Pilas in...";;;;;"KS-22, medición 3 kg/1 gr. Pequeña y manejable, plataforma de aceroinoxidable cepillado. Función auto tara. Medida zona pesaje: 11 x 11cm. Pilas in...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1400;1;;95;;31;;;;;;;1400;;;;;;;;;;;100;1;both;;;;"Balanza de cocina mecánica Odag Cromada 6010, peso máximo 2,2kg, graduación 20 gr        ...";;;;;"Balanza de cocina mecánica Odag Cromada 6010, peso máximo 2,2kg, graduación 20 gr        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1401;1;;95;;31;;;;;;;1401;;;;;;;;;;;100;1;both;;;;"Bonita balanza de cocina Brabantia, perfecta para pesar toda clase de alimentos, gracias a su superficie larga y plana.
+Esta balanza digital es de vi...";;;;;"Bonita balanza de cocina Brabantia, perfecta para pesar toda clase de alimentos, gracias a su superficie larga y plana.
+Esta balanza digital es de vi...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1402;1;;96;;31;;;;;;;1402;;;;;;;;;;;100;1;both;;;;"PS-2667,1200W, 1L, especialmente apta para tradicional fondue de carne, fondue suiza de queso, fondue de chocolate y fondue china. Con  termostato par...";;;;;"PS-2667,1200W, 1L, especialmente apta para tradicional fondue de carne, fondue suiza de queso, fondue de chocolate y fondue china. Con  termostato par...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1403;1;;96;;31;;;;;;;1403;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1404;1;;96;;31;;;;;;;1404;;;;;;;;;;;100;1;both;;;;"Gourmet 6 sartenes - Grill y crepera
+Atractiva Raclette Tristar apta para 6 personas, con revestimiento antiadherente.
+La plancha cuenta en su super...";;;;;"Gourmet 6 sartenes - Grill y crepera
+Atractiva Raclette Tristar apta para 6 personas, con revestimiento antiadherente.
+La plancha cuenta en su super...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1405;1;;96;;31;;;;;;;1405;;;;;;;;;;;100;1;both;;;;"Raclette - grill y placa tipo piedra 8 sartenes - Plancha, grill y placa tipo piedra
+Raclette con acabados fantásticos. Incluye grill y placa ...";;;;;"Raclette - grill y placa tipo piedra 8 sartenes - Plancha, grill y placa tipo piedra
+Raclette con acabados fantásticos. Incluye grill y placa ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1406;1;;97;;31;;;;;;;1406;;;;;;;;;;;100;1;both;;;;"102210, 1900 w, mini 26 x 26 cm, capa antiadherente, termostato deregulación precisa, resistente al lavavajillas.       ...";;;;;"102210, 1900 w, mini 26 x 26 cm, capa antiadherente, termostato deregulación precisa, resistente al lavavajillas.       ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1407;1;;97;;31;;;;;;;1407;;;;;;;;;;;100;1;both;;;;"Descubre la nueva cocina con Jata.
+Este pequeño electrodoméstico de Jata, puede hacer a la plancha o asar, cocinar en grill o incluso t...";;;;;"Descubre la nueva cocina con Jata.
+Este pequeño electrodoméstico de Jata, puede hacer a la plancha o asar, cocinar en grill o incluso t...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1408;1;;97;;31;;;;;;;1408;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1409;1;;97;;31;;;;;;;1409;;;;;;;;;;;100;1;both;;;;"Capa antiadherente, termostato de regulación precisa, resistente al lavavajillas.102300, 2000W, 26x46cm       ...";;;;;"Capa antiadherente, termostato de regulación precisa, resistente al lavavajillas.102300, 2000W, 26x46cm       ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1410;1;;97;;31;;;;;;;1410;;;;;;;;;;;100;1;both;;;;"Plancha asador Jata GR555
+Potencia de 2500 w, resistencia en forma de M, cocina por igual en toda la superficie.
+Nuevo sistema ""súper diet&ea...";;;;;"Plancha asador Jata GR555
+Potencia de 2500 w, resistencia en forma de M, cocina por igual en toda la superficie.
+Nuevo sistema ""súper diet&ea...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1411;1;;97;;31;;;;;;;1411;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1412;1;;97;;31;;;;;;;1412;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1413;1;;97;;31;;;;;;;1413;;;;;;;;;;;100;1;both;;;;"Descubre el nuevo invento que ha fabricado Jata con esta plancha eléctrica de terracota.
+Esta plancha, a diferencia del resto, una vez calient...";;;;;"Descubre el nuevo invento que ha fabricado Jata con esta plancha eléctrica de terracota.
+Esta plancha, a diferencia del resto, una vez calient...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1414;1;;97;;31;;;;;;;1414;;;;;;;;;;;100;1;both;;;;"Placa cocina induccion severin. 2000 w, superficie de cocinado cerámica (ø 21 cm). El calor se genera en la superficie en la que se pone la sartén....";;;;;"Placa cocina induccion severin. 2000 w, superficie de cocinado cerámica (ø 21 cm). El calor se genera en la superficie en la que se pone la sartén....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1415;1;;98;;31;;;;;;;1415;;;;;;;;;;;100;1;both;;;;"CREPERA ROYAL PRINCESS CRÊPE MAKER 492227
+- Potencia 1100 W.- Crepera para hacer las crepes más sabrosas en casa.- Diámetro ...";;;;;"CREPERA ROYAL PRINCESS CRÊPE MAKER 492227
+- Potencia 1100 W.- Crepera para hacer las crepes más sabrosas en casa.- Diámetro ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1416;1;;98;;31;;;;;;;1416;;;;;;;;;;;100;1;both;;;;"Descubre la nueva cocina con Jata.
+Este pequeño electrodoméstico de Jata, puede hacer a la plancha o asar, cocinar en grill o incluso t...";;;;;"Descubre la nueva cocina con Jata.
+Este pequeño electrodoméstico de Jata, puede hacer a la plancha o asar, cocinar en grill o incluso t...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1417;1;;98;;31;;;;;;;1417;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1418;1;;98;;31;;;;;;;1418;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1419;1;;98;;31;;;;;;;1419;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1420;1;;98;;31;;;;;;;1420;;;;;;;;;;;100;1;both;;;;"Descubre el nuevo invento que ha fabricado Jata con esta plancha eléctrica de terracota.
+Esta plancha, a diferencia del resto, una vez calient...";;;;;"Descubre el nuevo invento que ha fabricado Jata con esta plancha eléctrica de terracota.
+Esta plancha, a diferencia del resto, una vez calient...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1421;1;;98;;31;;;;;;;1421;;;;;;;;;;;100;1;both;;;;"Grill y asador Taurus Asteria con una potencia de 2200W.
+Contiene placas antiadherentes de 28x22cm.
+La apertura de dichas placas forman un án...";;;;;"Grill y asador Taurus Asteria con una potencia de 2200W.
+Contiene placas antiadherentes de 28x22cm.
+La apertura de dichas placas forman un án...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1422;1;;98;;31;;;;;;;1422;;;;;;;;;;;100;1;both;;;;"Si sois muchos en casa, o tienes un bar, o simplemente te gustaría tener una plancha de cocina tamaño grande, aquí te ofrecemos l...";;;;;"Si sois muchos en casa, o tienes un bar, o simplemente te gustaría tener una plancha de cocina tamaño grande, aquí te ofrecemos l...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1423;1;;99;;31;;;;;;;1423;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1424;1;;99;;31;;;;;;;1424;;;;;;;;;;;100;1;both;;;;"Horno Microondas con Grill Inox Orbegozo MIG 2011
+Fabricado en acero inoxidable.
+Potencia: 800W
+Capacidad: 20L
+Incorpora Grill de 1000W con 9 nive...";;;;;"Horno Microondas con Grill Inox Orbegozo MIG 2011
+Fabricado en acero inoxidable.
+Potencia: 800W
+Capacidad: 20L
+Incorpora Grill de 1000W con 9 nive...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1425;1;;99;;31;;;;;;;1425;;;;;;;;;;;100;1;both;;;;"Horno Microondas con Grill Inox Orbegozo MIG-1811
+Capacidad de 17 L
+Incorpora Grill de 900 w, con 6 niveles de potencia
+Posibilidad de 9 men&u...";;;;;"Horno Microondas con Grill Inox Orbegozo MIG-1811
+Capacidad de 17 L
+Incorpora Grill de 900 w, con 6 niveles de potencia
+Posibilidad de 9 men&u...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1426;1;;99;;31;;;;;;;1426;;;;;;;;;;;100;1;both;;;;"Horno Microondas Sin Grill Orbegozo MI2015....";;;;;"Horno Microondas Sin Grill Orbegozo MI2015....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1427;1;;99;;31;;;;;;;1427;;;;;;;;;;;100;1;both;;;;"Horno microondas con grill Orbegozo Mig 2030. Capacidad de 20l....";;;;;"Horno microondas con grill Orbegozo Mig 2030. Capacidad de 20l....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1428;1;;99;;31;;;;;;;1428;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1429;1;;99;;31;;;;;;;1429;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1430;1;;99;;31;;;;;;;1430;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1431;1;;99;;31;;;;;;;1431;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1432;1;;99;;31;;;;;;;1432;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1433;1;;99;;31;;;;;;;1433;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1434;1;;100;;31;;;;;;;1434;;;;;;;;;;;100;1;both;;;;"Tostador Giratorio  70750
+Tostador para chimeneas giratorio. 
+Medidas: Largo 36 x Ancho 16 cm....";;;;;"Tostador Giratorio  70750
+Tostador para chimeneas giratorio. 
+Medidas: Largo 36 x Ancho 16 cm....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1435;1;;100;;31;;;;;;;1435;;;;;;;;;;;100;1;both;;;;"Tostador russell hobbs. 1000w, ranura extralarga, regulador ajustable del nivel de tueste, bandeja recogemigas....";;;;;"Tostador russell hobbs. 1000w, ranura extralarga, regulador ajustable del nivel de tueste, bandeja recogemigas....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1436;1;;100;;31;;;;;;;1436;;;;;;;;;;;100;1;both;;;;"Tostador de pan, termostato variable, bandeja recogemigas, botón apagado, posición recalentamiento...";;;;;"Tostador de pan, termostato variable, bandeja recogemigas, botón apagado, posición recalentamiento...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1437;1;;100;;31;;;;;;;1437;;;;;;;;;;;100;1;both;;;;"820­1000 v.6 funciones de tostado,función de descongelación, cancelación y recalentado. Expulsión automática, bandeja para migas extraíble....";;;;;"820­1000 v.6 funciones de tostado,función de descongelación, cancelación y recalentado. Expulsión automática, bandeja para migas extraíble....";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1438;1;;100;;31;;;;;;;1438;;;;;;;;;;;100;1;both;;;;"Tostador Horquilla Imex 45 Cm.
+Tostador en forma de horquilla de la reputada marca Imex. Tiene un largo de 45 centímetros para que puedas tost...";;;;;"Tostador Horquilla Imex 45 Cm.
+Tostador en forma de horquilla de la reputada marca Imex. Tiene un largo de 45 centímetros para que puedas tost...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1439;1;;100;;31;;;;;;;1439;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1440;1;;100;;31;;;;;;;1440;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1441;1;;100;;31;;;;;;;1441;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1442;1;;100;;31;;;;;;;1442;;;;;;;;;;;100;1;both;;;;"Descubre la nueva cocina con Jata.
+Este pequeño electrodoméstico de Jata, puede hacer a la plancha o asar, cocinar en grill o incluso t...";;;;;"Descubre la nueva cocina con Jata.
+Este pequeño electrodoméstico de Jata, puede hacer a la plancha o asar, cocinar en grill o incluso t...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1443;1;;100;;31;;;;;;;1443;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1444;1;;100;;31;;;;;;;1444;;;;;;;;;;;100;1;both;;;;"PLANET, 800 w, ranura extralarga , regulador del tiempo de tostado,bandeja recogemigas, alojamiento para el cable.       ...";;;;;"PLANET, 800 w, ranura extralarga , regulador del tiempo de tostado,bandeja recogemigas, alojamiento para el cable.       ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1445;1;;100;;31;;;;;;;1445;;;;;;;;;;;100;1;both;;;;"Bonito tostador con doble ranura Lacor, ideal para parejas.
+Este tostador es tiene una potencia de 1000 w y está diseñado para pod...";;;;;"Bonito tostador con doble ranura Lacor, ideal para parejas.
+Este tostador es tiene una potencia de 1000 w y está diseñado para pod...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1446;1;;100;;31;;;;;;;1446;;;;;;;;;;;100;1;both;;;;"Prepara tus desayunos de forma rápida y segura, con esta torradora Bosch, perfecta para hacer tostadas de gran tamaño, gracias a su ranu...";;;;;"Prepara tus desayunos de forma rápida y segura, con esta torradora Bosch, perfecta para hacer tostadas de gran tamaño, gracias a su ranu...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1447;1;;100;;31;;;;;;;1447;;;;;;;;;;;100;1;both;;;;"Cómoda sandwichera Breville con capacidad para 2 sandwiches.
+Sus placas son antiadherentes, perfectas para que el pan de molde no necesite rec...";;;;;"Cómoda sandwichera Breville con capacidad para 2 sandwiches.
+Sus placas son antiadherentes, perfectas para que el pan de molde no necesite rec...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1448;1;;100;;31;;;;;;;1448;;;;;;;;;;;100;1;both;;;;"Tostador Doble Lacor
+Tostador con 2 ranuras extralargas y 7 niveles de tostado. La carcasa es de acero inoxidable.
+1200 - 1500W...";;;;;"Tostador Doble Lacor
+Tostador con 2 ranuras extralargas y 7 niveles de tostado. La carcasa es de acero inoxidable.
+1200 - 1500W...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1449;1;;100;;31;;;;;;;1449;;;;;;;;;;;100;1;both;;;;"Tostador Taurus Planet 2 ranuras
+Tostador de la marca tauris con dos ranuras diseñadas sobre todo para pan de molde.
+Tiene 6 niveles de tosta...";;;;;"Tostador Taurus Planet 2 ranuras
+Tostador de la marca tauris con dos ranuras diseñadas sobre todo para pan de molde.
+Tiene 6 niveles de tosta...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1450;1;;100;;31;;;;;;;1450;;;;;;;;;;;100;1;both;;;;"Sandwichera TAURUS MIAMI.
+Magnífica Sandwichera de placas triangulares que además son antiadherentes para que los alimentos no se pegue...";;;;;"Sandwichera TAURUS MIAMI.
+Magnífica Sandwichera de placas triangulares que además son antiadherentes para que los alimentos no se pegue...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1451;1;;100;;31;;;;;;;1451;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1452;1;;100;;31;;;;;;;1452;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1453;1;;100;;31;;;;;;;1453;;;;;;;;;;;100;1;both;;;;"Te presentamos el tostador plano de Lacor, práctico y sencillo ideado para los más tradicinales.
+Su potencia es de 600w y sus medidas e...";;;;;"Te presentamos el tostador plano de Lacor, práctico y sencillo ideado para los más tradicinales.
+Su potencia es de 600w y sus medidas e...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1454;1;;101;;31;;;;;;;1454;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1455;1;;101;;31;;;;;;;1455;;;;;;;;;;;100;1;both;;;;"AROA, 2200 W, 1,7 L, base con giro de 360º, resistencia oculta, indicador del nivel de agua con iluminación en ambos lados. Filtro extraíble. Desco...";;;;;"AROA, 2200 W, 1,7 L, base con giro de 360º, resistencia oculta, indicador del nivel de agua con iluminación en ambos lados. Filtro extraíble. Desco...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1456;1;;101;;31;;;;;;;1456;;;;;;;;;;;100;1;both;;;;"Con el hervidor de agua eléctrico de Lacor lograremos un ahorro de energía con respecto a otros recipientes donde calentar el agua. El h...";;;;;"Con el hervidor de agua eléctrico de Lacor lograremos un ahorro de energía con respecto a otros recipientes donde calentar el agua. El h...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1457;1;;103;;31;;;;;;;1457;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1458;1;;103;;31;;;;;;;1458;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1459;1;;103;;31;;;;;;;1459;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1460;1;;103;;31;;;;;;;1460;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1461;1;;103;;31;;;;;;;1461;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1462;1;;103;;31;;;;;;;1462;;;;;;;;;;;100;1;both;;;;"Modello Mp-1550...";;;;;"Modello Mp-1550...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1463;1;;104;;31;;;;;;;1463;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1464;1;;104;;31;;;;;;;1464;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1465;1;;104;;31;;;;;;;1465;;;;;;;;;;;100;1;both;;;;"Huevos escalfados perfectos en microondas        ...";;;;;"Huevos escalfados perfectos en microondas        ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1466;1;;104;;31;;;;;;;1466;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1467;1;;104;;31;;;;;;;1467;;;;;;;;;;;100;1;both;;;;"Cocedor Arroz Microondas Lekue
+Con este original cocedor de Lekue, podrás cocinar suculentos y variados arroces y cereales en muy poco tiempo ...";;;;;"Cocedor Arroz Microondas Lekue
+Con este original cocedor de Lekue, podrás cocinar suculentos y variados arroces y cereales en muy poco tiempo ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1468;1;;104;;31;;;;;;;1468;;;;;;;;;;;100;1;both;;;;"Cocedor Pasta Microondas Lekue
+Para los amantes de la Pasta, Lekue ha diseñado este cocedor para microondas con el que podrás cocinar t...";;;;;"Cocedor Pasta Microondas Lekue
+Para los amantes de la Pasta, Lekue ha diseñado este cocedor para microondas con el que podrás cocinar t...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1469;1;;104;;31;;;;;;;1469;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1470;1;;104;;31;;;;;;;1470;;;;;;;;;;;100;1;both;;;;"Cocedor para cocina Lacor de 1500w. y 6l.
+- Medidas: 40,5 x 35 x 30 cms.
+- Con el cocedor SOUS VIE de LACOR multifunción podrá fre&iac...";;;;;"Cocedor para cocina Lacor de 1500w. y 6l.
+- Medidas: 40,5 x 35 x 30 cms.
+- Con el cocedor SOUS VIE de LACOR multifunción podrá fre&iac...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1471;1;;105;;31;;;;;;;1471;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1472;1;;105;;31;;;;;;;1472;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1473;1;;105;;31;;;;;;;1473;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1474;1;;105;;31;;;;;;;1474;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1475;1;;105;;31;;;;;;;1475;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1476;1;;105;;31;;;;;;;1476;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1477;1;;105;;31;;;;;;;1477;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1478;1;;105;;31;;;;;;;1478;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1479;1;;107;;31;;;;;;;1479;;;;;;;;;;;100;1;both;;;;"Original porta alimentos infantil Iris ideal para cuando los niños se van de escursión.
+Tenemos varios modelos para escoger.
+La tela e...";;;;;"Original porta alimentos infantil Iris ideal para cuando los niños se van de escursión.
+Tenemos varios modelos para escoger.
+La tela e...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1480;1;;107;;31;;;;;;;1480;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Iris Smart verde.
+Esta bolsa porta alimentos plegable de la marca Iris, de diseño moderno y actual, es ideal para llevar...";;;;;"Bolsa porta alimentos Iris Smart verde.
+Esta bolsa porta alimentos plegable de la marca Iris, de diseño moderno y actual, es ideal para llevar...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1481;1;;107;;31;;;;;;;1481;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Iris Traveller
+Práctica bolsa porta alimentos plegable isotérmica Iris en color negro y de gran capacidad. 
+Con ...";;;;;"Bolsa porta alimentos Iris Traveller
+Práctica bolsa porta alimentos plegable isotérmica Iris en color negro y de gran capacidad. 
+Con ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1482;1;;107;;31;;;;;;;1482;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1483;1;;107;;31;;;;;;;1483;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1484;1;;107;;31;;;;;;;1484;;;;;;;;;;;100;1;both;;;;...;;;;;...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1485;1;;107;;31;;;;;;;1485;;;;;;;;;;;100;1;both;;;;0,70l...;;;;;0,70l...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1486;1;;107;;31;;;;;;;1486;;;;;;;;;;;100;1;both;;;;0,70l...;;;;;0,70l...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1487;1;;107;;31;;;;;;;1487;;;;;;;;;;;100;1;both;;;;0,70l...;;;;;0,70l...;;;;;;;;;;;1;new;0;0;0;0;1;;;
+1488;1;;107;;31;;;;;;;1488;;;;;;;;;;;100;1;both;;;;"Estuche porta alimentos Iris Lunchbag Snack XL negro.
+Este práctico porta alimentos Iris XL en color negro es ideal para llevar a la ofic...";;;;;"Estuche porta alimentos Iris Lunchbag Snack XL negro.
+Este práctico porta alimentos Iris XL en color negro es ideal para llevar a la ofic...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1489;1;;107;;31;;;;;;;1489;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Iris Smart negra.
+Esta bolsa porta alimentos plegable de la marca Iris, de diseño moderno y actual, es ideal para llevar...";;;;;"Bolsa porta alimentos Iris Smart negra.
+Esta bolsa porta alimentos plegable de la marca Iris, de diseño moderno y actual, es ideal para llevar...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1490;1;;107;;31;;;;;;;1490;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Iris Smart lila.
+Esta bolsa porta alimentos plegable de la marca Iris, de diseño moderno y actual, es ideal para llevar ...";;;;;"Bolsa porta alimentos Iris Smart lila.
+Esta bolsa porta alimentos plegable de la marca Iris, de diseño moderno y actual, es ideal para llevar ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1491;1;;107;;31;;;;;;;1491;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Iris Eva. 
+¡Disfruta tu comida como si estuvieras en casa! Con un estilo contemporáneo, unisex y urbano, esta...";;;;;"Bolsa porta alimentos Iris Eva. 
+¡Disfruta tu comida como si estuvieras en casa! Con un estilo contemporáneo, unisex y urbano, esta...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1492;1;;107;;31;;;;;;;1492;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Iris Twin Bag.
+Iris nos ofrece una bolsa porta alimentos en neopreno en el exterior con cierre de cremallera. El interior es te...";;;;;"Bolsa porta alimentos Iris Twin Bag.
+Iris nos ofrece una bolsa porta alimentos en neopreno en el exterior con cierre de cremallera. El interior es te...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1493;1;;107;;31;;;;;;;1493;;;;;;;;;;;100;1;both;;;;" 
+La bolsa porta alimentos Valira Nomad negra es muy útil si comes todos los días fuera de casa. 
+Por su material ...";;;;;" 
+La bolsa porta alimentos Valira Nomad negra es muy útil si comes todos los días fuera de casa. 
+Por su material ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1494;1;;107;;31;;;;;;;1494;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Valira  Nomad Satín.
+La bolsa porta alimentos Valira Nomad Satín te será muy útil si eres de l...";;;;;"Bolsa porta alimentos Valira  Nomad Satín.
+La bolsa porta alimentos Valira Nomad Satín te será muy útil si eres de l...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1495;1;;107;;31;;;;;;;1495;;;;;;;;;;;100;1;both;;;;"Bolso porta alimentos Valira Take Away.
+Valira ha diseñado el bolso perfecto para llevar los alimentos por su versatilidad, ya que puedes util...";;;;;"Bolso porta alimentos Valira Take Away.
+Valira ha diseñado el bolso perfecto para llevar los alimentos por su versatilidad, ya que puedes util...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1496;1;;107;;31;;;;;;;1496;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Valira School Agata
+Divertida bolsa porta alimentos de Valira con el diseño y los colores inconfundibles de Aghata Ruiz ...";;;;;"Bolsa porta alimentos Valira School Agata
+Divertida bolsa porta alimentos de Valira con el diseño y los colores inconfundibles de Aghata Ruiz ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1497;1;;107;;31;;;;;;;1497;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Valira compact.
+Descubre una nueva forma de llevar tus fiambreras al trabajo, al colegio o donde necesitas con estas nuevas&nbs...";;;;;"Bolsa porta alimentos Valira compact.
+Descubre una nueva forma de llevar tus fiambreras al trabajo, al colegio o donde necesitas con estas nuevas&nbs...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1498;1;;107;;31;;;;;;;1498;;;;;;;;;;;100;1;both;;;;"Bolsa porta alimentos Marcadiferencia.
+Surtido de colores de la bolsa porta alimentos de la marca Marcadiferencia.
+La mochila , la puedes abrir, con...";;;;;"Bolsa porta alimentos Marcadiferencia.
+Surtido de colores de la bolsa porta alimentos de la marca Marcadiferencia.
+La mochila , la puedes abrir, con...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1499;1;;107;;31;;;;;;;1499;;;;;;;;;;;100;1;both;;;;"Porta alimentos Iris Classic
+Práctico maletín porta alimentos Iris con interior isotérmico en color negro y diseño cl&aac...";;;;;"Porta alimentos Iris Classic
+Práctico maletín porta alimentos Iris con interior isotérmico en color negro y diseño cl&aac...";;;;;;;;;;;1;new;0;0;0;0;1;;;
+1500;1;;107;;31;;;;;;;1500;;;;;;;;;;;100;1;both;;;;"Bonito porta sandwich infantil modelo Snack Rico de Iris. Contiene una cremallera ideal para los más peques.
+El material del portasandwich es ...";;;;;"Bonito porta sandwich infantil modelo Snack Rico de Iris. Contiene una cremallera ideal para los más peques.
+El material del portasandwich es ...";;;;;;;;;;;1;new;0;0;0;0;1;;;
