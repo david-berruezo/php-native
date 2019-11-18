@@ -5,6 +5,7 @@
  * Date: 7/11/17
  * Time: 6:01
  */
+
 $severalBooks      = array();
 
 $book              = new stdClass;
@@ -14,11 +15,14 @@ $book->author      = "J. K. Rowling";
 $book->publisher   = "Arthur A. Levine Books";
 $book->amazon_link = "http://www.amazon.com/dp/0439136369/";
 
+echo "primer objeto<br>";
+print_r($book);
+echo "<br>";
 array_push($severalBooks,$book);
 
 $book              = new stdClass;
 $book->id          = 2;
-$book->title       = "El corro de la patat";
+$book->title       = "El corro de la patata";
 $book->author      = "Mendiluce";
 $book->publisher   = "La mangrana";
 $book->amazon_link = "http://www.amazon.com/dp/0439136369/";
@@ -34,14 +38,10 @@ $array = array(
 
 $books = (object) $array;
 
-print_r($book);
-echo("<br><br>");
 print_r($books);
 echo("<br><br>");
-
 $books = indexar_array($severalBooks,"id");
 print_r($books);
-
 echo("<br><br>");
 
 foreach($books as $book){

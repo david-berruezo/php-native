@@ -20,8 +20,10 @@ class Myarrayobject{
              'name'  => 'David Berruezo',
              'email' => 'davidberruezo@ecommercebarcelona360.com'
         );
+
         var_dump($this->vector);
         echo('<br><br>');
+        
         // create an instance of the ArrayObject class
         $arrayObj = new ArrayObject($this->vector, ArrayObject::ARRAY_AS_PROPS);
         var_dump($arrayObj);
@@ -31,5 +33,6 @@ class Myarrayobject{
         }
     }
 }
+
 $objetoArrayObject = new Myarrayobject();
 $objetoArrayObject->llenarVector();
