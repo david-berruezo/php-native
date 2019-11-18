@@ -1,9 +1,48 @@
 <?php 
+
+/*
+ * Combine, Keys, values
+ * 
+ */
+
+$keys      = ['madrid', 'paris', 'roma'];
+$values    = ['españa', 'francia', 'italia'];
+
+// Combine
+$paises_capitales = array_combine($keys,$values);
+
+// Values
+$capitales = array_keys($paises_capitales);
+$paises    = array_values($paises_capitales);
+
+echo "Paises y capitales: ";
+print_r($paises_capitales);
+echo "<br>";
+echo "Paises: ";
+print_r($paises);
+echo "<br>";
+echo "Capitales: ";
+print_r($capitales);
+echo "<br>";
+
+list($pais1,$pais2,$pais3) = $keys;
+echo "Capital 1: ".$pais1." Capital 2:".$pais2." Capital 3:".$pais3."<br>";
+
+
+// Cambiamos claves por valores
+$capitales_paises = array_flip($paises_capitales);
+echo "Capitales y paises: ";
+print_r($capitales_paises);
+
+
+
+
 /*
  * Divide array into parts
  * as array_chunk
  */
 
+ /*
 function partition( $list, $p ) {
     $listlen = count( $list );
     $partlen = floor( $listlen / $p );
@@ -25,11 +64,14 @@ foreach($partition as $part){
     echo "<br>";
 }
 echo '<br><br><br>';
+*/
 
 /**
  * Ejemplo 1
  * No hay array merge
  */
+
+/*
 $default_server_values = array(
     'SERVER_SOFTWARE' => '',
     //'REQUEST_URI' => '',
@@ -44,6 +86,7 @@ echo('phpself: '.$_SERVER['PHP_SELF'].'<br>');
 $_SERVER['PHP_SELF'] = $PHP_SELF = preg_replace( '/(\?.*)?$/', '', $_SERVER["REQUEST_URI"] );
 echo('phpself: '.$_SERVER['PHP_SELF'].'<br>');
 var_dump($_SERVER);
+*/
 
 
 /*
@@ -51,6 +94,8 @@ var_dump($_SERVER);
  * Luego array_pop por un lado y array_shift por otro
  * total == array_pop === coge extension y arra_shift coge la iamgen
  */
+
+/*
 $imagen_and_extension = "hola.jpg";
 $imagen_and_extension_vector = explode(".",$imagen_and_extension);
 $extension = array_pop($imagen_and_extension_vector);
@@ -87,6 +132,7 @@ function mostrarResto($productos){
     }
 }
 var_dump($resto);
+*/
 
 /*
 $input = array("a", "b", "c", "d", "e");
@@ -95,9 +141,10 @@ $firsthalf = array_slice($input, 0, $len / 2);
 $secondhalf = array_slice($input, $len / 2);
 */
 
-
+/*
 $keys      = ['madrid', 'paris', 'roma'];
 $values    = ['españa', 'francia', 'italia'];
+
 // Combine
 $paises    = array_combine($keys,$values);
 
@@ -162,5 +209,5 @@ echo "Rverse Sort: ".print_r($numbers)."<br>";
 $num_string = implode(" * ",$numbers);
 echo "Strings numbers with implode: ".$num_string."<br>";
 $num_array();
-
+*/
 ?>
