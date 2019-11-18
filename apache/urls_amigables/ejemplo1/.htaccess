@@ -1,9 +1,0 @@
-# Reescritura de urls
-RewriteEngine On
-Options +FollowSymlinks
-RewriteBase /php/php/apache/urls_amigables/ejemplo1
-RewriteRule ^nombre/(.*)$                       index.php?tipo=nombre&nombre=$1 [NC,L]
-RewriteRule ^producto/([0-9*])-(.*).html?$      index.php?tipo=producto&id_producto=$1&nombre=$2 [NC,L]
-RewriteRule ^fichero/(.*).html$                 index.php?tipo=fichero&fichero=$1 [NC,L]
-RewriteRule ^paginas/(.*)$                      index.php?pagina=$1 [NC,L]
-RewriteRule ^paginitas/(.*)$                    index.php?paginita=$1 [NC,L]

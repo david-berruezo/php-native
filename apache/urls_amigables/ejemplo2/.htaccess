@@ -1,8 +1,0 @@
-# Reescritura de urls
-RewriteEngine On
-Options +FollowSymlinks
-RewriteBase /php/php/apache/urls_amigables/ejemplo2
-RewriteCond %{SCRIPT_FILENAME} !-d
-RewriteCond %{SCRIPT_FILENAME} !-f
-RewriteRule ^(.*)$ index.php/$1 [L]
-

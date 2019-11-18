@@ -2,19 +2,34 @@
 /**
  * Created by PhpStorm.
  * User: David
- * Date: 27/01/2016
- * Time: 17:49
+ * Date: 26/01/2016
+ * Time: 9:17
  */
 
-namespace ArrayObject;
-require_once 'View.php';
+class Myarrayobject{
 
-// create an instance of the View class and assign some properties to it
-$view = new View(array(
-    'header'  => 'This is the header section',
-    'content' => 'This the content section',
-    'footer'  => 'This is the footer section'
-));
+    protected $vector;
 
+    public function __construct()
+    {
+        echo ('Construimos el objeto<br><br>');
+    }
 
-echo $view->render();
+    public function llenarVector(){
+        $this->vector = array(
+             'name'  => 'David Berruezo',
+             'email' => 'davidberruezo@ecommercebarcelona360.com'
+        );
+        var_dump($this->vector);
+        echo('<br><br>');
+        // create an instance of the ArrayObject class
+        $arrayObj = new ArrayObject($this->vector, ArrayObject::ARRAY_AS_PROPS);
+        var_dump($arrayObj);
+        echo('<br><br>');
+        foreach($arrayObj as $columna=>$valor){
+            echo ('Columna: '.$columna.' Valor: '.$valor.'<br>');
+        }
+    }
+}
+$objetoArrayObject = new Myarrayobject();
+$objetoArrayObject->llenarVector();

@@ -1,7 +1,0 @@
-# Crea la regla de reescritura del nobmre solo en caracteres alfabeticos
-RewriteEngine On
-Options +FollowSymlinks
-RewriteBase /php/php/apache/urls_amigables/ejemplo4
-RewriteRule ^user/([A-Za-z]+)$                index.php?user=$1 [NC,L]
-RewriteRule ^usuario/([0-9?-A-Za-z]+)$         index.php?usuario=$1 [NC,L]
-RewriteRule ^usuarito/([0-9+-A-Za-z]+)$         index.php?usuarito=$1 [NC,L]
