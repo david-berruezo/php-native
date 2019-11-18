@@ -17,7 +17,7 @@ $book->amazon_link = "http://www.amazon.com/dp/0439136369/";
 
 echo "primer objeto<br>";
 print_r($book);
-echo "<br>";
+echo "<br><br>";
 array_push($severalBooks,$book);
 
 $book              = new stdClass;
@@ -27,7 +27,16 @@ $book->author      = "Mendiluce";
 $book->publisher   = "La mangrana";
 $book->amazon_link = "http://www.amazon.com/dp/0439136369/";
 
+echo "segundo objeto<br>";
+print_r($book);
+echo "<br><br>";
 array_push($severalBooks,$book);
+
+echo "todo el vector<br>";
+print_r($severalBooks);
+echo "<br><br>";
+
+$vector_del_array = array();
 
 $array = array(
     "title" => "Harry Potter and the Prisoner of Azkaban",
@@ -36,29 +45,27 @@ $array = array(
     "amazon_link" => "http://www.amazon.com/dp/0439136369/"
 );
 
-$books = (object) $array;
+array_push($vector_del_array,$array);
 
+$array = array(
+    "title" => "Harry Potter and the Prisoner of Azkaban",
+    "author" => "J. K. Rowling",
+    "publisher" => "Arthur A. Levine Books",
+    "amazon_link" => "http://www.amazon.com/dp/0439136369/"
+);
+
+array_push($vector_del_array,$array);
+
+//$books = (object) $array;
+$books = (object) $vector_del_array;
+
+echo "books<br>";
 print_r($books);
-echo("<br><br>");
-$books = indexar_array($severalBooks,"id");
-print_r($books);
-echo("<br><br>");
+echo "<br><br>";
 
 foreach($books as $book){
+    echo "El libro: <br>";
     print_r($book);
-}
-
-
-if(!function_exists('indexar_array')){
-    function indexar_array($array,$index){
-        $return_array=array();
-        foreach($array as $data){
-            if(is_object($data))
-                $return_array[$data->$index]=$data;
-            else
-                $return_array[$data[$index]]=$data;
-        }
-        return $return_array;
-    }
+    echo "<br><br>";
 }
 ?>
