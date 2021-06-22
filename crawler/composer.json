@@ -1,7 +1,7 @@
 {
   "name": "autoloader/librerias-composer",
   "require": {
-    "phpmailer/phpmailer": "~5.2",
+    "phpmailer/phpmailer": "~6.5",
     "sunra/php-simple-html-dom-parser": "1.5.1"
   },
   "autoload":{
